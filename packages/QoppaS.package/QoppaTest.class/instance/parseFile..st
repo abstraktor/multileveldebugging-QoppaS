@@ -1,3 +1,3 @@
 as yet unclassified
 parseFile: someCode
-	^QoppaGrammar matchContents: someCode startingFrom: 'File'
+	^QoppaGrammar match: someCode startingFrom: 'File'
