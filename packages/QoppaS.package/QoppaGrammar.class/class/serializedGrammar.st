@@ -23,7 +23,7 @@ standard_char
 
 
 space
-  += '';'' (~lineTerminator _)* lineTerminator -- single-line-comment
+  += '';'' (~lineTerminator any)* lineTerminator -- single-line-comment
 
 lineTerminator
   = ''\n'' | ''\r'' | ''\r\n''| ''\u2028'' | ''\u2029''
