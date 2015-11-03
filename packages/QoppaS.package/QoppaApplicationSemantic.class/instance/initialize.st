@@ -1,5 +1,6 @@
 as yet unclassified
 initialize
+	self listSemantic: (self grammar: QoppaListSemantic new).
 	self primSelectorDict: (Dictionary newFrom: {
 		#+ -> #+.
 		#-  -> #-.
@@ -17,6 +18,4 @@ initialize
 		#'null?' -> #isNull:.
 		#'symbol?' -> #isSymbol:.
 		#'pair?' -> #isPair:.
-		
-		#vau -> #vau:forInput:startedAt:.
 	})

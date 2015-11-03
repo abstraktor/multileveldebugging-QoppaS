@@ -1,3 +1,3 @@
 as yet unclassified
 parse: someCode
-	^QoppaGrammar match: someCode startingFrom: 'List'
+	^self parse: someCode as: 'List'

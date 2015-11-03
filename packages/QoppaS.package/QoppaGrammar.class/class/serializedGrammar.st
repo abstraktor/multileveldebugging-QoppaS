@@ -4,7 +4,9 @@ serializedGrammar
 
 File = List*
 
-List = ''('' SExpression* '')''
+List
+  = ''('' ''vau'' SExpression* '')''  -- vau
+  |  ''('' SExpression* '')''  -- list
 
 SExpression
   = atom
@@ -19,7 +21,7 @@ number  -- number
 
 standard_char
   = letter | digit | '':'' | ''+'' | ''?'' | ''!''
-   | ''-'' | ''*'' | ''/'' | ''<'' | ''>'' | ''=''
+   | ''-'' | ''*'' | ''/'' | ''<'' | ''>'' | ''='' | ''_''
 
 
 space

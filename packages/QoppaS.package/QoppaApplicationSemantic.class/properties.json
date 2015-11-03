@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"primSelectorDict" ],
+		"primSelectorDict",
+		"listSemantic" ],
 	"name" : "QoppaApplicationSemantic",
 	"pools" : [
 		 ],
