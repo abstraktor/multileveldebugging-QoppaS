@@ -6,4 +6,4 @@ List: aNode parenOpen: x expressions: expressionsNode parenClose: xx
 	^self applyPrim: exprs first asSymbol
                on: exprs allButFirst
                forInput: expressionsNode interval
-               startedAt: expressionsNode position .
+               startedAt: 0 .
