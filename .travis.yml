@@ -1,8 +1,22 @@
-language: smalltalk
+language: erlang
+
+#borrowed from https://github.com/hpi-swa/Ohm-S/blob/master/.travis.yml
+
 env:
   global:
     - BASELINE="BaselinOfQoppaS"
     - PACKAGES="/packages"
+  matrix:
+    - SMALLTALK="Squeak4.6"
+    - SMALLTALK="Squeak5.0"
+
+addons:
+  apt:
+    packages:
+    # 32-bit VM
+    - libc6:i386
+    # UUIDPlugin
+    - libuuid1:i386
 
 install:
    - export PROJECT_HOME="$(pwd)"
