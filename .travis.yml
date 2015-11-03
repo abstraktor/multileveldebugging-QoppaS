@@ -23,7 +23,7 @@ install:
    - cd $HOME
    - wget -q -O filetreeCI.zip https://github.com/fniephaus/filetreeCI/archive/master.zip
    - unzip -q filetreeCI.zip
-   - cd filetreeCI-*
+   - cd smalltalkCI-*
    - export FILETREE_CI_HOME="$(pwd)"
 
 script: $FILETREE_CI_HOME/run.sh
