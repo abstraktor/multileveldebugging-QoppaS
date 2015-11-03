@@ -5,4 +5,18 @@ in order to explore debugging on multiple levels.
 
 # Installation
 
+1. Get [Squeak 4.6 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
+2. If not already integrated, load [Metacello](https://github.com/dalehenrich/metacello-work). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
+3. Finally, install QoppaS:
+
+```smalltalk
+Metacello new
+  baseline: 'QoppaS';
+  repository: 'filetree:///Users/reflektor/Dropbox/1 MT/multileveldebugging-QoppaS/packages';
+  load.
+
+```
+
+# Contributing
+
 see [Installing QoppaS](https://github.com/abstraktor/multileveldebugging-QoppaS/wiki/Installing-QoppaS)
