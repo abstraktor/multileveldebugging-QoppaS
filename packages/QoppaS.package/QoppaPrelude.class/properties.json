@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaPrelude",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
