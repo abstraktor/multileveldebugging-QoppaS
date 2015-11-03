@@ -12,7 +12,7 @@ in order to explore debugging on multiple levels.
 ```smalltalk
 Metacello new
   baseline: 'QoppaS';
-  repository: 'filetree:///Users/reflektor/Dropbox/1 MT/multileveldebugging-QoppaS/packages';
+  repository: 'github://abstraktor/multileveldebugging-QoppaS/packages';
   load.
 
 ```
