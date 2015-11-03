@@ -1,4 +1,4 @@
 as yet unclassified
 testCons
-	self assert: ((OrderedCollection withAll: #('a')) add: (OrderedCollection withAll: #('b' 'c')); yourself) equals: (self eval: '(cons a (b c))').
-	self assert: (OrderedCollection withAll: #('a')) equals: (self eval: '(cons a)').
+	self assert: ({1. 2} asOrderedCollection)	
+		equals: (self eval: '(cons 1 (cons 2 ()))'). 

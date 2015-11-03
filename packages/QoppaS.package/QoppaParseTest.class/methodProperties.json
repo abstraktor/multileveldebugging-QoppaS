@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"testParseComment" : "bak 11/1/2015 15:42",
-		"testParseConsList" : "bak 11/1/2015 15:41",
 		"testParseEmptyList" : "bak 11/1/2015 15:41",
 		"testParseList" : "bak 11/1/2015 15:41",
 		"testParseMultiline" : "bak 11/1/2015 15:41" } }

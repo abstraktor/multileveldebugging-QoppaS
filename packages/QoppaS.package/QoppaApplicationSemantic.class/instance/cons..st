@@ -1,4 +1,7 @@
 as yet unclassified
 cons: args
+	| res |
 	args ifEmpty: [^OrderedCollection new].
-	^OrderedCollection withAll: args
+	res := OrderedCollection with: args first.
+	res addAll: args second.
+	^res
