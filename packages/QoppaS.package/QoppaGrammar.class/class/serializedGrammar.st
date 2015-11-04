@@ -14,7 +14,7 @@ SExpression
 
 atom
   = number -- number
-   | ''\'''' standard_char+ -- symbol
+   | (''\'''' | ''#'') standard_char+ -- symbol
    | ''"'' standard_char+ ''"'' -- string
    | standard_char+  -- variable
 
