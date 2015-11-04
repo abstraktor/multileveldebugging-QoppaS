@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"eval:" : "bak 11/1/2015 14:56",
-		"evalFile:" : "bak 11/1/2015 14:56",
+		"eval:" : "bak 11/4/2015 09:07",
+		"evalFile:" : "bak 11/4/2015 09:07",
+		"operate:" : "bak 11/4/2015 09:06",
+		"operateFile:" : "bak 11/4/2015 09:07",
 		"parse:" : "bak 11/3/2015 17:53",
-		"parse:as:" : "bak 11/3/2015 17:39",
-		"parseFile:" : "bak 11/3/2015 17:40",
-		"quote:" : "bak 11/3/2015 17:40",
-		"quoteFile:" : "bak 11/3/2015 17:40" } }
+		"parse:as:" : "bak 11/4/2015 09:08",
+		"parseFile:" : "bak 11/3/2015 17:40" } }

@@ -1,3 +1,3 @@
 as yet unclassified
 testSumNumbers
-	self assert: 1 equals: (self eval: '(+ 1 0 2 3 4 5 -14)').
+	self assert: 1 equals: (self operate: '(+ 1 0 2 3 4 5 -14)').

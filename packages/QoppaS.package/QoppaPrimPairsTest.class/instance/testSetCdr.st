@@ -1,3 +1,3 @@
 as yet unclassified
 testSetCdr
-	self assert: (OrderedCollection withAll: #('a' 'd')) equals: (self eval: '(set-cdr! (a b c) d)')
+	self assert: ({1. 4} asOrderedCollection) equals: (self operate: '(set-cdr! (cons 1 (cons 2 (cons 3 ()))) 4)')

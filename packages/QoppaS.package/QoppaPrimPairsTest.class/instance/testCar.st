@@ -1,3 +1,3 @@
 as yet unclassified
 testCar
-	self assert: 'a' equals: (self eval: '(car (a b c))')
+	self assert: 1 equals: (self operate: '(car (cons 1 (cons 2 ())))')

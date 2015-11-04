@@ -18,4 +18,8 @@ initialize
 		#'null?' -> #isNull:.
 		#'symbol?' -> #isSymbol:.
 		#'pair?' -> #isPair:.
+
+		#eval -> #eval:.
+		#lookup -> #lookup:.
+		#operate -> #operate:.
 	})

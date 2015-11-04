@@ -14,19 +14,19 @@ SExpression
 
 atom
   = number -- number
-   | standard_char+  -- symbol
+   | ''\'''' standard_char+ -- symbol
+   | ''"'' standard_char+ ''"'' -- string
+   | standard_char+  -- variable
+
+lineTerminator
+  = ''\n'' | ''\r'' | ''\r\n''| ''\u2028'' | ''\u2029''
 
 number  -- number
     = ''-''? digit+ (''.'' digit+)?
 
-standard_char
-  = letter | digit | '':'' | ''+'' | ''?'' | ''!''
-   | ''-'' | ''*'' | ''/'' | ''<'' | ''>'' | ''='' | ''_''
-
-
 space
   += '';'' (~lineTerminator any)* lineTerminator -- single-line-comment
 
-lineTerminator
-  = ''\n'' | ''\r'' | ''\r\n''| ''\u2028'' | ''\u2029''
-}'
+standard_char
+  = letter | digit | '':'' | ''+'' | ''?'' | ''!''
+   | ''-'' | ''*'' | ''/'' | ''<'' | ''>'' | ''='' | ''_''}'
