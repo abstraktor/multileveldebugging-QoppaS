@@ -1,3 +1,3 @@
 as yet unclassified
 testLookup
-	self assert: false
+	self assert: '+' equals: (self operate: '(lookup ''+ ())') sourceString

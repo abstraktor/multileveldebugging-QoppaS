@@ -9,9 +9,4 @@ ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 	params := args first.
 	env := args second.
 	body := args third.
-	^OhmNode
-		newNamed: 'Vau'
-		forGrammar: self grammar
-		andInput: expressionsNode interval
-		startedAt: 0
-		withChildren:  body.
+	^self eval: body in: self environment
