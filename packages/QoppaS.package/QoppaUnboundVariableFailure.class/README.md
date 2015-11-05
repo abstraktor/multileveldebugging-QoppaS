@@ -1,0 +1,1 @@
+A QoppaUnboundVariableFailure will happen, when a variable is referenced in QoppaSexprSemantic without being defined in the current environment.

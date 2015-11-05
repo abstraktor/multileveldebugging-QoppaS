@@ -1,0 +1,1 @@
+The prelude of Qoppa is the Qoppa standard library, written in Qoppa. All the scheme special forms are implemented in here and will be loaded a interpreter startup.
