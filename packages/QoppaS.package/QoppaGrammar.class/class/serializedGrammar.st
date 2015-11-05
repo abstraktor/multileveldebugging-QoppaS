@@ -9,8 +9,10 @@ List
   |  ''('' SExpression* '')''  -- list
 
 SExpression
-  = atom
-  | List
+  = List   -- list
+   | atom -- atom
+   | ''\'''' SExpression -- simple_quoted
+   | ''`'' SExpression  -- quasi_quoted
 
 atom
   = number -- number
