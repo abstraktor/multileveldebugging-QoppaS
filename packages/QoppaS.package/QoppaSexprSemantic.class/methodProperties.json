@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"ListList:parenOpen:expressions:parenClose:" : "bak 11/4/2015 18:13",
-		"ListVau:parenOpen:vau:expressions:parenClose:" : "bak 11/5/2015 08:17",
+		"ListVau:parenOpen:vau:expressions:parenClose:" : "bak 11/5/2015 08:43",
 		"atomVariable:with:" : "bak 11/5/2015 08:09",
 		"buildGlobalFrame" : "bak 11/4/2015 18:56",
 		"countArgs:" : "bak 11/4/2015 13:53",
@@ -14,5 +14,5 @@
 		"fexprSemantic:" : "bak 11/5/2015 08:17",
 		"grammar:" : "bak 11/5/2015 08:17",
 		"initialize" : "bak 11/5/2015 08:17",
-		"lookup:in:" : "bak 11/4/2015 18:17",
+		"lookup:in:" : "bak 11/5/2015 08:50",
 		"operate:on:in:" : "bak 11/4/2015 18:19" } }
