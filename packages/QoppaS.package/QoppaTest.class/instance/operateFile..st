@@ -1,5 +1,5 @@
 as yet unclassified
 operateFile: someCode
 	| semantic |
-	semantic := QoppaGrammar semanticAction: QoppaApplicationSemantic new.
+	semantic := QoppaGrammar semanticAction: QoppaSexprSemantic new.
 	^semantic value: (self parseFile: someCode).

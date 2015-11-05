@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "QoppaListSemantic",
+		"environment",
+		"fexprSemantic" ],
+	"name" : "QoppaSexprSemantic",
 	"pools" : [
 		 ],
-	"super" : "OhmSemanticAction",
+	"super" : "QoppaFexprSemantic",
 	"type" : "normal" }
