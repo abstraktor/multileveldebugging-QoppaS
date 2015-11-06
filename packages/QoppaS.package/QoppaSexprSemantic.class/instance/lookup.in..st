@@ -1,6 +1,8 @@
 as yet unclassified
 lookup: aSymbol in: anEnvironment
-	^anEnvironment at: aSymbol asSymbol
-	"(anEnvironment car assq: aSymbol asSymbol)
+	anEnvironment ifNil: [ QoppaUnboundVariableFailure signal: aSymbol].
+	(aSymbol = #'global-env')
+		ifTrue: [^Cons newListFrom: {aSymbol. self globalEnv}].
+	(anEnvironment car assq: aSymbol asSymbol)
 		ifNil: [^self lookup: aSymbol in: anEnvironment cdr]
-		ifNotNil: [:val| ^val]"
+		ifNotNil: [:val| ^val]

@@ -1,3 +1,5 @@
 as yet unclassified
 atomVariable: aNode with: nameNode
-	^self lookup: nameNode interval contents in: self environment
+	| name |
+	name := nameNode interval contents asSymbol.
+	^(self lookup: name in: self environment) cdr car

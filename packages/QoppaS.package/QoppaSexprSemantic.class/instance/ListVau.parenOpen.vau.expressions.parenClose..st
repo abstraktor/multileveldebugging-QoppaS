@@ -11,12 +11,12 @@ ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 	^[:operands| |newFrame|
 		self assert: (operands size = params size).
 		"the dynamic env"
-		newFrame := Cons withCar: envParam cdr: self environment.
+		newFrame := Cons newDictFrom: {envParam-> self environment}.
 
 		params doWithIndex: [:param :i|
-			newFrame setCdr: (Cons
-				withCar: (Cons withCar: param cdr: (operands at: i))
-				cdr: newFrame cdr)]. 
+			newFrame := (Cons newDictFrom: {param -> (operands at: i)})
+				cdr: newFrame;
+				yourself]. 
 
 		"evaluate in static environment with newFrame on top"
 		self eval: body in: (Cons withCar: newFrame cdr: staticEnvironment)]

@@ -4,10 +4,12 @@
 	"instance" : {
 		"testParseComment" : "bak 11/4/2015 18:26",
 		"testParseDefineDefinition" : "bak 11/4/2015 10:38",
-		"testParseEmptyList" : "bak 11/4/2015 09:07",
-		"testParseHashSymbol" : "bak 11/4/2015 10:39",
+		"testParseEmptyList" : "bak 11/6/2015 00:18",
+		"testParseExplicitCdr" : "bak 11/6/2015 14:10",
+		"testParseHashSymbol" : "bak 11/6/2015 13:31",
 		"testParseList" : "bak 11/4/2015 18:25",
 		"testParseMultiline" : "bak 11/4/2015 18:27",
 		"testParseQuotedList" : "bak 11/5/2015 20:09",
 		"testParseQuotedString" : "bak 11/5/2015 20:15",
+		"testParseString" : "bak 11/6/2015 13:54",
 		"testParseSymbol" : "bak 11/4/2015 09:38" } }

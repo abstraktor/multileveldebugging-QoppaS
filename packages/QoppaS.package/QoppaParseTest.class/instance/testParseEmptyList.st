@@ -1,4 +1,3 @@
 as yet unclassified
 testParseEmptyList
-	self assert: OrderedCollection new equals: 
-		(self evalFile: '()') first.
+	self assert: Cons new equals: (self operate: '''()').

@@ -11,5 +11,5 @@
 	"name" : "Cons",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SequenceableCollection",
 	"type" : "normal" }

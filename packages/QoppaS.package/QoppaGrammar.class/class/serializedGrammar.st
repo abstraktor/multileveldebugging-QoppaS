@@ -2,11 +2,12 @@ as yet unclassified
 serializedGrammar
 ^ 'Qoppa <: BaseGrammar {
 
-File = List*
+File = SExpression*
 
 List
   = ''('' ''vau'' SExpression* '')''  -- vau
   |  ''('' SExpression* '')''  -- list
+  |  ''('' SExpression+ ''.'' SExpression '')'' -- explicit_cdr
 
 SExpression
   = List   -- list
@@ -17,8 +18,12 @@ SExpression
 atom
   = number -- number
    | (''\'''' | ''#'') standard_char+ -- symbol
-   | ''"'' standard_char+ ''"'' -- string
+   | ''"'' (escaped_char|standard_char|space)+ ''"'' -- string
    | standard_char+  -- variable
+
+escaped_char 
+  = ''\\\\'' -- backslash
+   | ''\\'' standard_char -- escaped
 
 lineTerminator
   = ''\n'' | ''\r'' | ''\r\n''| ''\u2028'' | ''\u2029''
@@ -27,7 +32,7 @@ number  -- number
     = ''-''? digit+ (''.'' digit+)?
 
 space
-  += '';'' (~lineTerminator any)* lineTerminator -- single-line-comment
+  += '';'' (~lineTerminator any)* -- single-line-comment
 
 standard_char
   = letter | digit | '':'' | ''+'' | ''?'' | ''!''

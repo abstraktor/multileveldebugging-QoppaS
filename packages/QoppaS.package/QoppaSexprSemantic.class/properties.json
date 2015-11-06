@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bak 11/5/2015 09:08",
+	"commentStamp" : "bak 11/6/2015 12:53",
 	"instvars" : [
 		"environment",
-		"fexprSemantic" ],
+		"fexprSemantic",
+		"globalEnv" ],
 	"name" : "QoppaSexprSemantic",
 	"pools" : [
 		 ],
