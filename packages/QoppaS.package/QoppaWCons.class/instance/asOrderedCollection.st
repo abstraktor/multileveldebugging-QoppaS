@@ -1,11 +1,11 @@
 as yet unclassified
 asOrderedCollection
 	|cur coll|
+	self ifEmpty: [^OrderedCollection new].
 	coll := OrderedCollection with: self car.
-	cur := self cdr.
-	[cur] whileNotNil: [
-		coll add: cur car.
-		cur := cur cdr. ].
+	cur := self.
+	[cur := cur cdr] whileNotNil: [
+		coll add: cur car.].
 	^coll
 	"^(OrderedCollection with: self car)
 		addAll: (self cdr

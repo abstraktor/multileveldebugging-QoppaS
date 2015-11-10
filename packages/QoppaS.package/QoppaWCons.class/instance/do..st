@@ -3,6 +3,6 @@ do: aBlock
 
 	| aLink |
 	aLink := self.
-	[aLink == nil] whileFalse:
+	[aLink = nil] whileFalse:
 		[aBlock value: aLink car.
 		 aLink := aLink cdr]

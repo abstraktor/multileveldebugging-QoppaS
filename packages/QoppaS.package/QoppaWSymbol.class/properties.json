@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"car",
-		"cdr" ],
-	"name" : "Cons",
+		"content",
+		"isQuoted" ],
+	"name" : "QoppaWSymbol",
 	"pools" : [
 		 ],
-	"super" : "SequenceableCollection",
+	"super" : "Object",
 	"type" : "normal" }

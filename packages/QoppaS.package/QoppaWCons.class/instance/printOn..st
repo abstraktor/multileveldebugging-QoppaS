@@ -1,5 +1,6 @@
 as yet unclassified
 printOn: aStream
+	self isQuoted ifTrue: [ aStream nextPutAll: ''''].
 	aStream nextPutAll: '('.
 	self isEmpty ifFalse: [
 		self car printOn: aStream.

@@ -2,7 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAsArray" : "bak 11/5/2015 21:37",
-		"testAssq" : "bak 11/5/2015 21:22",
-		"testNewDictFrom" : "bak 11/6/2015 12:49",
-		"testSize" : "bak 11/5/2015 21:58" } }
+		"testAsArray" : "bak 11/9/2015 09:37",
+		"testAsArrayEmpty" : "bak 11/9/2015 09:36",
+		"testAssq" : "bak 11/8/2015 15:59",
+		"testNewDictFrom" : "bak 11/9/2015 09:41",
+		"testSize" : "bak 11/9/2015 09:40" } }

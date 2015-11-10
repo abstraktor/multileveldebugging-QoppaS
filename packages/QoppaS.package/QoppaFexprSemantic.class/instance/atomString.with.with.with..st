@@ -1,3 +1,3 @@
 as yet unclassified
 atomString: aNode with: x with: charsNode with: xx
-	^charsNode interval contents asString
+	^QoppaWSymbol for: charsNode interval contents asString

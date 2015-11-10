@@ -3,4 +3,4 @@ newDictFrom: assocArray
 	" returns a list of key-value cons. Example:
 	  '((a 1)(b 2))  is built from {a -> 1. b -> 2}"
 	^self newListFrom: (assocArray collect: [:assoc|
-		Cons withCar: assoc key cdr: assoc value ])
+		QoppaWCons withCar: assoc key cdr: assoc value ])

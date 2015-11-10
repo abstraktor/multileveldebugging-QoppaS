@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testEval" : "bak 11/6/2015 13:18",
+		"testEval" : "bak 11/10/2015 17:14",
 		"testGlobalEnv" : "bak 11/6/2015 12:47",
-		"testLookup" : "bak 11/6/2015 12:23",
-		"testOperate" : "bak 11/4/2015 18:23",
-		"testVauQuote" : "bak 11/6/2015 13:13" } }
+		"testLookup" : "bak 11/8/2015 15:56",
+		"testOperate" : "bak 11/10/2015 17:28",
+		"testVauQuote" : "bak 11/6/2015 13:13",
+		"testVauRedefinePlus" : "bak 11/6/2015 15:24" } }

@@ -6,6 +6,6 @@ newListFrom: aCollection
 	head := self new.
 	tail := head.
 	aCollection do: [:el |
-		tail cdr: (Cons withCar: el cdr: nil).
+		tail cdr: (QoppaWCons withCar: el cdr: nil).
 		tail := tail cdr].
 	^head cdr

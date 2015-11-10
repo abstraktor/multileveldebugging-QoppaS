@@ -1,3 +1,3 @@
 as yet unclassified
-atomVariable: aNode with: charsNode
-	^charsNode interval contents asSymbol
+atomVariable: aNode with: nameNode
+	^QoppaWSymbol for: nameNode interval contents asSymbol
