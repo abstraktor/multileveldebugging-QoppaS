@@ -1,4 +1,9 @@
 as yet unclassified
 operate: operatorBlock on: operands in: env
-	"todo: do we need to consider env here?"
-	^operatorBlock value: operands asArray
+	|res formerEnv|
+	"todo: how to do it nicer?"
+	formerEnv := self environment.
+	self environment: env.	
+	res := operatorBlock value: operands asArray.
+	self environment: formerEnv.
+	^res

@@ -1,3 +1,3 @@
 *QoppaS
-isQuote
+isQuoted
 	^false
