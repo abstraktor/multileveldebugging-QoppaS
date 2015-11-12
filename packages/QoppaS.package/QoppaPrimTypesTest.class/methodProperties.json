@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testBool" : "bak 11/12/2015 07:58",
+		"testBoolEvaluatesOnlyTrueBranch" : "bak 11/12/2015 08:11",
 		"testNullTest" : "bak 11/10/2015 17:28",
 		"testPairTest" : "bak 11/10/2015 17:28",
 		"testSymbolTest" : "bak 11/10/2015 10:52" } }

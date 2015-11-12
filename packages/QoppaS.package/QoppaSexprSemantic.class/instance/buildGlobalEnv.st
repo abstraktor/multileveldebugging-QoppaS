@@ -14,6 +14,7 @@ buildGlobalEnv
 		#'set-car!' -> (self wrapPrim: [:cons :car| cons car: car; yourself] countingArgs: true).
 		#'set-cdr!' -> (self wrapPrim: [:cons :cdr| cons cdr: cdr; yourself] countingArgs: true).
 		
+		#bool -> self boolPrim.
 		#'null?' -> (self wrapPrim: [:arg| arg isNil] countingArgs: true).
 		#'symbol?' -> (self wrapPrim: [:arg| (arg isString) or: (arg isSymbol)] countingArgs: true).
 		#'pair?' -> (self wrapPrim: [:arg| arg isCons] countingArgs: true).
