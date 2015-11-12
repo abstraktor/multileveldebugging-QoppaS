@@ -9,7 +9,7 @@
 		"environment" : "bak 11/4/2015 18:10",
 		"environment:" : "bak 11/4/2015 18:10",
 		"escapedChar:withAlt:" : "bak 11/6/2015 13:30",
-		"eval:in:" : "jr 11/11/2015 17:00",
+		"eval:in:" : "jr 11/12/2015 01:45",
 		"fexprSemantic" : "bak 11/5/2015 08:17",
 		"fexprSemantic:" : "bak 11/5/2015 08:17",
 		"fexprValue:" : "bak 11/10/2015 17:52",
@@ -17,6 +17,6 @@
 		"globalEnv:" : "bak 11/6/2015 12:34",
 		"inFExpr" : "bak 11/10/2015 17:52",
 		"initialize" : "bak 11/10/2015 17:51",
-		"lookup:in:" : "jr 11/12/2015 00:38",
+		"lookup:in:" : "jr 11/12/2015 01:49",
 		"operate:on:in:" : "bak 11/10/2015 18:01",
 		"wrapPrim:countingArgs:" : "bak 11/8/2015 15:55" } }
