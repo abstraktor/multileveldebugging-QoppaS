@@ -19,6 +19,7 @@ atom
   = number -- number
    | (''\'''' | ''#'') standard_char+ -- symbol
    | ''"'' (escaped_char|standard_char|space)+ ''"'' -- string
+   | ''null'' ~ standard_char -- null
    | standard_char+  -- variable
 
 escaped_char 
