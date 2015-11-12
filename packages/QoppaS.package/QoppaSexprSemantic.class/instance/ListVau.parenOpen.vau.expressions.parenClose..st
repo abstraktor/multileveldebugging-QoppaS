@@ -13,8 +13,8 @@ ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 		"the dynamic env"
 		newFrame := QoppaWCons newDictFrom: {envParam-> self environment}.
 
-		params doWithIndex: [:param :i|
-			newFrame := (QoppaWCons newDictFrom: {param -> (operands at: i)})
+		params with: operands do: [:param :operand |
+			newFrame := (QoppaWCons newDictFrom: {param -> operand})
 				cdr: newFrame;
 				yourself]. 
 

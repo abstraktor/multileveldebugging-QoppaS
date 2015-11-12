@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testParseComment" : "bak 11/4/2015 18:26",
+		"testParseComment" : "jr 11/11/2015 17:24",
 		"testParseDefineDefinition" : "bak 11/4/2015 10:38",
-		"testParseEmptyList" : "bak 11/10/2015 17:15",
+		"testParseEmptyList" : "jr 11/11/2015 17:10",
 		"testParseExplicitCdr" : "bak 11/10/2015 17:15",
 		"testParseHashSymbol" : "bak 11/6/2015 13:31",
 		"testParseList" : "bak 11/4/2015 18:25",
-		"testParseMultiline" : "bak 11/4/2015 18:27",
+		"testParseMultiline" : "jr 11/11/2015 17:23",
 		"testParseQuotedList" : "bak 11/5/2015 20:09",
 		"testParseQuotedString" : "bak 11/5/2015 20:15",
 		"testParseString" : "bak 11/6/2015 13:54",

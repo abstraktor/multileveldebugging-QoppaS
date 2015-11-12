@@ -9,7 +9,7 @@ eval: expression in: env
 	expression isQuoted
 		ifTrue: [^expression].
 	expression isSymbol
-		ifTrue: [^(self lookup: expression in: env) cdr car].
+		ifTrue: [^(self lookup: expression in: env) cdr].
 	expression isCons
 		ifTrue: [^self operate: (self eval: expression car in: env)
 					on: expression cdr in: env ].

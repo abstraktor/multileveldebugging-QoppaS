@@ -1,3 +1,3 @@
 as yet unclassified
 SExpressionSimpleQuoted: aNode with: x withExpression: expr
-	^(self fexprValue: expr) isQuoted: true; yourself
+	^(self fexprValue: expr) ifNotNilDo: [:value | value isQuoted: true; yourself]

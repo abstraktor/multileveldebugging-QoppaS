@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ListList:parenOpen:expressions:parenClose:" : "bak 11/10/2015 17:55",
-		"ListVau:parenOpen:vau:expressions:parenClose:" : "bak 11/10/2015 17:55",
-		"SExpressionSimpleQuoted:with:withExpression:" : "bak 11/10/2015 17:47",
-		"buildGlobalEnv" : "bak 11/10/2015 18:30",
+		"ListList:parenOpen:expressions:parenClose:" : "jr 11/11/2015 17:28",
+		"ListVau:parenOpen:vau:expressions:parenClose:" : "jr 11/12/2015 00:56",
+		"SExpressionSimpleQuoted:with:withExpression:" : "jr 11/11/2015 17:29",
+		"buildGlobalEnv" : "jr 11/11/2015 18:38",
 		"environment" : "bak 11/4/2015 18:10",
 		"environment:" : "bak 11/4/2015 18:10",
 		"escapedChar:withAlt:" : "bak 11/6/2015 13:30",
-		"eval:in:" : "bak 11/10/2015 14:45",
+		"eval:in:" : "jr 11/11/2015 17:00",
 		"fexprSemantic" : "bak 11/5/2015 08:17",
 		"fexprSemantic:" : "bak 11/5/2015 08:17",
 		"fexprValue:" : "bak 11/10/2015 17:52",
@@ -17,6 +17,6 @@
 		"globalEnv:" : "bak 11/6/2015 12:34",
 		"inFExpr" : "bak 11/10/2015 17:52",
 		"initialize" : "bak 11/10/2015 17:51",
-		"lookup:in:" : "bak 11/8/2015 15:08",
+		"lookup:in:" : "jr 11/12/2015 00:38",
 		"operate:on:in:" : "bak 11/10/2015 18:01",
 		"wrapPrim:countingArgs:" : "bak 11/8/2015 15:55" } }

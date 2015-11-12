@@ -1,3 +1,3 @@
 as yet unclassified
 testParseEmptyList
-	self assert: (QoppaWCons new isQuoted: true; yourself) equals: (self operate: '''()').
+	self assert: (self operate: '''()') isNil

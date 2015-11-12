@@ -1,8 +1,11 @@
 as yet unclassified
 do: aBlock
 
-	| aLink |
-	aLink := self.
-	[aLink = nil] whileFalse:
-		[aBlock value: aLink car.
-		 aLink := aLink cdr]
+	| element |
+	element := self.
+	[element isNil] whileFalse:
+		[element isCons
+			ifTrue: [aBlock value: element car.
+				element := element cdr]
+			ifFalse: [aBlock value: element.
+				element := nil]]

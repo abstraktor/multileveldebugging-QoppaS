@@ -1,3 +1,7 @@
 as yet unclassified
 testAssq
-	self assert: '(#b 2)' equals: ((QoppaWCons newDictFrom: {#a -> 1. #b -> 2}) assq: #b) printString 
+	| alist assoc |
+	alist := QoppaWCons newDictFrom: {#a -> 1. #b -> 2}.
+	assoc := alist assq: #b.
+	self assert: assoc car == #b.
+	self assert: assoc cdr == 2
