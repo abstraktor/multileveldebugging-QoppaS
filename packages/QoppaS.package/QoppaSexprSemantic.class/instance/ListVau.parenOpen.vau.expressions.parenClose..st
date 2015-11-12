@@ -9,14 +9,16 @@ ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 	body := args third.
 	staticEnvironment := self environment.
 	^[:operands| |newFrame|
-		self assert: (operands size = params size).
+		"self assert: (operands size = params size)."
 		"the dynamic env"
 		newFrame := QoppaWCons newDictFrom: {envParam-> self environment}.
 
-		params with: operands do: [:param :operand |
-			newFrame := (QoppaWCons newDictFrom: {param -> operand})
-				cdr: newFrame;
-				yourself]. 
+		newFrame := self bind: params to: (QoppaWCons newListFrom: operands).
+
+		newFrame := (QoppaWCons
+			newDictFrom: {envParam -> self environment})
+			cdr: newFrame;
+			yourself.
 
 		"evaluate in static environment with newFrame on top"
 		self eval: body in: (QoppaWCons withCar: newFrame cdr: staticEnvironment)]

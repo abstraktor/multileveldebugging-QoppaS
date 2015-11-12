@@ -3,8 +3,9 @@
 		 },
 	"instance" : {
 		"ListList:parenOpen:expressions:parenClose:" : "jr 11/11/2015 17:28",
-		"ListVau:parenOpen:vau:expressions:parenClose:" : "jr 11/12/2015 00:56",
+		"ListVau:parenOpen:vau:expressions:parenClose:" : "bak 11/12/2015 07:53",
 		"SExpressionSimpleQuoted:with:withExpression:" : "jr 11/11/2015 17:29",
+		"bind:to:" : "bak 11/12/2015 07:40",
 		"buildGlobalEnv" : "jr 11/11/2015 18:38",
 		"environment" : "bak 11/4/2015 18:10",
 		"environment:" : "bak 11/4/2015 18:10",
