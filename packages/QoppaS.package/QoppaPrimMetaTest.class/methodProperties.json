@@ -5,7 +5,10 @@
 		"testEval" : "bak 11/10/2015 17:14",
 		"testGlobalEnv" : "bak 11/6/2015 12:47",
 		"testLookup" : "bak 11/8/2015 15:56",
+		"testNestedVau" : "bak 11/11/2015 11:31",
 		"testOperate" : "bak 11/10/2015 17:28",
+		"testVauDynamicEnv" : "bak 11/10/2015 23:07",
 		"testVauFlexibleParameterLength" : "bak 11/12/2015 07:15",
 		"testVauQuote" : "bak 11/6/2015 13:13",
-		"testVauRedefinePlus" : "jr 11/12/2015 02:14" } }
+		"testVauRedefinePlus" : "jr 11/12/2015 02:14",
+		"testVauStaticEnv" : "bak 11/13/2015 17:20" } }
