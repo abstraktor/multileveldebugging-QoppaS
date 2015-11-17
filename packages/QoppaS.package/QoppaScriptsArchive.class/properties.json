@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaScriptsArchive",
+	"pools" : [
+		 ],
+	"super" : "ViScriptArchive",
+	"type" : "normal" }
