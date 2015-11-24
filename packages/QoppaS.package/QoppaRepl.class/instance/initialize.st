@@ -1,3 +1,4 @@
 as yet unclassified
 initialize
-	history := OrderedCollection new
+	history := OrderedCollection new.
+	semantic := QoppaSexprSemantic new

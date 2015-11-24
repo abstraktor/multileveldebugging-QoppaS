@@ -3,6 +3,7 @@ evaluate: anExpressionString
 	| item |
 	item := QoppaReplHistoryItem new.
 	item evaluatedExpression: anExpressionString.
-	"we should evaluate this with Qoppa now"
-	item result: 35. "but we don't"
+	item parsedExpression: (QoppaGrammar match: anExpressionString startingFrom: #File).
+	item result: (self semantic value: item parsedExpression).
+	item environment: (self semantic environment shallowCopy).
 	history add: item

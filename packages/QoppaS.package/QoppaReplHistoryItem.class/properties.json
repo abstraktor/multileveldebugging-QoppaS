@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"result",
-		"evaluatedExpression" ],
+		"evaluatedExpression",
+		"parsedExpression",
+		"environment" ],
 	"name" : "QoppaReplHistoryItem",
 	"pools" : [
 		 ],
