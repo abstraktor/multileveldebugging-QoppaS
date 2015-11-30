@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaPrimitiveMissingFailure",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

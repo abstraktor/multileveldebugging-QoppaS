@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ListList:parenOpen:expressions:parenClose:" : "bak 11/3/2015 17:51",
+		"ListVau:parenOpen:vau:expressions:parenClose:" : "bak 11/4/2015 10:35",
+		"applyPrim:on:" : "bak 11/4/2015 14:47",
+		"countArgs:" : "bak 11/4/2015 13:53",
+		"globalFrame" : "bak 11/4/2015 11:26",
+		"globalFrame:" : "bak 11/4/2015 11:26",
+		"initialize" : "bak 11/4/2015 14:55",
+		"listSemantic" : "bak 11/3/2015 17:19",
+		"listSemantic:" : "bak 11/3/2015 17:19" } }

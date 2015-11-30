@@ -1,0 +1,15 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listSemantic",
+		"globalFrame" ],
+	"name" : "QoppaApplicationSemantic",
+	"pools" : [
+		 ],
+	"super" : "QoppaListSemantic",
+	"type" : "normal" }
