@@ -3,6 +3,16 @@
 An implementation of [Qoppa Scheme](http://mainisusuallyafunction.blogspot.de/2012/04/scheme-without-special-forms.html) in [Squeak](http://squeak.org/) using [Ohm-S](https://github.com/hpi-swa/Ohm-S)
 in order to explore debugging on multiple levels.
 
+# Usage
+
+```smalltalk
+"open a read eval print window"
+QoppaScriptsDemo openRepl
+
+"use our multilevel debugger to debug a block"
+QoppaScriptsDemo runDebugged: [1/0]
+```
+
 <!--# Installation
 
 1. Get [Squeak 4.6 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
