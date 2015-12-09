@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AllPackagesPackageInfo",
+	"pools" : [
+		 ],
+	"super" : "PackageInfo",
+	"type" : "normal" }
