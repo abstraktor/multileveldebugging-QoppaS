@@ -22,4 +22,5 @@ buildGlobalEnv
 		#eval -> (self wrapPrim: [:env :exp| self eval: exp in: env] countingArgs: true).
 		#lookup -> (self wrapPrim: [:name :env| self lookup: name in: env] countingArgs: true).
 		#operate -> (self wrapPrim: [:env :operative :operands| self operate: operative on: operands in: env] countingArgs: true).
+		#halt -> self haltPrimitive.
 	}).
