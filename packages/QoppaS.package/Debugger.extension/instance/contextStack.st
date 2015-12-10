@@ -1,3 +1,0 @@
-*QoppaS-Vivide
-contextStack
-	^ contextStack.
