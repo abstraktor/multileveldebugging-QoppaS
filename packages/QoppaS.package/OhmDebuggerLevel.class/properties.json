@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OhmDebuggerLevel",
+	"pools" : [
+		 ],
+	"super" : "DebuggerLevel",
+	"type" : "normal" }

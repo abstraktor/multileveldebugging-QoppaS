@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaMLDGroupRepresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

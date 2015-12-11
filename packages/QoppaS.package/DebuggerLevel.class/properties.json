@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DebuggerLevel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
