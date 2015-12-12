@@ -1,7 +1,7 @@
 as yet unclassified
 runDebugged: aBlock
 ^aBlock on: UnhandledError do: [:ue| 
-	| topCtxt e errorWasInUIProcess process |
+	| topCtxt e errorWasInUIProcess process debugger mldwindow |
 	e := ue exception.
 	process := Processor activeProcess.
 
@@ -10,14 +10,17 @@ runDebugged: aBlock
 	(topCtxt hasContext: e signalerContext) ifFalse: [^ self error: 'context not in process'].
 	
 	"run the script #multilevelDebugger with a debugger object"
-	#multilevelDebugger 
-		openScriptWith: {Debugger new 
+	debugger := Debugger new 
 			process: process 
 			controller: nil 
 			context: e signalerContext;
-			expandStack}.
+			expandStack.
+	mldwindow := #multilevelDebugger 
+		openScriptWith: {debugger}.
+	"add mldwindow as dependent so it can become the #topView of the debugger"
+	debugger addDependent: mldwindow.
 			
 	"debug me"
 	errorWasInUIProcess := Project current spawnNewProcessIfThisIsUI: process.
 	process suspend.
-	^ue exception].
+	ue exception isResumable ifTrue: [ue exception resume] ifFalse: [ue exception]].
