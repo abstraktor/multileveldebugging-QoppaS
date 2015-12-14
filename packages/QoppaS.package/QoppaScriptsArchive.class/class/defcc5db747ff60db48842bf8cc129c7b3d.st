@@ -9,7 +9,7 @@ defcc5db747ff60db48842bf8cc129c7b3d
 		originContext := debugger contextStackTop.
 		[debugger send] 
 			doWhileFalse: [(packageInfo includesMethodReference: debugger contextStackTop method methodReference)
-				or: [originContext isDead and: [1 halt. true]]].
+				or: [originContext isDead]].
 		ViEventNotifier trigger: #debuggerChanged]]
 	}]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
@@ -20,7 +20,7 @@ defcc5db747ff60db48842bf8cc129c7b3d
 		originContext := debugger contextStackTop.
 		[debugger send] 
 			doWhileFalse: [(packageInfo includesMethodReference: debugger contextStackTop method methodReference)
-				or: [originContext isDead and: [1 halt. true]]].
+				or: [originContext isDead]].
 		ViEventNotifier trigger: #debuggerChanged]]
 	}]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
