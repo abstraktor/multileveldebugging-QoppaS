@@ -5,8 +5,9 @@ buildGlobalEnv
 		#-  -> (self wrapPrim: [:args| args reduce: [:a :b| a - b]] countingArgs: false).
 		#*  -> (self wrapPrim: [:args| args reduce: [:a :b| a * b]] countingArgs: false).
 		#/   -> (self wrapPrim: [:args| args reduce: [:a :b| a / b]] countingArgs: false).
-		#<=  -> (self wrapPrim: [:args| args reduce: [:a :b| a <= b]] countingArgs: false).
-		#=  -> (self wrapPrim: [:args| args reduce: [:a :b| a = b]] countingArgs: false).
+		#<=  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a <= b])] countingArgs: false).
+		#<  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a < b])] countingArgs: false).
+		#=  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a = b])] countingArgs: false).
 		
 		#cons -> (self wrapPrim: [:car :cdr| QoppaWCons withCar: car cdr: cdr] countingArgs: true).
 		#car -> (self wrapPrim: [:cons| cons car] countingArgs: true).
@@ -15,9 +16,9 @@ buildGlobalEnv
 		#'set-cdr!' -> (self wrapPrim: [:cons :cdr| cons cdr: cdr; yourself] countingArgs: true).
 		
 		#bool -> self boolPrim.
-		#'null?' -> (self wrapPrim: [:arg| arg isNil] countingArgs: true).
-		#'symbol?' -> (self wrapPrim: [:arg| (arg isString) or: (arg isSymbol)] countingArgs: true).
-		#'pair?' -> (self wrapPrim: [:arg| arg isCons] countingArgs: true).
+		#'null?' -> (self wrapPrim: [:arg| self toQoppaBoolean: arg isNil] countingArgs: true).
+		#'symbol?' -> (self wrapPrim: [:arg| self toQoppaBoolean: ((arg isString) or: [arg isSymbol])] countingArgs: true).
+		#'pair?' -> (self wrapPrim: [:arg| self toQoppaBoolean: arg isCons] countingArgs: true).
 
 		#eval -> (self wrapPrim: [:env :exp| self eval: exp in: env] countingArgs: true).
 		#lookup -> (self wrapPrim: [:name :env| self lookup: name in: env] countingArgs: true).
