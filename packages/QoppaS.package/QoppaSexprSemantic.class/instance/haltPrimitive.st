@@ -1,3 +1,3 @@
 primitives
 haltPrimitive
-	^ [:env | self halt]
+	^ [:arg | arg halt]
