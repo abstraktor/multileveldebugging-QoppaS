@@ -1,14 +1,14 @@
 {
-	"category" : "QoppaS-Vivide",
+	"category" : "QoppaS-ExtensionApi",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"UseExtensionApi" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "QoppaMLDFrameRepresentation",
+	"name" : "KernelDebuggerLevel",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DebuggerLevel",
 	"type" : "normal" }

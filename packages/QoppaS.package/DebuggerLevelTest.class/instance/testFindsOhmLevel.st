@@ -1,3 +1,3 @@
 as yet unclassified
 testFindsOhmLevel
-	self assert: (DebuggerLevel named: 'Ohm-Core') equals: OhmDebuggerLevel 
+	self assert: (DebuggerLevel named: 'Ohm-Core') class equals: OhmDebuggerLevel 

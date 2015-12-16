@@ -1,3 +1,3 @@
 as yet unclassified
-iconFor: groupName
-	^self iconDict at: groupName ifAbsent: [ViIcons blankIcon]
+iconFor: group
+	^(DebuggerLevel forGroup: group) icon

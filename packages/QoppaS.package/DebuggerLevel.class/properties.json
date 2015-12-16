@@ -1,10 +1,10 @@
 {
-	"category" : "QoppaS-Vivide",
+	"category" : "QoppaS-ExtensionApi",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "bak 12/16/2015 08:00",
 	"instvars" : [
 		 ],
 	"name" : "DebuggerLevel",
