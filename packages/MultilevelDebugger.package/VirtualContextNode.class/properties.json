@@ -1,0 +1,15 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"children",
+		"properties" ],
+	"name" : "VirtualContextNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

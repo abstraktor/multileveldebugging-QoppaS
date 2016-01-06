@@ -1,0 +1,16 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"contextPart",
+		"properties",
+		"children" ],
+	"name" : "ContextNodePrototype",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
