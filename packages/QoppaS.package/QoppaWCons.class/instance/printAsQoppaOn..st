@@ -2,7 +2,7 @@ as yet unclassified
 printAsQoppaOn: aStream
 	self isQuoted ifTrue: [ aStream nextPutAll: ''''].
 	aStream nextPutAll: '('.
-	self printInnerOn: aStream.  
+	self printInnerAsQoppaOn: aStream.  
 	aStream nextPutAll: ')'.
 
 	"self cdr
