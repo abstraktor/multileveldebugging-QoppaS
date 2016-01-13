@@ -1,0 +1,16 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "ContextGrouperTakingContextParts classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OldMethodsGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"traitcomposition" : "ContextGrouperTakingContextParts",
+	"type" : "normal" }
