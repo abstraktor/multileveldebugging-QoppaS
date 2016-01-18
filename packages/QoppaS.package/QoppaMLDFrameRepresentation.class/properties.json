@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseExtensionApi" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaMLDFrameRepresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

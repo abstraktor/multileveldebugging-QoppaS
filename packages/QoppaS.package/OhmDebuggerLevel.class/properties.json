@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-ExtensionApi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "OhmDebuggerLevel",
+	"pools" : [
+		 ],
+	"super" : "DebuggerLevel",
+	"type" : "normal" }
