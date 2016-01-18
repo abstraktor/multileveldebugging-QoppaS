@@ -10,6 +10,7 @@ defe0cd0beda24d494ea35aabb8e92a26ab
 				ifTrue: [ | qoppaNode expression | qoppaNode := VirtualContextNode new.
 					expression := node contextPart arguments first.
 					qoppaNode summary: 'Qoppa evaluation of ', expression qoppaPrintString.
+					qoppaNode definitionContent: (Text fromString: expression qoppaPrintString).
 					collectedNodes do: [:each | qoppaNode addChild: each].
 					collectedNodes removeAll.
 					qoppaNode addChild: node.
@@ -23,6 +24,7 @@ defe0cd0beda24d494ea35aabb8e92a26ab
 				ifTrue: [ | qoppaNode expression | qoppaNode := VirtualContextNode new.
 					expression := node contextPart arguments first.
 					qoppaNode summary: ''Qoppa evaluation of '', expression qoppaPrintString.
+					qoppaNode definitionContent: (Text fromString: expression qoppaPrintString).
 					collectedNodes do: [:each | qoppaNode addChild: each].
 					collectedNodes removeAll.
 					qoppaNode addChild: node.
