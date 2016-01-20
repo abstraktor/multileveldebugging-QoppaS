@@ -15,17 +15,19 @@ runDebugged: aBlock
 			(topCtxt hasContext: e signalerContext)
 				ifFalse: [^ self error: 'context not in process'].
 			"run the script #multilevelDebugger with a debugger object"
-			debugger := Debugger new
-						process: process
-						controller: nil
-						context: e signalerContext;
-						 expandStack.
-			mldwindow := #multilevelDebugger openScriptWith: {debugger}.
-			"add mldwindow as dependent so it can become the
-			#topView of the debugger"
-			debugger addDependent: mldwindow.
-			"debug me"
 			errorWasInUIProcess := Project current spawnNewProcessIfThisIsUI: process.
+			WorldState addDeferredUIMessage: [
+				debugger := Debugger new
+							process: process
+							controller: nil
+							context: e signalerContext;
+							 expandStack;
+							errorWasInUIProcess: errorWasInUIProcess.
+				mldwindow := #multilevelDebugger openScriptWith: {debugger}.
+				"add mldwindow as dependent so it can become the
+				#topView of the debugger"
+			].
+			"debug me"
 			process suspend.
 			ue exception isResumable
 				ifTrue: [ue exception resume]

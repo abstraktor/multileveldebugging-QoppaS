@@ -2,12 +2,22 @@ definitions
 def09e1c9601bbb7041acbbedc31abeebd7
 	<definition>
 
-	^ ((Dictionary new) add: (#block->[:in :out | ([:all | all collect: [:t | (
-	[:debugger :packageInfo :context :index | { #text -> 'proceed'.
-	#clicked -> [[debugger proceed]]}]
+	^ ((Dictionary new) add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationAuthor->'jr'); add: (#creationTimeStamp->'13 December 2015 1:47:25 am'); yourself)); add: (#id->#'09e1c960-1bbb-7041-acbb-edc31abeebd7'); add: (#block->[:in :out | ([:all | all collect: [:t | (
+	[:debugger :packageInfo :context :index | 
+	| v |
+	v := thisPane ownerThatIsA: ViSinglePaneEditor.
+	v := v pane.
+{
+	#text -> 'proceed'.
+	#clicked -> [[v close. debugger proceed]]}]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
-			value: in) do: [:result | out add: result]]); add: (#id->#'09e1c960-1bbb-7041-acbb-edc31abeebd7'); add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationTimeStamp->'13 December 2015 1:47:25 am'); add: (#creationAuthor->'jr'); yourself)); add: (#sourceCode->'[:in :out | ([:all | all collect: [:t | (
-	[:debugger :packageInfo :context :index | { #text -> ''proceed''.
-	#clicked -> [[debugger proceed]]}]
+			value: in) do: [:result | out add: result]]); add: (#sourceCode->'[:in :out | ([:all | all collect: [:t | (
+	[:debugger :packageInfo :context :index | 
+	| v |
+	v := thisPane ownerThatIsA: ViSinglePaneEditor.
+	v := v pane.
+{
+	#text -> ''proceed''.
+	#clicked -> [[v close. debugger proceed]]}]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
 			value: in) do: [:result | out add: result]]'); yourself)
