@@ -2,21 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChild:" : "jr 1/6/2016 17:24",
-		"at:" : "jr 1/6/2016 16:54",
-		"at:put:" : "jr 1/6/2016 16:54",
-		"children" : "jr 1/6/2016 16:56",
-		"children:" : "jr 1/6/2016 16:56",
-		"dataHolders" : "jr 1/6/2016 16:54",
 		"dataHolders:" : "jr 1/6/2016 16:58",
-		"definitionContent" : "jr 1/6/2016 16:55",
 		"definitionContent:" : "jr 1/6/2016 16:59",
 		"definitionPresentation" : "jr 1/6/2016 16:56",
 		"definitionPresentation:" : "jr 1/6/2016 16:59",
-		"executionProgress" : "jr 1/6/2016 16:56",
 		"executionProgress:" : "jr 1/6/2016 17:00",
-		"initialize" : "jr 1/6/2016 16:53",
 		"properties" : "jr 1/6/2016 16:56",
 		"properties:" : "jr 1/6/2016 16:56",
-		"summary" : "jr 1/6/2016 16:53",
 		"summary:" : "jr 1/6/2016 16:58" } }
