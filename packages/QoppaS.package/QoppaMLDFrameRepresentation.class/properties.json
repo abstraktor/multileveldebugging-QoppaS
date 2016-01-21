@@ -6,9 +6,9 @@
 		"UseExtensionApi" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"group" ],
 	"name" : "QoppaMLDFrameRepresentation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ContextNodePrototype",
 	"type" : "normal" }
