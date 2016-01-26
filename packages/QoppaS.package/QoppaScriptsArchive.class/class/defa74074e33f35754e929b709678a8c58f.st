@@ -2,8 +2,15 @@ definitions
 defa74074e33f35754e929b709678a8c58f
 	<definition>
 
-	^ ((Dictionary new) add: (#block->[:in :out | (
+	^ (Dictionary newFrom: {
+(#block -> [:in :out | (
 	[:objects | objects collect: [:object | object]]
-		value: in) do: [:result | out addAll: result asList]]); add: (#id->#'a74074e3-3f35-754e-929b-709678a8c58f'); add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationTimeStamp->'17 November 2015 7:03:40 pm'); add: (#creationAuthor->'jr'); yourself)); add: (#sourceCode->'[:in :out | (
+		value: in) do: [:result | out addAll: result asList]]).
+(#class -> ViQueryStepDefinition).
+(#id -> #'a74074e3-3f35-754e-929b-709678a8c58f').
+(#properties -> (Dictionary newFrom: {
+(#creationAuthor -> 'jr').
+(#creationTimeStamp -> '17 November 2015 7:03:40 pm')})).
+(#sourceCode -> '[:in :out | (
 	[:objects | objects collect: [:object | object]]
-		value: in) do: [:result | out addAll: result asList]]'); yourself)
+		value: in) do: [:result | out addAll: result asList]]')})

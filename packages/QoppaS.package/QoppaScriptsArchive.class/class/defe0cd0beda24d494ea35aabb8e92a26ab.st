@@ -2,7 +2,8 @@ definitions
 defe0cd0beda24d494ea35aabb8e92a26ab
 	<definition>
 
-	^ ((Dictionary new) add: (#block->[:in :out |
+	^ (Dictionary newFrom: {
+(#block -> [:in :out |
 	[:objects | | collectedNodes |
 		collectedNodes := OrderedCollection new.
 		objects do: [:node |
@@ -16,7 +17,13 @@ defe0cd0beda24d494ea35aabb8e92a26ab
 					qoppaNode addChild: node.
 					out add: qoppaNode ]
 				ifFalse: [collectedNodes add: node]].
-		out addAll: collectedNodes] value: in]); add: (#id->#'e0cd0bed-a24d-494e-a35a-abb8e92a26ab'); add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationTimeStamp->'13 January 2016 5:06:03 pm'); add: (#creationAuthor->'jr'); yourself)); add: (#sourceCode->'[:in :out |
+		out addAll: collectedNodes] value: in]).
+(#class -> ViQueryStepDefinition).
+(#id -> #'e0cd0bed-a24d-494e-a35a-abb8e92a26ab').
+(#properties -> (Dictionary newFrom: {
+(#creationAuthor -> 'jr').
+(#creationTimeStamp -> '13 January 2016 5:06:03 pm')})).
+(#sourceCode -> '[:in :out |
 	[:objects | | collectedNodes |
 		collectedNodes := OrderedCollection new.
 		objects do: [:node |
@@ -30,4 +37,4 @@ defe0cd0beda24d494ea35aabb8e92a26ab
 					qoppaNode addChild: node.
 					out add: qoppaNode ]
 				ifFalse: [collectedNodes add: node]].
-		out addAll: collectedNodes] value: in]'); yourself)
+		out addAll: collectedNodes] value: in]')})

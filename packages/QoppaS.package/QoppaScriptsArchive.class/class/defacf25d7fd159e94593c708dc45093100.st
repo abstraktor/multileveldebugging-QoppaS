@@ -2,10 +2,17 @@ definitions
 defacf25d7fd159e94593c708dc45093100
 	<definition>
 
-	^ ((Dictionary new) add: (#block->[:in :out | (
+	^ (Dictionary newFrom: {
+(#block -> [:in :out | (
 	[:objects | objects collect: [:tuple |
 		[:label :object | object] valueWithArguments: tuple]]
-			value: in) do: [:result | out addAll: result asList]]); add: (#id->#'acf25d7f-d159-e945-93c7-08dc45093100'); add: (#class->ViQueryStepDefinition); add: (#properties->((Dictionary new) add: (#creationTimeStamp->'17 November 2015 7:03:40 pm'); add: (#creationAuthor->'jr'); yourself)); add: (#sourceCode->'[:in :out | (
+			value: in) do: [:result | out addAll: result asList]]).
+(#class -> ViQueryStepDefinition).
+(#id -> #'acf25d7f-d159-e945-93c7-08dc45093100').
+(#properties -> (Dictionary newFrom: {
+(#creationAuthor -> 'jr').
+(#creationTimeStamp -> '17 November 2015 7:03:40 pm')})).
+(#sourceCode -> '[:in :out | (
 	[:objects | objects collect: [:tuple |
 		[:label :object | object] valueWithArguments: tuple]]
-			value: in) do: [:result | out addAll: result asList]]'); yourself)
+			value: in) do: [:result | out addAll: result asList]]')})
