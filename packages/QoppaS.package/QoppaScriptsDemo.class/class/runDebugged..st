@@ -5,7 +5,7 @@ runDebugged: aBlock
 	^ aBlock
 		on: UnhandledError
 		do: [:ue | 
-			| topCtxt e errorWasInUIProcess process debugger mldwindow |
+			| topCtxt e errorWasInUIProcess process debugger fakeView |
 			e := ue exception.
 			process := Processor activeProcess.
 			"check if error appeared in current process"
@@ -16,6 +16,7 @@ runDebugged: aBlock
 				ifFalse: [^ self error: 'context not in process'].
 			"run the script #multilevelDebugger with a debugger object"
 			errorWasInUIProcess := Project current spawnNewProcessIfThisIsUI: process.
+			fakeView := FakeViewWindow new. "need to prevent fakeView from being garbage collected until the Debugger has been closed"
 			WorldState addDeferredUIMessage: [
 				debugger := Debugger new
 							process: process
@@ -23,9 +24,11 @@ runDebugged: aBlock
 							context: e signalerContext;
 							 expandStack;
 							errorWasInUIProcess: errorWasInUIProcess.
-				mldwindow := #multilevelDebugger openScriptWith: {debugger}.
-				"add mldwindow as dependent so it can become the
+				#multilevelDebugger openScriptWith: {debugger}.
+				"add fakeView as dependent so it can become the
 				#topView of the debugger"
+				fakeView model: debugger.
+				debugger addDependent: fakeView.
 			].
 			"debug me"
 			process suspend.

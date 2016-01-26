@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "FakeViewWindow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
