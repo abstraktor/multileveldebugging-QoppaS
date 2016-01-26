@@ -1,4 +1,4 @@
 decoration
 icon
 	"Answer an icon to be shown next to my summary in the context tree"
-	^ self at: #icon
+	^ properties at: #icon ifAbsent: [nil]

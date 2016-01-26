@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"UseExtensionApi" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"group",
-		"stackIndex" ],
-	"name" : "QoppaMLDFrameRepresentation",
+		 ],
+	"name" : "QoppaEvalGrouper",
 	"pools" : [
 		 ],
-	"super" : "ContextNodePrototype",
+	"super" : "Object",
 	"type" : "normal" }

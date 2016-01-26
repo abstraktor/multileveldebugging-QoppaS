@@ -1,0 +1,3 @@
+inspection
+nearestSmalltalkContext
+	^ self
