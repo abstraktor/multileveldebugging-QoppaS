@@ -1,14 +1,15 @@
 {
-	"category" : "QoppaS-Vivide",
+	"category" : "QoppaS-MLD",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		"UseExtensionApi" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"group",
+		"stackIndex" ],
 	"name" : "QoppaMLDFrameRepresentation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ContextNodePrototype",
 	"type" : "normal" }

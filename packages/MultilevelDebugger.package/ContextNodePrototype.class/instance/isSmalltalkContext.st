@@ -1,0 +1,3 @@
+testing
+isSmalltalkContext
+	^ true

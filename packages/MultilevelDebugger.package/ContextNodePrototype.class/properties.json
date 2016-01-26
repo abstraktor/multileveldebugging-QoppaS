@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jr 1/21/2016 19:19",
 	"instvars" : [
-		"contextPart",
-		"properties",
-		"children" ],
+		"contextPart" ],
 	"name" : "ContextNodePrototype",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DebuggerContextNode",
 	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addChild:" : "jr 1/21/2016 19:15",
+		"at:" : "jr 1/21/2016 19:13",
+		"at:put:" : "jr 1/21/2016 19:14",
+		"children" : "jr 1/21/2016 19:14",
+		"children:" : "jr 1/21/2016 19:15",
+		"dataHolders" : "jr 1/21/2016 19:31",
+		"definitionContent" : "jr 1/21/2016 19:30",
+		"executionProgress" : "jr 1/21/2016 19:29",
+		"icon" : "jr 1/21/2016 22:45",
+		"initialize" : "jr 1/21/2016 19:16",
+		"isContextNode" : "jr 1/21/2016 19:16",
+		"isSmalltalkContext" : "jr 1/21/2016 19:23",
+		"nearestSmalltalkContext" : "jr 1/21/2016 22:22",
+		"summary" : "jr 1/21/2016 19:28" } }

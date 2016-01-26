@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jr 1/21/2016 19:25",
 	"instvars" : [
-		"children",
-		"properties" ],
+		 ],
 	"name" : "VirtualContextNode",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "DebuggerContextNode",
 	"type" : "normal" }
