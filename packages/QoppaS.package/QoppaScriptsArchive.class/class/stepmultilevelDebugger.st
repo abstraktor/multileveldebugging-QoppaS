@@ -15,5 +15,5 @@ stepmultilevelDebugger
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '8 December 2015 11:44:28 pm').
 (#inputKind -> Debugger).
-(#optimalExtent -> (659@403)).
+(#optimalExtent -> (656@549)).
 (#view -> ViMultiPaneTiled)}))})
