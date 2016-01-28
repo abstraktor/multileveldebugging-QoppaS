@@ -1,17 +1,17 @@
 steps
-stepd23d6f72f040a04d9c4bd837ee5150bb
+stepbd026f3035cb5843b690304d54ec59a3
 	<step>
 
 	^ (Dictionary newFrom: {
 (#class -> ViScriptPart).
-(#definition -> #'2c006015-a60e-e64e-98e0-4842e6008a24').
+(#definition -> #'548873bf-8522-fa40-bac8-85df5ad5fd36').
 (#iconCode -> 'nil').
-(#id -> #'d23d6f72-f040-a04d-9c4b-d837ee5150bb').
+(#id -> #'bd026f30-35cb-5843-b690-304d54ec59a3').
 (#isProperty -> true).
 (#isReference -> false).
 (#label -> nil).
 (#next -> nil).
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
-(#creationTimeStamp -> '27 January 2016 3:03:12 pm').
-(#view -> ViMultiPaneTiled)}))})
+(#creationTimeStamp -> '28 January 2016 4:39:29 pm').
+(#inputKind -> Association)}))})

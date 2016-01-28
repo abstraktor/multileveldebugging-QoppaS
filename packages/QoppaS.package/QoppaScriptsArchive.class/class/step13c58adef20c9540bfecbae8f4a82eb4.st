@@ -10,9 +10,9 @@ step13c58adef20c9540bfecbae8f4a82eb4
 (#isProperty -> false).
 (#isReference -> false).
 (#label -> 'MLD context field value display').
-(#next -> #'379433e1-26eb-e545-89d8-787daf0d5efe').
+(#next -> #'8fe35680-91f7-1049-b36c-7a4a4717fb2d').
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '27 January 2016 4:49:21 pm').
-(#inputKind -> {Debugger. Association}).
+(#inputKind -> Association).
 (#view -> ViTextView)}))})
