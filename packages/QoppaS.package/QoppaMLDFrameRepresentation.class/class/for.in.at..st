@@ -5,6 +5,3 @@ for: aMethodContext in: group at: flatStackIndex
 		group: group;
 		stackIndex: flatStackIndex;
 		yourself
-		"#text -> (self frameTitleOf: group for: aMethodContext).
-		#icon -> (QoppaMLDGroupRepresentation iconFor: group).
-		#object -> {aMethodContext. flatStackIndex }"

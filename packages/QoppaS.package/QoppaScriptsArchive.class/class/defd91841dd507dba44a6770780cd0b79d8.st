@@ -8,7 +8,7 @@ defd91841dd507dba44a6770780cd0b79d8
 	#text -> contextNode summary.
 	#icon -> contextNode icon.
 	#objects -> contextNode.
-	#object -> {contextNode nearestSmalltalkContext contextPart. contextNode nearestSmalltalkContext stackIndex}}]
+	#object -> {contextNode nearestSmalltalkContext contextPart. contextNode nearestSmalltalkContext stackIndex. contextNode}}]
 		value: o)]]
 			value: in) do: [:result | out add: result]]).
 (#class -> ViQueryStepDefinition).
@@ -21,6 +21,6 @@ defd91841dd507dba44a6770780cd0b79d8
 	#text -> contextNode summary.
 	#icon -> contextNode icon.
 	#objects -> contextNode.
-	#object -> {contextNode nearestSmalltalkContext contextPart. contextNode nearestSmalltalkContext stackIndex}}]
+	#object -> {contextNode nearestSmalltalkContext contextPart. contextNode nearestSmalltalkContext stackIndex. contextNode}}]
 		value: o)]]
 			value: in) do: [:result | out add: result]]')})

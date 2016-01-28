@@ -9,7 +9,7 @@ step6afd0a3bed74cd49a75f7de786e1fc25
 (#id -> #'6afd0a3b-ed74-cd49-a75f-7de786e1fc25').
 (#isProperty -> false).
 (#isReference -> false).
-(#label -> 'MLD context field list').
+(#label -> 'MLD Smalltalk context field list').
 (#next -> #'c0405f95-e0fb-af47-97cd-d23f54077f93').
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').

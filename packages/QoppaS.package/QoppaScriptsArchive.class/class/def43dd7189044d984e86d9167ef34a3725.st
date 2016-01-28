@@ -1,18 +1,18 @@
 definitions
-def4b7e3048663db94cbd85b707bf78c41d
+def43dd7189044d984e86d9167ef34a3725
 	<definition>
 
 	^ (Dictionary newFrom: {
 (#block -> [:in :out | (
 	[:objects | objects collect: [:tuple |
-		[:context :stackIndex :contextNode | context ] valueWithArguments: tuple]]
+		[:debugger :contextArray | contextArray third] valueWithArguments: tuple]]
 			value: in) do: [:result | out addAll: result asList]]).
 (#class -> ViQueryStepDefinition).
-(#id -> #'4b7e3048-663d-b94c-bd85-b707bf78c41d').
+(#id -> #'43dd7189-044d-984e-86d9-167ef34a3725').
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
-(#creationTimeStamp -> '13 December 2015 2:04:02 am')})).
+(#creationTimeStamp -> '27 January 2016 4:49:21 pm')})).
 (#sourceCode -> '[:in :out | (
 	[:objects | objects collect: [:tuple |
-		[:context :stackIndex :contextNode | context ] valueWithArguments: tuple]]
+		[:debugger :contextArray | contextArray third] valueWithArguments: tuple]]
 			value: in) do: [:result | out addAll: result asList]]')})
