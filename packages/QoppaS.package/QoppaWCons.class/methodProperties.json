@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"newDictFrom:" : "jr 11/12/2015 01:43",
-		"newListFrom:" : "bak 11/8/2015 15:08",
+		"newListFrom:" : "jr 1/28/2016 19:45",
 		"withCar:" : "bak 11/5/2015 21:02",
 		"withCar:cdr:" : "bak 11/5/2015 20:19" },
 	"instance" : {
@@ -22,6 +22,7 @@
 		"isCons" : "bak 11/5/2015 21:13",
 		"isEmpty" : "jr 11/11/2015 18:37",
 		"isLeaf" : "bak 11/6/2015 00:02",
+		"isProperList" : "jr 1/28/2016 22:41",
 		"isQuoted" : "bak 11/10/2015 10:45",
 		"isQuoted:" : "bak 11/10/2015 10:45",
 		"printAsQoppaOn:" : "jr 1/13/2016 17:27",

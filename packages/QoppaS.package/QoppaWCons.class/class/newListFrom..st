@@ -3,6 +3,7 @@ newListFrom: aCollection
 	" returns a linked list made out of cons. Example:
 	  '(1 2 3)  is built from {1. 2. 3} asOrderedCollection"
 	|head tail|
+	aCollection ifNil: [^nil].
 	head := self new.
 	tail := head.
 	aCollection do: [:el |
