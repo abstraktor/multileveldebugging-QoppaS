@@ -9,9 +9,9 @@ bind: names to: values
 		ifTrue: [^nil].
 
 	names isSymbol
-		ifTrue: [^QoppaWCons newDictFrom: {names -> values}].
+		ifTrue: [^QoppaWCons newAssociationListFrom: {names -> values}].
 
-	frame := QoppaWCons newDictFrom: {}.
+	frame := QoppaWCons newAssociationListFrom: {}.
 	names with: values do: [:name :value |
 		(self bind: name to: value)
 			ifNotNil: [:newFrame|
