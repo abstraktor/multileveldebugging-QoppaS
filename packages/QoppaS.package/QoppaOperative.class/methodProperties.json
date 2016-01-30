@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"block" : "jr 1/30/2016 23:16",
+		"block:" : "jr 1/30/2016 23:16",
+		"in:operateOn:" : "jr 1/30/2016 23:24",
+		"initialize" : "jr 1/30/2016 23:16",
+		"isPrimitive" : "jr 1/30/2016 23:16",
+		"isPrimitive:" : "jr 1/30/2016 23:16",
+		"parameters" : "jr 1/30/2016 23:30",
+		"parameters:" : "jr 1/30/2016 23:30" } }

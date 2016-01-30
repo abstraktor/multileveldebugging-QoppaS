@@ -1,0 +1,16 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"block",
+		"isPrimitive",
+		"parameters" ],
+	"name" : "QoppaOperative",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 	| envParam body params args staticEnvironment |
 	"expressionsNode: params env body" 
@@ -8,17 +8,21 @@ ListVau: aNode parenOpen: x vau: xxx expressions: expressionsNode parenClose: xx
 	envParam := args second.
 	body := args third.
 	staticEnvironment := self environment.
-	^[:operands| |newFrame|
-		"self assert: (operands size = params size)."
-		"the dynamic env"
-		newFrame := QoppaWCons newDictFrom: {envParam-> self environment}.
+	self flag: #operativeArguments.
+	^ QoppaOperative new
+		parameters: params;
+		block: [:operands| |newFrame|
+			"self assert: (operands size = params size)."
+			"the dynamic env"
+			newFrame := QoppaWCons newDictFrom: {envParam-> self environment}.
 
-		newFrame := self bind: params to: (QoppaWCons newListFrom: operands).
+			newFrame := self bind: params to: (QoppaWCons newListFrom: operands).
 
-		newFrame := (QoppaWCons
-			newDictFrom: {envParam -> self environment})
-			cdr: newFrame;
-			yourself.
+			newFrame := (QoppaWCons
+				newDictFrom: {envParam -> self environment})
+				cdr: newFrame;
+				yourself.
 
-		"evaluate in static environment with newFrame on top"
-		self eval: body in: (QoppaWCons withCar: newFrame cdr: staticEnvironment)]
+			"evaluate in static environment with newFrame on top"
+			self eval: body in: (QoppaWCons withCar: newFrame cdr: staticEnvironment)];
+		yourself
