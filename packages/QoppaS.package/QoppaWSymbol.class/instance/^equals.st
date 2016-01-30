@@ -1,3 +1,3 @@
-accessing
+comparing
 = aSymbol
 	^aSymbol = self content

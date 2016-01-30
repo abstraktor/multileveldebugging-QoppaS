@@ -1,4 +1,4 @@
-accessing
+interpreting
 fexprValue: aNode
 	| res |
 	fexprSemantic := fexprSemantic +1.

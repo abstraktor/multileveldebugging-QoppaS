@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printAsQoppaOn: aStream
 	self isQuoted ifTrue: [ aStream nextPutAll: ''''].
 	aStream nextPutAll: '('.

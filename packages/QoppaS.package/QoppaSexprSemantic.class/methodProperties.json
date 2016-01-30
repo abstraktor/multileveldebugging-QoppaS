@@ -23,6 +23,6 @@
 		"initialize" : "bak 12/15/2015 15:18",
 		"lookup:in:" : "bak 11/12/2015 07:08",
 		"operate:on:in:" : "jr 1/30/2016 23:04",
-		"toQoppaBoolean:" : "jr 12/15/2015 16:18",
+		"toQoppaBoolean:" : "jr 1/30/2016 23:09",
 		"trueValue" : "jr 1/28/2016 16:20",
 		"wrapPrim:countingArgs:" : "jr 1/30/2016 23:24" } }

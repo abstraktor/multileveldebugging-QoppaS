@@ -1,3 +1,3 @@
-accessing
+interpreting
 inFExpr
 	^fexprSemantic > 0

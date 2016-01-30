@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 at: index
 	| i |
 	i := 0.

@@ -1,4 +1,4 @@
-as yet unclassified
+private-utilities
 bind: names to: values
 	| frame |
 

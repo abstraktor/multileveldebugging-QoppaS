@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printInnerAsQoppaOn: aStream
 	self car isCons ifTrue: [self car printAsQoppaOn: aStream] ifFalse: [self car printAsQoppaOn: aStream].
 	self cdr ifNotNil: [

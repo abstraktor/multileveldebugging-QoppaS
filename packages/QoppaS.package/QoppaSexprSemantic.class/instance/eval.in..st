@@ -1,4 +1,4 @@
-as yet unclassified
+interpreting
 eval: expression in: env
 	"(expression isKindOf: OhmNode)
 		ifTrue: [	^self operate: (self value: expression children first) on: (expression children allButFirst) in: env]."

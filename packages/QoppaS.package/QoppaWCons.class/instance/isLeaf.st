@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isLeaf
 	^self cdr isCons not

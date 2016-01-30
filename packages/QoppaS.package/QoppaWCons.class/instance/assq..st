@@ -1,4 +1,4 @@
-as yet unclassified
+scheme-helpers
 assq: aKey
 	self do: [:cons| (cons car = aKey) ifTrue: [ ^cons ]].
 	^nil

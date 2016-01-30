@@ -1,4 +1,4 @@
-as yet unclassified
+environments
 buildGlobalEnv
 	^QoppaWCons withCar: (QoppaWCons newAssociationListFrom: {
 		#+ -> (self wrapPrim: [:args| args reduce: [:a :b| a + b]] countingArgs: false).

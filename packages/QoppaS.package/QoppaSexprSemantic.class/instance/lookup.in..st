@@ -1,4 +1,4 @@
-as yet unclassified
+environments
 lookup: aSymbol in: anEnvironment
 	anEnvironment ifNil: [ QoppaUnboundVariableFailure signal: aSymbol].
 	(aSymbol = #'global-env')
