@@ -21,8 +21,9 @@
 		"haltPrimitive" : "jr 1/30/2016 23:24",
 		"inFExpr" : "bak 11/10/2015 17:52",
 		"initialize" : "bak 12/15/2015 15:18",
-		"lookup:in:" : "bak 11/12/2015 07:08",
+		"lookup:in:" : "jr 1/31/2016 00:15",
 		"operate:on:in:" : "jr 1/30/2016 23:04",
+		"signalUnboundVariable:" : "jr 1/31/2016 00:38",
 		"toQoppaBoolean:" : "jr 1/30/2016 23:09",
 		"trueValue" : "jr 1/28/2016 16:20",
 		"wrapPrim:countingArgs:" : "jr 1/30/2016 23:24" } }

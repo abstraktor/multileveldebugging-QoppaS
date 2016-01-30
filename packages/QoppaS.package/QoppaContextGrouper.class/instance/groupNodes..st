@@ -14,6 +14,9 @@ groupNodes: aCollectionOfContextNodes
 							withChildren: collectedNodes).
 					collectedNodes removeAll ]
 				ifFalse: [collectedNodes add: eachNode].
+			eachNode contextPart method protocol = #'qoppa-errors'
+				ifTrue: [out nextPut: (self createErrorNodeFrom: eachNode withChildren: collectedNodes).
+					collectedNodes removeAll].
 			eachNode contextPart method == (QoppaSexprSemantic >> #eval:in:)
 				ifTrue: [latestOperateNode
 					ifNotNil: [self provideContextFor: latestOperateNode basedOn: eachNode.
