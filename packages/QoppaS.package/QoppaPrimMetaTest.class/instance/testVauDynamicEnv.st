@@ -1,3 +1,8 @@
 as yet unclassified
 testVauDynamicEnv
-	self assert: #+ equals: (self operate: '((vau (x) env (car (car (car env)))) 1)')
+	| env |
+	env := self operate: '((vau (x) env env) 1)'.
+	self assert: (env isCons and: [env isProperList]).
+	self assert: 2 equals: env size
+		description: 'dynamic environment should contain its call frame and the global environment'.
+	self assertPlusIsInFrame: env last

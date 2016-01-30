@@ -1,15 +1,14 @@
 {
-	"category" : "QoppaS-Tests",
+	"category" : "QoppaS-MLD",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"qoppa",
-		"fexprQoppa" ],
-	"name" : "QoppaTest",
+		 ],
+	"name" : "QoppaContextGrouper",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }

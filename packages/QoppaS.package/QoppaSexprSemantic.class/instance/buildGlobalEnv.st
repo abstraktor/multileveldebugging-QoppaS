@@ -1,6 +1,6 @@
 as yet unclassified
 buildGlobalEnv
-	^QoppaWCons withCar: (QoppaWCons newDictFrom: {
+	^QoppaWCons withCar: (QoppaWCons newAssociationListFrom: {
 		#+ -> (self wrapPrim: [:args| args reduce: [:a :b| a + b]] countingArgs: false).
 		#-  -> (self wrapPrim: [:args| args reduce: [:a :b| a - b]] countingArgs: false).
 		#*  -> (self wrapPrim: [:args| args reduce: [:a :b| a * b]] countingArgs: false).

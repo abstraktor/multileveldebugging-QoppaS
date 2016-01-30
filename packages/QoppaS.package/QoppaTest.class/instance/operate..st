@@ -1,5 +1,3 @@
 as yet unclassified
 operate: someCode
-	| semantic |
-	semantic := QoppaGrammar semanticAction: QoppaSexprSemantic new.
-	^semantic value: (self parse: someCode).
+	^qoppa value: (self parse: someCode).

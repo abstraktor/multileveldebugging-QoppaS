@@ -8,7 +8,7 @@ def785e41ce89acfc4aa1d5995bb015edee
 	#out -> #(#(#interactive #'b9edb3ea-b5c5-fb4f-9f32-0f98fc7a637b' ) #(#interactive #outer ) ).
 	#scripts -> #(#'a9b88f25-c8ca-e548-82d4-5dec315f3493' #objectExplorer ).
 	#id -> #'5fcbdb77-3088-7446-b03a-d63d2732d9d4'.
-	#bounds -> (1@0 corner: 559@244).
+	#bounds -> (1@0 corner: 556@236).
 	#current -> #'a9b88f25-c8ca-e548-82d4-5dec315f3493'.
 }] value]).
 (#class -> ViQueryStepDefinition).
@@ -21,6 +21,6 @@ def785e41ce89acfc4aa1d5995bb015edee
 	#out -> #(#(#interactive #''b9edb3ea-b5c5-fb4f-9f32-0f98fc7a637b'' ) #(#interactive #outer ) ).
 	#scripts -> #(#''a9b88f25-c8ca-e548-82d4-5dec315f3493'' #objectExplorer ).
 	#id -> #''5fcbdb77-3088-7446-b03a-d63d2732d9d4''.
-	#bounds -> (1@0 corner: 559@244).
+	#bounds -> (1@0 corner: 556@236).
 	#current -> #''a9b88f25-c8ca-e548-82d4-5dec315f3493''.
 }] value]')})
