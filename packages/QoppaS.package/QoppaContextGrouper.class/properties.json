@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-MLD",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaContextGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
