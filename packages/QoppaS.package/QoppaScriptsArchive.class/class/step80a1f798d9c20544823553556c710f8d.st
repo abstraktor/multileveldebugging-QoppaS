@@ -15,5 +15,4 @@ step80a1f798d9c20544823553556c710f8d
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '19 November 2015 4:05:33 pm').
 (#inputKind -> {String. QoppaReplHistoryItem. QoppaRepl}).
-(#isNew -> false).
 (#view -> ViPluggableButtonBarMorph)}))})

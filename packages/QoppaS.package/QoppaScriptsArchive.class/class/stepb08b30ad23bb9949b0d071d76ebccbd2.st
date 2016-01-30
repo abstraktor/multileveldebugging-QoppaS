@@ -14,6 +14,5 @@ stepb08b30ad23bb9949b0d071d76ebccbd2
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '13 December 2015 2:04:02 am').
-(#inputKind -> {Array}).
-(#isNew -> false).
+(#inputKind -> Array).
 (#view -> ViMethodContextEditorView)}))})

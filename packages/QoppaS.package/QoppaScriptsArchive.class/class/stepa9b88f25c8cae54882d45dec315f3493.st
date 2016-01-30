@@ -15,5 +15,4 @@ stepa9b88f25c8cae54882d45dec315f3493
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '12 November 2015 6:34:52 pm').
 (#inputKind -> QoppaRepl).
-(#isNew -> false).
 (#notifier -> [ViEventNotifier named: #qoppaReplRepItClicked])}))})
