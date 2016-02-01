@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"assertPlusIsInFrame:" : "jr 1/28/2016 22:37",
-		"testEval" : "bak 11/10/2015 17:14",
-		"testGlobalEnv" : "jr 1/28/2016 22:36",
-		"testLookup" : "bak 11/8/2015 15:56",
-		"testNestedVau" : "bak 11/11/2015 11:31",
-		"testOperate" : "bak 11/10/2015 17:28",
-		"testVauDynamicEnv" : "jr 1/28/2016 22:42",
-		"testVauFlexibleParameterLength" : "bak 11/12/2015 07:15",
-		"testVauQuote" : "bak 11/6/2015 13:13",
-		"testVauRedefinePlus" : "jr 11/12/2015 02:14",
-		"testVauStaticEnv" : "bak 11/13/2015 17:20" } }
+		"testEval" : "jr 2/1/2016 17:45",
+		"testGlobalEnv" : "jr 2/1/2016 13:47",
+		"testLookup" : "jr 2/1/2016 13:47",
+		"testNestedVau" : "jr 2/1/2016 13:47",
+		"testOperate" : "jr 2/1/2016 13:47",
+		"testVauDynamicEnv" : "jr 2/1/2016 17:49",
+		"testVauFlexibleParameterLength" : "jr 2/1/2016 13:48",
+		"testVauQuote" : "jr 2/1/2016 13:48",
+		"testVauRedefinePlus" : "jr 2/1/2016 13:48",
+		"testVauStaticEnv" : "jr 2/1/2016 17:31" } }

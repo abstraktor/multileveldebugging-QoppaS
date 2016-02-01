@@ -1,6 +1,6 @@
 as yet unclassified
 testVauRedefinePlus
-	self assert: -1 equals: (self operateFile: '
+	self assert: -1 equals: (self readAndEvaluate: '
 ((vau (name-of-define null) env
     (set-car! env (cons
         (cons name-of-define

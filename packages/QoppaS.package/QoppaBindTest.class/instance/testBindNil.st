@@ -1,3 +1,3 @@
 as yet unclassified
 testBindNil
-	self assert: (QoppaSexprSemantic new bind: nil to: nil) isNil
+	self assert: (interpreter bind: nil to: nil) isNil

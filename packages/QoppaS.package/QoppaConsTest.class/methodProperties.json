@@ -2,11 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testAppend" : "jr 2/1/2016 16:56",
 		"testAsArray" : "bak 11/9/2015 09:37",
 		"testAssq" : "jr 11/12/2015 01:44",
 		"testNewDictFrom" : "jr 11/12/2015 01:43",
 		"testNewListFrom" : "jr 11/10/2015 22:23",
 		"testNewListFromNil" : "jr 1/28/2016 19:44",
+		"testNewWithSize" : "jr 2/1/2016 16:45",
 		"testPrintStringForListEndingWithNonNilCdr" : "jr 11/11/2015 18:17",
 		"testPrintStringForLists" : "jr 11/11/2015 18:16",
 		"testPrintStringForSimpleCell" : "jr 11/11/2015 18:16",

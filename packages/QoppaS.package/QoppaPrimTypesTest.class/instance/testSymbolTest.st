@@ -1,4 +1,4 @@
 as yet unclassified
 testSymbolTest
-	self assert: qoppa trueValue equals: (self operate: '(symbol? ''a)').
-	self assert: qoppa falseValue equals: (self operate: '(symbol? ''())').
+	self assert: interpreter trueValue equals: (self readAndEvaluate: '(symbol? ''a)').
+	self assert: interpreter falseValue equals: (self readAndEvaluate: '(symbol? ''())').

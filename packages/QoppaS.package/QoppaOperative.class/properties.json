@@ -8,7 +8,8 @@
 	"instvars" : [
 		"block",
 		"isPrimitive",
-		"parameters" ],
+		"parameters",
+		"source" ],
 	"name" : "QoppaOperative",
 	"pools" : [
 		 ],

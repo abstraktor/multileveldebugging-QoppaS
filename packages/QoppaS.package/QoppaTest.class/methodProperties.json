@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"eval:" : "jr 1/28/2016 16:14",
-		"evalFile:" : "jr 1/28/2016 16:14",
-		"operate:" : "jr 1/28/2016 16:14",
-		"operateFile:" : "jr 1/28/2016 16:15",
-		"parse:" : "bak 11/6/2015 00:16",
-		"parse:as:" : "bak 11/6/2015 13:54",
-		"parseFile:" : "bak 11/3/2015 17:40",
-		"setUp" : "jr 1/28/2016 16:15" } }
+		"eval:" : "jr 2/1/2016 14:35",
+		"evalFile:" : "jr 2/1/2016 14:35",
+		"operate:" : "jr 2/1/2016 14:35",
+		"operateFile:" : "jr 2/1/2016 14:35",
+		"parse:" : "jr 2/1/2016 14:35",
+		"parse:as:" : "jr 2/1/2016 14:35",
+		"parseFile:" : "jr 2/1/2016 14:35",
+		"readAndEvaluate:" : "jr 2/1/2016 14:35",
+		"setUp" : "jr 2/1/2016 14:39" } }

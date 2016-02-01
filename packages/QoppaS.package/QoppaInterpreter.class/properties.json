@@ -1,0 +1,15 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"reader",
+		"globalEnv" ],
+	"name" : "QoppaInterpreter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBool" : "bak 11/12/2015 07:58",
-		"testBoolEvaluatesOnlyTrueBranch" : "bak 11/12/2015 08:11",
-		"testNullTest" : "jr 1/28/2016 16:22",
-		"testPairTest" : "jr 1/28/2016 16:22",
-		"testSymbolTest" : "jr 1/28/2016 16:22" } }
+		"testBool" : "jr 2/1/2016 13:50",
+		"testBoolEvaluatesOnlyTrueBranch" : "jr 2/1/2016 13:51",
+		"testNullTest" : "jr 2/1/2016 16:16",
+		"testPairTest" : "jr 2/1/2016 16:16",
+		"testSymbolTest" : "jr 2/1/2016 16:17" } }

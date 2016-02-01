@@ -11,6 +11,8 @@ smallPrelude
         (car env))))
     define ())
 
+(define quote (vau (x) _ x))
+
 (define if (vau (b t f) env
     (eval env (bool (eval env b) t f))))
 

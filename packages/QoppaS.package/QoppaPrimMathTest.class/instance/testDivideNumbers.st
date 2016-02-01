@@ -1,3 +1,3 @@
 as yet unclassified
 testDivideNumbers
-	self assert: 3 equals: (self operate: '(/ 6 2)').
+	self assert: 3 equals: (self readAndEvaluate: '(/ 6 2)').

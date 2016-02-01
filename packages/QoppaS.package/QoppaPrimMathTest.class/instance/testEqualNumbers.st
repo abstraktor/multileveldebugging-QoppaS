@@ -1,4 +1,4 @@
 as yet unclassified
 testEqualNumbers
-	self assert: qoppa trueValue equals: (self operate: '(= 1 1)').
-	self assert: qoppa falseValue equals: (self operate: '(= 0 1)').
+	self assert: interpreter trueValue equals: (self readAndEvaluate: '(= 1 1)').
+	self assert: interpreter falseValue equals: (self readAndEvaluate: '(= 0 1)').

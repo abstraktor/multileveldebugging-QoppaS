@@ -10,5 +10,5 @@
 	"name" : "QoppaConsTest",
 	"pools" : [
 		 ],
-	"super" : "QoppaTest",
+	"super" : "TestCase",
 	"type" : "normal" }

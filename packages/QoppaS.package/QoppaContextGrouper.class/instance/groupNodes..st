@@ -6,7 +6,7 @@ groupNodes: aCollectionOfContextNodes
 		aCollectionOfContextNodes do: [:eachNode |
 			self assert: eachNode isSmalltalkContext
 				description: self class name, ' can only group Smalltalk contexts'.
-			eachNode contextPart method == (QoppaSexprSemantic >> #operate:on:in:)
+			eachNode contextPart method == (QoppaInterpreter >> #operate:on:in:)
 				ifTrue: [
 					out nextPut: (latestOperateNode :=
 						self

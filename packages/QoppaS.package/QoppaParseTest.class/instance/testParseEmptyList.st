@@ -1,3 +1,4 @@
 as yet unclassified
 testParseEmptyList
-	self assert: (self operate: '''()') isNil
+	self flag: #split.
+	self assert: (self readAndEvaluate: '''()') == interpreter nilValue

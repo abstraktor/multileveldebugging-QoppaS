@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"history",
-		"semantic" ],
+		"interpreter" ],
 	"name" : "QoppaRepl",
 	"pools" : [
 		 ],
