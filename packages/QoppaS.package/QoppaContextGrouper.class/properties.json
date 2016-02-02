@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"inputNodes",
+		"lastQoppaNode",
+		"collectedNodes",
+		"collectedNodesLastCons" ],
 	"name" : "QoppaContextGrouper",
 	"pools" : [
 		 ],

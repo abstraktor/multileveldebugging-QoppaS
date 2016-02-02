@@ -15,5 +15,5 @@ stepqoppaReplPane
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '12 November 2015 6:32:04 pm').
 (#isNew -> false).
-(#optimalExtent -> (556@263)).
+(#optimalExtent -> (541@253)).
 (#view -> ViMultiPaneTiled)}))})

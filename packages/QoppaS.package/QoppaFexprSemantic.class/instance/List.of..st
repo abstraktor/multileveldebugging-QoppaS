@@ -1,3 +1,6 @@
-as yet unclassified
+actions
 List: aNode of: alt
-	^self value: alt
+	| form |
+	form := self value: alt.
+	self rememberSourceOf: form madeFrom: aNode.
+	^ form

@@ -8,7 +8,7 @@ defbf7186609fda0d4f88ec86a9121579dd
 	#out -> #().
 	#scripts -> #(#'65081628-3c68-4447-b18c-482ec222499e' #objectExplorer #'92215ddc-db3b-7542-950c-c84a76238b98' #'30286f61-9167-3746-bfe4-cb53a44f9f4b' #'64c61260-ab5f-0541-a9ec-f9d390197847' #'27f25be1-148a-6044-901f-7a0fba72d175' ).
 	#id -> #'6f9e07d4-0270-8840-be24-fac72143cb28'.
-	#bounds -> (0@145 corner: 574@162).
+	#bounds -> (0@172 corner: 684@195).
 	#current -> #'27f25be1-148a-6044-901f-7a0fba72d175'.
 }] value]).
 (#class -> ViQueryStepDefinition).
@@ -21,6 +21,6 @@ defbf7186609fda0d4f88ec86a9121579dd
 	#out -> #().
 	#scripts -> #(#''65081628-3c68-4447-b18c-482ec222499e'' #objectExplorer #''92215ddc-db3b-7542-950c-c84a76238b98'' #''30286f61-9167-3746-bfe4-cb53a44f9f4b'' #''64c61260-ab5f-0541-a9ec-f9d390197847'' #''27f25be1-148a-6044-901f-7a0fba72d175'' ).
 	#id -> #''6f9e07d4-0270-8840-be24-fac72143cb28''.
-	#bounds -> (0@145 corner: 574@162).
+	#bounds -> (0@172 corner: 684@195).
 	#current -> #''27f25be1-148a-6044-901f-7a0fba72d175''.
 }] value]')})

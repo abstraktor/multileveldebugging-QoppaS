@@ -6,7 +6,7 @@ def3bdb21a26383514bb4f65887ccb56c1f
 (#block -> [:in :out | ([:all | all collect: [:t | (
 	[:exprString :repl | {
 	#text -> 'rep it'.
-	#clicked -> [ repl evaluate: exprString.
+	#clicked -> [ repl readAndEvaluate: exprString.
 		ViEventNotifier trigger: #qoppaReplRepItClicked ].
 }]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
@@ -19,7 +19,7 @@ def3bdb21a26383514bb4f65887ccb56c1f
 (#sourceCode -> '[:in :out | ([:all | all collect: [:t | (
 	[:exprString :repl | {
 	#text -> ''rep it''.
-	#clicked -> [ repl evaluate: exprString.
+	#clicked -> [ repl readAndEvaluate: exprString.
 		ViEventNotifier trigger: #qoppaReplRepItClicked ].
 }]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]

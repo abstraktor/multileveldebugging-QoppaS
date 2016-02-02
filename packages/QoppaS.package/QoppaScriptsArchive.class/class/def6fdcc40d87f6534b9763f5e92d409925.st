@@ -6,7 +6,7 @@ def6fdcc40d87f6534b9763f5e92d409925
 (#block -> [:in :out | ([:all | all collect: [:t | (
 	[:exprString :qoppaReplHistoryItem :qoppaRepl | {
 	#text -> 'rep it'.
-	#clicked -> [ qoppaRepl evaluate: exprString.
+	#clicked -> [ qoppaRepl readAndEvaluate: exprString.
 		ViEventNotifier trigger: #qoppaReplRepItClicked ].
 }]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]
@@ -19,7 +19,7 @@ def6fdcc40d87f6534b9763f5e92d409925
 (#sourceCode -> '[:in :out | ([:all | all collect: [:t | (
 	[:exprString :qoppaReplHistoryItem :qoppaRepl | {
 	#text -> ''rep it''.
-	#clicked -> [ qoppaRepl evaluate: exprString.
+	#clicked -> [ qoppaRepl readAndEvaluate: exprString.
 		ViEventNotifier trigger: #qoppaReplRepItClicked ].
 }]
 		valueWithArguments: t), { #object -> t first. #objects -> t }]]

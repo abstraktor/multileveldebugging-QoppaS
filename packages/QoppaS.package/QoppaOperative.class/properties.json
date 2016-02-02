@@ -2,6 +2,7 @@
 	"category" : "QoppaS",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "QoppaPrintable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -9,9 +10,11 @@
 		"block",
 		"isPrimitive",
 		"parameters",
-		"source" ],
+		"source",
+		"expDict" ],
 	"name" : "QoppaOperative",
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "QoppaPrintable",
 	"type" : "normal" }

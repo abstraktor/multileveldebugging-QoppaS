@@ -1,3 +1,3 @@
-as yet unclassified
+actions
 SExpressionAtom: aNode withAtom: atom 
 	^self value: atom

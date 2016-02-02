@@ -1,6 +1,6 @@
 environments
 buildGlobalEnv
-	^QoppaWCons withCar: (QoppaWCons newAssociationListFrom: {
+	^QoppaWCons withCar: (QoppaWCons newAssociationListFrom: (self wrapKeysIn: {
 		#vau -> self vauPrim.
 		#+ -> (self wrapPrim: [:args| args reduce: [:a :b| a + b]] countingArgs: false).
 		#-  -> (self wrapPrim: [:args| args reduce: [:a :b| a - b]] countingArgs: false).
@@ -25,4 +25,4 @@ buildGlobalEnv
 		#lookup -> (self wrapPrim: [:name :env| self lookup: name in: env] countingArgs: true).
 		#operate -> (self wrapPrim: [:env :operative :operands| self operate: operative on: operands in: env] countingArgs: true).
 		#halt -> self haltPrimitive.
-	}).
+	})).

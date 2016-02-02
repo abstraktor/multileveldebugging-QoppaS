@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"File:with:" : "jr 2/1/2016 14:10",
-		"List:of:" : "bak 11/3/2015 17:57",
+		"File:with:" : "jr 2/2/2016 01:24",
+		"List:of:" : "jr 2/2/2016 01:21",
 		"ListExplicitCdr:parenOpen:carExpressions:dot:cdrExpression:parenClose:" : "bak 11/8/2015 15:08",
 		"ListList:parenOpen:expressions:parenClose:" : "jr 2/1/2016 14:12",
 		"ListVau:parenOpen:vau:expressions:parenClose:" : "jr 2/1/2016 15:25",
@@ -11,13 +11,19 @@
 		"SExpressionAtom:withAtom:" : "bak 11/5/2015 20:13",
 		"SExpressionList:withList:" : "bak 11/5/2015 20:13",
 		"SExpressionSimpleQuoted:with:withExpression:" : "jr 2/1/2016 16:04",
+		"addSource:for:" : "jr 2/2/2016 01:00",
 		"atom:with:" : "bak 10/30/2015 13:54",
 		"atomNull:with:" : "jr 2/1/2016 14:15",
 		"atomNumber:with:" : "bak 11/10/2015 14:44",
 		"atomString:with:with:with:" : "jr 2/1/2016 14:19",
 		"atomSymbol:with:with:" : "jr 2/1/2016 16:15",
 		"atomVariable:with:" : "jr 2/1/2016 16:15",
+		"initialize" : "jr 2/2/2016 01:17",
 		"parseFile:" : "jr 2/1/2016 14:33",
 		"quote:" : "jr 2/1/2016 16:04",
 		"readFile:" : "jr 2/1/2016 14:33",
-		"standardChar:with:" : "bak 10/30/2015 12:32" } }
+		"rememberInterval:inSourceOf:for:" : "jr 2/2/2016 00:58",
+		"rememberSourceOf:madeFrom:" : "jr 2/2/2016 01:25",
+		"sourceFor:" : "jr 2/2/2016 01:03",
+		"standardChar:with:" : "bak 10/30/2015 12:32",
+		"topLevelSourceFor:" : "jr 2/2/2016 01:55" } }

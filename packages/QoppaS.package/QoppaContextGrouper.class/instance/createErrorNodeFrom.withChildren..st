@@ -1,4 +1,4 @@
-as yet unclassified
+data extraction
 createErrorNodeFrom: aSmalltalkContextNode withChildren: aCollectionOfNodes
 	| qoppaNode smalltalkContext errorMessage |
 	qoppaNode := VirtualContextNode new.

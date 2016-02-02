@@ -1,6 +1,6 @@
 printing
 printInnerAsQoppaOn: aStream
-	self car isCons ifTrue: [self car printAsQoppaOn: aStream] ifFalse: [self car printAsQoppaOn: aStream].
+	self car printAsQoppaOn: aStream.
 	self cdr ifNotNil: [
 		aStream nextPutAll: ' '.
 		self cdr isCons

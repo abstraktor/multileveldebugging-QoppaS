@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "bak 11/5/2015 09:10",
 	"instvars" : [
-		 ],
+		"sourceOfForms",
+		"sourceIntervalsForForms",
+		"currentTopLevelForm",
+		"currentTopLevelFormOhmNode" ],
 	"name" : "QoppaFexprSemantic",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-as yet unclassified
+data extraction
 permissiveBind: names to: values
 	"like #bind:to: but allows the sizes of names and values to differ"
 	| frame size |

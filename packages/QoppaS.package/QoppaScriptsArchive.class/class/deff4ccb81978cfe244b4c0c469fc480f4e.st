@@ -8,8 +8,8 @@ deff4ccb81978cfe244b4c0c469fc480f4e
 	#out -> #().
 	#scripts -> #(#'ae7cbdd3-f9ab-0040-b9d8-eb1058a9fba3' #objectExplorer #'80a1f798-d9c2-0544-8235-53556c710f8d' ).
 	#id -> #'b9edb3ea-b5c5-fb4f-9f32-0f98fc7a637b'.
-	#bounds -> (384@241 corner: 556@254).
-	#current -> #'80a1f798-d9c2-0544-8235-53556c710f8d'.
+	#bounds -> (372@231 corner: 541@245).
+	#current -> #'ae7cbdd3-f9ab-0040-b9d8-eb1058a9fba3'.
 }] value]).
 (#class -> ViQueryStepDefinition).
 (#id -> #'f4ccb819-78cf-e244-b4c0-c469fc480f4e').
@@ -21,6 +21,6 @@ deff4ccb81978cfe244b4c0c469fc480f4e
 	#out -> #().
 	#scripts -> #(#''ae7cbdd3-f9ab-0040-b9d8-eb1058a9fba3'' #objectExplorer #''80a1f798-d9c2-0544-8235-53556c710f8d'' ).
 	#id -> #''b9edb3ea-b5c5-fb4f-9f32-0f98fc7a637b''.
-	#bounds -> (384@241 corner: 556@254).
-	#current -> #''80a1f798-d9c2-0544-8235-53556c710f8d''.
+	#bounds -> (372@231 corner: 541@245).
+	#current -> #''ae7cbdd3-f9ab-0040-b9d8-eb1058a9fba3''.
 }] value]')})
