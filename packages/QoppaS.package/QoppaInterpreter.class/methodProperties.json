@@ -4,7 +4,7 @@
 	"instance" : {
 		"bind:to:" : "jr 2/1/2016 17:03",
 		"boolPrim" : "jr 2/1/2016 15:33",
-		"buildGlobalEnv" : "jr 2/2/2016 01:38",
+		"buildGlobalEnv" : "bak 3/1/2016 17:07",
 		"cons:with:" : "jr 2/1/2016 14:58",
 		"eval:in:" : "jr 2/2/2016 01:15",
 		"falseValue" : "jr 2/1/2016 14:27",
@@ -12,6 +12,7 @@
 		"globalEnv:" : "jr 2/1/2016 13:54",
 		"haltPrimitive" : "jr 2/1/2016 15:34",
 		"initialize" : "jr 2/2/2016 00:15",
+		"loadPrimitive" : "bak 3/1/2016 17:25",
 		"lookup:in:" : "jr 2/1/2016 17:43",
 		"nilValue" : "jr 2/1/2016 15:56",
 		"operate:on:in:" : "jr 2/1/2016 15:29",

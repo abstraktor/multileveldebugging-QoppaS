@@ -11,6 +11,6 @@ testCollectBindingsFromEnvironment
 			QoppaWCons newListFrom: {#z. 3}}.
 		QoppaWCons newListFrom: { "global"
 			QoppaWCons newListFrom: {#globalstuff. 5}}}.
-	expectedAssociations := {#z -> 4. #x -> 1. #y -> 2}.
+	expectedAssociations := {#z -> 4. #x -> 1. #y -> 2. #globalstuff -> 5}.
 	actualAssociations := grouper collectBindingsFromEnvironment: env.
 	self assert: expectedAssociations equals: actualAssociations

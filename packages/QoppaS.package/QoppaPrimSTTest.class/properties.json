@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaPrimSTTest",
+	"pools" : [
+		 ],
+	"super" : "QoppaTest",
+	"type" : "normal" }
