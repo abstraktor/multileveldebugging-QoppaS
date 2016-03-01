@@ -1,18 +1,24 @@
 as yet unclassified
 runDebugged: aBlock 
 	self multilevelDebuggerEnabled
-		ifFalse: [^ aBlock value].
+		ifFalse: [^ aBlock
+				on: UnhandledError
+				do: [:ue| 
+					Processor activeProcess
+						debug: ue exception signalerContext 
+						title: ue exception description]].
 	^ aBlock
 		on: UnhandledError
 		do: [:ue | 
-			| topCtxt e errorWasInUIProcess process debugger fakeView |
+			| topCtxt e errorWasInUIProcess process debugger fakeView debuggedContext |
 			e := ue exception.
+			debuggedContext := ue fullContext. "e signalerContext"
 			process := Processor activeProcess.
 			"check if error appeared in current process"
 			topCtxt := process isActiveProcess
 						ifTrue: [thisContext]
 						ifFalse: [self suspendedContext].
-			(topCtxt hasContext: e signalerContext)
+			(topCtxt hasContext: debuggedContext)
 				ifFalse: [^ self error: 'context not in process'].
 			"run the script #multilevelDebugger with a debugger object"
 			errorWasInUIProcess := Project current spawnNewProcessIfThisIsUI: process.
@@ -21,8 +27,8 @@ runDebugged: aBlock
 				debugger := Debugger new
 							process: process
 							controller: nil
-							context: e signalerContext;
-							 expandStack;
+							context: debuggedContext;
+							expandStack;
 							errorWasInUIProcess: errorWasInUIProcess.
 				#multilevelDebugger openScriptWith: {debugger}.
 				"add fakeView as dependent so it can become the
