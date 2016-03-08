@@ -1,3 +1,5 @@
 decoration
 icon
-	^(DebuggerLevel forGroup: group) icon
+	QoppaMLDGroupRepresentation mldIconsEnabled
+		ifTrue: [	^(DebuggerLevel forGroup: group) icon]
+		ifFalse: [^nil]

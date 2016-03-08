@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"mldGroupingEnabled" : "bak 3/8/2016 07:00",
+		"mldGroupingEnabled:" : "bak 3/8/2016 07:00" },
 	"instance" : {
 		"collectNode:" : "jr 2/2/2016 22:03",
 		"createErrorNodeFrom:withChildren:" : "jr 1/31/2016 00:37",
@@ -15,4 +16,4 @@
 		"initialize" : "jr 2/2/2016 21:59",
 		"permissiveBind:to:" : "jr 1/31/2016 02:32",
 		"sourceFor:in:" : "jr 2/2/2016 18:08",
-		"transformNodes:" : "bak 3/1/2016 18:53" } }
+		"transformNodes:" : "bak 3/8/2016 07:02" } }

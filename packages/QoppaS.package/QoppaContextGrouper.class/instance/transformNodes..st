@@ -1,5 +1,9 @@
 grouping
 transformNodes: outputNodes
+
+	self class mldGroupingEnabled
+		ifFalse: [^outputNodes nextPutAll: inputNodes].
+
 	self flushCollectedNodes.
 	inputNodes consListDo: [:each |
 		self assert: each car isSmalltalkContext
@@ -12,7 +16,7 @@ transformNodes: outputNodes
 						withChildren: self flushCollectedNodes)]
 			ifFalse: [self collectNode: each car].
 		each car contextPart method protocol = #'qoppa-errors'
-			ifTrue: [outputNodes nextPut: (self createErrorNodeFrom: each car withChildren: self flushCollectedNodes)].
+			ifTrue: [outputNodes nextPut: (self createErrorNodeFrom: each withChildren: self flushCollectedNodes)].
 		each car contextPart method == (QoppaInterpreter >> #eval:in:)
 			ifTrue: [self finishLastQoppaNodeWithEval: each car]].
 	outputNodes nextPutAll: (self flushCollectedNodes ifNil: [{}])

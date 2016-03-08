@@ -34,6 +34,11 @@ prelude
         (eval static-env
             (list vau params ''_ body)))))
 
+(define fact (lambda (n)
+    (if (<= n 1)
+        1
+        (* n (fact (- n 1))))))
+
 (define last (lambda (xs)
     (if (null? (cdr xs))
         (car xs)
@@ -127,7 +132,7 @@ prelude
 
 (define (append a b)
     (foldr cons b a))
-
+(halt)
 (define apply (wrap (vau (operative args) env
     (eval env (cons
         operative
