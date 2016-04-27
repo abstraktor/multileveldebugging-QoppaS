@@ -12,7 +12,7 @@ runDebugged: aBlock
 		do: [:ue | 
 			| topCtxt e errorWasInUIProcess process debugger fakeView debuggedContext |
 			e := ue exception.
-			debuggedContext := ue fullContext. "e signalerContext"
+			debuggedContext := e signalerContext.
 			process := Processor activeProcess.
 			"check if error appeared in current process"
 			topCtxt := process isActiveProcess

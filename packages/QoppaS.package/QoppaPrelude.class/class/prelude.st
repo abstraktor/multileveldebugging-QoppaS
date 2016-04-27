@@ -132,7 +132,7 @@ prelude
 
 (define (append a b)
     (foldr cons b a))
-(halt)
+
 (define apply (wrap (vau (operative args) env
     (eval env (cons
         operative
