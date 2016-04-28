@@ -4,4 +4,5 @@ SystemOrganization addCategory: #QoppaS!
 SystemOrganization addCategory: #'QoppaS-ExtensionApi'!
 SystemOrganization addCategory: #'QoppaS-MLD-Tests'!
 SystemOrganization addCategory: #'QoppaS-MLD'!
+SystemOrganization addCategory: #'QoppaS-Toolbuilder'!
 SystemOrganization addCategory: #'QoppaS-Vivide'!

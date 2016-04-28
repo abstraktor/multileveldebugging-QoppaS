@@ -14,6 +14,5 @@ stepmultilevelDebugger
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '8 December 2015 11:44:28 pm').
-(#inputKind -> Debugger).
-(#optimalExtent -> (684@563)).
+(#optimalExtent -> (652@477)).
 (#view -> ViMultiPaneTiled)}))})

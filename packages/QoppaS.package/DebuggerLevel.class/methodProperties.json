@@ -1,10 +1,16 @@
 {
 	"class" : {
-		"default" : "bak 12/16/2015 07:57",
-		"forGroup:" : "bak 12/16/2015 07:08",
+		"default" : "bak 4/27/2016 15:09",
+		"forGroup:" : "bak 4/27/2016 15:10",
+		"generateLevelsFor:" : "bak 4/27/2016 17:44",
 		"mldShowLevels" : "bak 3/8/2016 09:24",
 		"mldShowLevels:" : "bak 3/8/2016 09:24",
-		"named:" : "bak 12/16/2015 07:51" },
+		"named:" : "bak 4/27/2016 15:10" },
 	"instance" : {
 		"frameTitleOf:" : "bak 12/16/2015 07:54",
-		"icon" : "bak 3/9/2016 06:20" } }
+		"icon" : "bak 3/9/2016 06:20",
+		"includesMethodReference:" : "bak 4/27/2016 14:57",
+		"levelName" : "bak 4/27/2016 14:57",
+		"priority" : "bak 4/27/2016 14:58",
+		"repo" : "bak 4/27/2016 14:58",
+		"repo:" : "bak 4/27/2016 14:58" } }

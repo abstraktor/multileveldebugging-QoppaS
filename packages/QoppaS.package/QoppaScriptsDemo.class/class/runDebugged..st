@@ -30,7 +30,8 @@ runDebugged: aBlock
 							context: debuggedContext;
 							expandStack;
 							errorWasInUIProcess: errorWasInUIProcess.
-				#multilevelDebugger openScriptWith: {debugger}.
+				"#multilevelDebugger openScriptWith: {e. debugger interruptedContext contextStack}."
+				TBMLD openForError: e debugger: debugger.
 				"add fakeView as dependent so it can become the
 				#topView of the debugger"
 				fakeView model: debugger.

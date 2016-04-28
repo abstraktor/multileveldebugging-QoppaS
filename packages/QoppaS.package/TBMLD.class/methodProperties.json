@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"open" : "bak 4/27/2016 13:52",
+		"openForError:debugger:" : "bak 4/27/2016 14:02",
+		"runDebugged:" : "bak 4/27/2016 14:05" },
+	"instance" : {
+		"buildWith:" : "bak 4/27/2016 21:32",
+		"contextChildren:" : "bak 4/27/2016 21:33",
+		"contextCode" : "bak 4/27/2016 21:28",
+		"contextHasChildren:" : "bak 4/27/2016 21:34",
+		"contextIcon:" : "bak 4/27/2016 21:15",
+		"contextLabel:" : "bak 4/27/2016 21:16",
+		"contexts" : "bak 4/27/2016 21:23",
+		"debugger" : "bak 4/27/2016 14:01",
+		"debugger:" : "bak 4/27/2016 14:01",
+		"label:" : "bak 4/27/2016 19:46",
+		"levelIcon:" : "bak 4/27/2016 19:38",
+		"levelRepo" : "bak 4/27/2016 19:49",
+		"levels" : "bak 4/27/2016 19:49",
+		"selectedContext" : "bak 4/27/2016 20:02",
+		"selectedContext:" : "bak 4/27/2016 20:19",
+		"selectedLevel" : "bak 4/27/2016 19:44",
+		"selectedLevel:" : "bak 4/27/2016 19:45",
+		"signaledError" : "bak 4/27/2016 14:02",
+		"signaledError:" : "bak 4/27/2016 14:02",
+		"stack" : "bak 4/27/2016 14:08" } }

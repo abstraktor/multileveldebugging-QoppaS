@@ -1,0 +1,18 @@
+{
+	"category" : "QoppaS-Toolbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"signaledError",
+		"debugger",
+		"selectedContext",
+		"selectedLevel",
+		"levelRepo" ],
+	"name" : "TBMLD",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "CollectionLevel",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "PackageDebuggerLevel",
 	"type" : "normal" }

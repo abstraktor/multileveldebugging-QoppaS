@@ -13,5 +13,4 @@ step5a88443d6b0f454b8fbaa925e0254661
 (#next -> #'c23a4056-24b8-9041-bb21-7e324b8a30d8').
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
-(#creationTimeStamp -> '8 December 2015 11:44:28 pm').
-(#inputKind -> Debugger)}))})
+(#creationTimeStamp -> '8 December 2015 11:44:28 pm')}))})

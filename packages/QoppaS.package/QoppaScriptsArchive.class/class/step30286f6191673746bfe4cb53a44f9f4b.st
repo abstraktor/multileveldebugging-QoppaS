@@ -14,5 +14,5 @@ step30286f6191673746bfe4cb53a44f9f4b
 (#properties -> (Dictionary newFrom: {
 (#creationAuthor -> 'jr').
 (#creationTimeStamp -> '9 December 2015 12:12:16 am').
-(#inputKind -> {Debugger. PackageInfo}).
+(#inputKind -> #(nil nil )).
 (#notifier -> [ViEventNotifier named: #debuggerChanged])}))})
