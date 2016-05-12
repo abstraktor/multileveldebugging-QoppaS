@@ -1,3 +1,5 @@
 as yet unclassified
 frameTitleOf: methodContext
-	^methodContext selector
+	^methodContext isClosureContext
+		ifTrue: [ '[] in ', methodContext selector]
+		ifFalse: [methodContext selector]
