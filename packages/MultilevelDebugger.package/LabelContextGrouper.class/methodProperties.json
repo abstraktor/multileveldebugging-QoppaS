@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"collectNode:" : "bak 4/29/2016 21:45",
+		"createErrorNodeFrom:withChildren:" : "bak 4/29/2016 21:45",
+		"createQoppaContextNodeFrom:withChildren:" : "bak 4/29/2016 21:45",
+		"fill:" : "bak 5/12/2016 16:35",
+		"fillDataHolders:" : "bak 5/10/2016 17:35",
+		"findPrimitiveContextBelow:" : "bak 4/29/2016 21:45",
+		"finishLastQoppaNodeBefore:" : "bak 5/11/2016 08:19",
+		"finishLastQoppaNodeWithEval:" : "bak 5/12/2016 16:35",
+		"flushCollectedNodes" : "bak 4/29/2016 21:45",
+		"groupNodes:" : "bak 4/29/2016 22:19",
+		"initialize" : "bak 4/29/2016 21:45",
+		"permissiveBind:to:" : "bak 4/29/2016 21:45",
+		"sourceFor:in:" : "bak 4/29/2016 21:45",
+		"transformNodes:" : "bak 4/29/2016 23:23" } }

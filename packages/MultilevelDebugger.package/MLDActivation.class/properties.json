@@ -1,0 +1,15 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseExtensionApi" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"group",
+		"stackIndex" ],
+	"name" : "MLDActivation",
+	"pools" : [
+		 ],
+	"super" : "ContextNodePrototype",
+	"type" : "normal" }

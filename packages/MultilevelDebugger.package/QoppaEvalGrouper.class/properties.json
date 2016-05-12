@@ -1,0 +1,14 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaEvalGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

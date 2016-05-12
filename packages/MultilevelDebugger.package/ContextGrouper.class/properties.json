@@ -1,0 +1,14 @@
+{
+	"category" : "MultilevelDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"EnableMLDGrouping" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"levelRepo" ],
+	"name" : "ContextGrouper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
