@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"frameTitleOf:" : "bak 5/12/2016 15:49",
+		"children:" : "bak 5/12/2016 17:37",
+		"frameTitleOf:" : "bak 5/12/2016 17:32",
+		"hasChildren:" : "bak 5/12/2016 17:04",
 		"icon" : "bak 5/12/2016 15:43",
-		"includes:" : "bak 5/12/2016 15:41",
+		"includes:" : "bak 5/12/2016 17:31",
 		"levelName" : "bak 5/12/2016 15:34",
 		"priority" : "bak 5/12/2016 15:33" } }

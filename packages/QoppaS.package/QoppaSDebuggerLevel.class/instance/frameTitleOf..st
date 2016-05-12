@@ -1,6 +1,8 @@
 as yet unclassified
-frameTitleOf: aMethodContext
+frameTitleOf: activation
+	| aMethodContext |
+	aMethodContext := activation contextPart.
 	(aMethodContext selector = #eval:in:)
 		ifTrue: [^'eval: ', (aMethodContext at: 1) qoppaPrintString, ' in:' ].
 		
-	^super frameTitleOf: aMethodContext
+	^super frameTitleOf: activation

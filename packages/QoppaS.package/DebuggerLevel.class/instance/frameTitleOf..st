@@ -1,5 +1,5 @@
 as yet unclassified
-frameTitleOf: methodContext
-	^methodContext isClosureContext
-		ifTrue: [ '[] in ', methodContext selector]
-		ifFalse: [methodContext selector]
+frameTitleOf: activation
+	^activation contextPart isClosureContext
+		ifTrue: [ '[] in ', activation contextPart selector]
+		ifFalse: [activation contextPart selector]

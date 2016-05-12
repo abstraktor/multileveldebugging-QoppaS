@@ -1,3 +1,3 @@
 activations
 activationChildren: activation
-	^activation children
+	^self selectedLevel children: activation

@@ -1,4 +1,4 @@
 as yet unclassified
-frameTitleOf: methodContext
-	^'', ((methodContext method pragmaAt: #primitive:) argumentAt: 1), ': ', (super frameTitleOf: methodContext)
+frameTitleOf: activation
+	^'', ((activation at: #primitive:) at: 1), ': ', (super frameTitleOf: activation)
 		
