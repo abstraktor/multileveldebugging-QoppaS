@@ -1,4 +1,4 @@
-as yet unclassified
+user interface
 buildWith: builder
 | windowSpec levelListSpec frameListSpec editorSpec stepButtonSpec proceedButtonSpec window |
 
@@ -48,7 +48,7 @@ buildWith: builder
 	stepButtonSpec
 		model: self;
 		label: 'Step';
-		action: #doStep;
+		action: #doSend;
 		frame: (0.25@0.4 corner: 0.5@0.5).
 	windowSpec children add: stepButtonSpec.
 	
@@ -62,6 +62,6 @@ buildWith: builder
 	
 	window := builder build: windowSpec.
 	
-	styler := (window submorphNamed: #editor) styler halt.
+	styler := (window submorphNamed: #editor) styler.
 	
 	^window

@@ -1,11 +1,9 @@
 user interface
-doStep
+doSend
 	| originContext |
 	originContext := debugger contextStackTop.
-	[debugger send] 
+	"["debugger send"] 
 		doWhileFalse: [(self selectedLevel includes: (MLDActivation forContext: debugger contextStackTop))
-				or: [originContext isDead] or: true].
+				or: [originContext isDead]]".
 
-	self activations.
-	self changed: #activationChildren:.
-	self changed: #activationDefinition.
+	self updateActivations.

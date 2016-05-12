@@ -1,7 +1,7 @@
 actions
 activationMenu: aMenu
 	^ aMenu addList: #(
-			('step' 				doStep)
+			('step' 				doSend)
 			('inspect' 				inspectActivation)
 			- 
 			('proceed' 				doProceed));

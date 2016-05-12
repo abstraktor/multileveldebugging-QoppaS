@@ -12,7 +12,8 @@
 		"selectedLevel",
 		"levelRepo",
 		"activations",
-		"styler" ],
+		"styler",
+		"selectedActivations" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],
