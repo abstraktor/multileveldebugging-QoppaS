@@ -7,9 +7,11 @@
 		"mldShowLevels:" : "bak 3/8/2016 09:24",
 		"named:" : "bak 4/27/2016 15:10" },
 	"instance" : {
+		"applyGroupLabels:" : "bak 4/29/2016 23:36",
 		"frameTitleOf:" : "bak 12/16/2015 07:54",
 		"icon" : "bak 3/9/2016 06:20",
-		"includesMethodReference:" : "bak 4/27/2016 14:57",
+		"includes:" : "bak 4/28/2016 15:29",
+		"isAllContainingLevel" : "bak 4/28/2016 09:58",
 		"levelName" : "bak 4/27/2016 14:57",
 		"priority" : "bak 4/27/2016 14:58",
 		"repo" : "bak 4/27/2016 14:58",

@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"includes:" : "bak 4/28/2016 15:31",
 		"includesMethodReference:" : "bak 4/27/2016 18:56",
+		"isAllContainingLevel" : "bak 4/28/2016 09:58",
 		"levelName" : "bak 4/27/2016 18:48",
 		"priority" : "bak 4/27/2016 18:48" } }

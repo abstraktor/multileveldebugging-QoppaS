@@ -1,3 +1,5 @@
 as yet unclassified
-levelOf: aContext
-	^(self levels select: [:level | level includesMethodReference: aContext method methodReference ]) second
+levelOf: anActivation
+	^(self levels detect: [:level |
+		level isAllContainingLevel not and:
+		(level includes: anActivation) ])

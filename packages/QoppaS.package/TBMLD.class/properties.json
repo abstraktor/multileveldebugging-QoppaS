@@ -8,9 +8,11 @@
 	"instvars" : [
 		"signaledError",
 		"debugger",
-		"selectedContext",
+		"selectedActivation",
 		"selectedLevel",
-		"levelRepo" ],
+		"levelRepo",
+		"activations",
+		"styler" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],
