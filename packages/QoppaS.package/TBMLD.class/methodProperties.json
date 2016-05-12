@@ -5,7 +5,7 @@
 		"runDebugged:" : "bak 4/27/2016 14:05" },
 	"instance" : {
 		"activationChildren:" : "bak 4/28/2016 10:02",
-		"activationDefinition" : "bak 4/28/2016 10:03",
+		"activationDefinition" : "bak 5/12/2016 15:57",
 		"activationHasChildren:" : "bak 4/29/2016 19:01",
 		"activationIcon:" : "bak 4/28/2016 10:03",
 		"activationLabel:" : "bak 4/28/2016 10:04",
@@ -25,7 +25,7 @@
 		"levelRepo" : "bak 4/27/2016 19:49",
 		"levels" : "bak 4/27/2016 19:49",
 		"selectedActivation" : "bak 5/12/2016 15:08",
-		"selectedActivation:" : "bak 5/12/2016 15:04",
+		"selectedActivation:" : "bak 5/12/2016 16:07",
 		"selectedActivations" : "bak 5/12/2016 15:11",
 		"selectedLevel" : "bak 4/27/2016 19:44",
 		"selectedLevel:" : "bak 5/12/2016 15:06",
@@ -33,5 +33,5 @@
 		"signaledError:" : "bak 4/27/2016 14:02",
 		"stack" : "bak 4/29/2016 18:38",
 		"updateActivations" : "bak 5/12/2016 15:18",
-		"updateSelectedActivation" : "bak 5/12/2016 15:25",
+		"updateSelectedActivation" : "bak 5/12/2016 16:09",
 		"updateSelectedActivations" : "bak 5/12/2016 15:07" } }
