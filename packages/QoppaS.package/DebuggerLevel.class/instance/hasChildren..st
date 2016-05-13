@@ -1,3 +1,3 @@
 as yet unclassified
 hasChildren: anActivation
-	^false
+	^anActivation basicHasChildren

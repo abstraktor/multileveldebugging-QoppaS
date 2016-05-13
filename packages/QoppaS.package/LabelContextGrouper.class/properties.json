@@ -1,0 +1,17 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputNodes",
+		"lastQoppaNode",
+		"collectedNodes",
+		"collectedNodesLastCons" ],
+	"name" : "LabelContextGrouper",
+	"pools" : [
+		 ],
+	"super" : "ContextGrouper",
+	"type" : "normal" }

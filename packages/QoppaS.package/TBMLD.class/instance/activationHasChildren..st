@@ -1,3 +1,3 @@
 activations
 activationHasChildren: activation
-	^activation children
+	^activation hasChildren

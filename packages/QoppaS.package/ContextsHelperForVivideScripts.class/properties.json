@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ContextsHelperForVivideScripts",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

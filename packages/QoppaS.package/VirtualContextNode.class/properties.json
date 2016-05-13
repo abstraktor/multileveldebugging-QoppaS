@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "jr 1/21/2016 19:25",
+	"instvars" : [
+		 ],
+	"name" : "VirtualContextNode",
+	"pools" : [
+		 ],
+	"super" : "DebuggerContextNode",
+	"type" : "normal" }

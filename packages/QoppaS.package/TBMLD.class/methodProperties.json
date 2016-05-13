@@ -4,9 +4,9 @@
 		"openForError:debugger:" : "bak 4/27/2016 14:02",
 		"runDebugged:" : "bak 4/27/2016 14:05" },
 	"instance" : {
-		"activationChildren:" : "bak 5/12/2016 17:04",
+		"activationChildren:" : "bak 5/12/2016 18:10",
 		"activationDefinition" : "bak 5/12/2016 15:57",
-		"activationHasChildren:" : "bak 5/12/2016 17:38",
+		"activationHasChildren:" : "bak 5/12/2016 18:10",
 		"activationIcon:" : "bak 4/28/2016 10:03",
 		"activationLabel:" : "bak 4/28/2016 10:04",
 		"activationMenu:" : "bak 5/12/2016 14:57",
@@ -33,6 +33,6 @@
 		"signaledError" : "bak 4/27/2016 14:02",
 		"signaledError:" : "bak 4/27/2016 14:02",
 		"stack" : "bak 4/29/2016 18:38",
-		"updateActivations" : "bak 5/12/2016 15:18",
+		"updateActivations" : "bak 5/12/2016 23:00",
 		"updateSelectedActivation" : "bak 5/12/2016 17:16",
 		"updateSelectedActivations" : "bak 5/12/2016 15:07" } }

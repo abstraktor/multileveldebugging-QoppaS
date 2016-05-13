@@ -5,6 +5,7 @@ children: activation
 	children add: (VirtualContextNode new
 		root: activation;
 		definitionContent: 'hallo', Character lf, '	2+3';
+		group: self;
 		yourself).
 	
 	^children

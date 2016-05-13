@@ -1,0 +1,16 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseExtensionApi" ],
+	"commentStamp" : "jr 1/21/2016 19:27",
+	"instvars" : [
+		"children",
+		"properties",
+		"root" ],
+	"name" : "DebuggerContextNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

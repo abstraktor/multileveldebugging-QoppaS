@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"for:" : "bak 5/12/2016 23:00" },
+	"instance" : {
+		"contextPart" : "jr 1/6/2016 15:44",
+		"contextPart:" : "bak 5/12/2016 18:28",
+		"dataHolders" : "jr 1/27/2016 16:32",
+		"definitionContent" : "jr 1/6/2016 16:18",
+		"definitionPresentation" : "jr 1/6/2016 15:40",
+		"executionProgress" : "jr 1/6/2016 16:36",
+		"isSmalltalkContext" : "jr 1/21/2016 19:22",
+		"methodReference" : "bak 5/12/2016 22:56",
+		"nearestSmalltalkContext" : "jr 1/21/2016 22:21",
+		"properties" : "jr 1/6/2016 15:44",
+		"properties:" : "jr 1/6/2016 15:44",
+		"rangeForPC" : "bak 5/12/2016 09:19" } }
