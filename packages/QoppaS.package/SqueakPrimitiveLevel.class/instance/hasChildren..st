@@ -1,3 +1,3 @@
 as yet unclassified
 hasChildren: anActivation
-	^self includes: anActivation
+	^(anActivation basicHasChildren) or: [self includes: anActivation]
