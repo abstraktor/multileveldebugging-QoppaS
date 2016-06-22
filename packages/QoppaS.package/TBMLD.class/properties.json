@@ -13,7 +13,8 @@
 		"levelRepo",
 		"activations",
 		"styler",
-		"selectedActivations" ],
+		"selectedActivations",
+		"editorMorph" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],

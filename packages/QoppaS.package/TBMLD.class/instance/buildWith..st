@@ -62,7 +62,8 @@ buildWith: builder
 	
 	window := builder build: windowSpec.
 	
-	styler := (window submorphNamed: #editor) styler.
+	editorMorph := window submorphNamed: #editor.
+	styler := editorMorph styler.
 	self changed: #activationDefinition.
 	
 	^window

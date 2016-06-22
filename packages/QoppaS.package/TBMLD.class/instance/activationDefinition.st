@@ -2,12 +2,15 @@ activations
 activationDefinition
 	^self selectedActivation
 		ifNotNil: [:activation |
-			
-			"tbd: let nodes implement their own Model to construct a morph for them"
-			(activation isKindOf: ContextNodePrototype)
-				ifTrue: [	styler ifNotNilDo: [:styler|
-					styler classOrMetaClass: (selectedActivation
-						ifNil: [nil class]
-						ifNotNil: [:a | a contextPart receiver class])]].
+			editorMorph ifNotNil: [:editorMorph |
+				"tbd: let nodes implement their own Model to construct a morph for them"
+				((activation isKindOf: DebuggerContextNode)
+					and: [activation viewer = #smalltalk])
+					ifTrue: [editorMorph styler: styler.
+						styler ifNotNilDo: [:styler|
+							styler classOrMetaClass: (activation
+								ifNil: [nil class]
+								ifNotNil: [:a | a viewerClass])]]
+					ifFalse: [editorMorph styler: nil]].
 			
 			activation definitionContent]
