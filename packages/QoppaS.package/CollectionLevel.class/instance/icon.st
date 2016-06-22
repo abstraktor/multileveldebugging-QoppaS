@@ -1,3 +1,3 @@
 as yet unclassified
 icon
-	^UiSilkIcons bulletWhiteIcon
+	^QoppaSUiSilkIcons bulletWhiteIcon

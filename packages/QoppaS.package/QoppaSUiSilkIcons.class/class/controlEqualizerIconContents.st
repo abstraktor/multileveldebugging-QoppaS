@@ -1,0 +1,17 @@
+contents
+controlEqualizerIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFCSURBVCjPfZHNSoJBFIa9qLmM
+iNbdwGwKClq0ieYGCvGjnw8Kyk1RixZtCiJmEUkQUtn4s3Bh/pZO+pkfSYpvr6OEGMXhwHDO
+M+9550wEkf/j55ATWZXRaWtsSj+pBzEF5GTW1BGiz+ighqS5lxMA20EXQBdtBPjkKcRdkJBj
+gOJm2G4iDss4RN0h2lwLB2RU3bUbWKP4FuawgVdW8jhXDkjrkLIWb1DIYJm5SLCDd5xqBzzb
+PloEalhnHmAGPirU+MKRdUCKQJMlD7MUL2IFZcZQIz4CHnWblgyWkMUCCg4o8T0F7I9GJFUJ
+A1Tpfh67VFhlvqCHW/gjkwlxY1p0XUaMN4u44N0BEd/4YryoK3kZNFj84OQqV9Uj4geenFj1
+mTwxSRoNOTsPDc9E5dRnHYs9taO3bcxG9aaKiV+/+Vd8AypJdaR1UheDAAAAAElFTkSuQmCC'

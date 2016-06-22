@@ -1,0 +1,21 @@
+contents
+applicationDeleteIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH0SURBVBgZpcFPaM9xHMfx5/vz
+/Ywfv6ZwGC1mtRsXtRvFQSmlKK3JkRJymAul5EJcrFZrcnO0QpELDgrlKJcd5M9PtpHawew3
+9v2+3y/7rlZuLI+HSeJ/2OGhO2d27+2/PtNWUwIiUAQejkKEArkTEnLHI1i3qpybmJg8f+/G
+wGju39U/0tFopq4GK9Gca/sIMJrbpVJ75gcrNV8qsSjLxZVjfazUiWstalkKaguVI0AhPCAQ
+EcIj8Ep4JVzBgoveTZ14OLWMRM2SYRJKhkxYGCkZZgkzxwpRRCJXohaVU8seTi0BMgODQhAG
+EaIQJCvIBm7CU1ALD2pZIZaYgUQCZAYGZiAXYSADklFEQS3CqeUIZ5mZsUQiATIjspEjmHp4
+k+mHY7Q/vaWjq5sdq/cAB8lVWbLEDAMkYWaIRRIJmH50i9lX4+w8cpzVvduZf/OYNc+f8mRf
+x9kkD2oFYICZYYAByYxkRuvuMH17DtF49wy7fZS17+/T27MBmYZyRLDMAGORGX9amGrR2NQL
+B86xLF/eTBG2LU9+aI2fGi4Hwp3wwN2JCLwsiQhCYqCxnvbrRzQfnObX/BfawOz3Ai+YMkn8
+zYvB7surOpsXt2ysck6fmf1W8fFr4eVPXTJJ/IuXg1svzM1MnSzcerzQpGBs/+Pq6m9gRhRi
+/EsJnAAAAABJRU5ErkJggg=='

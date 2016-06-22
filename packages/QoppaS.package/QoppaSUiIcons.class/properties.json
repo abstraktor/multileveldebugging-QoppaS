@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Toolbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Icons" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaSUiIcons",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

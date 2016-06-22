@@ -1,0 +1,19 @@
+contents
+sportGolfIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGKSURBVCjPPVFNSwJRFH1SPyR0
+0V+xIqJVREIEUm6VFm1ahFvLiiI/oE1QRlQgUtgHlKhp41dlokVFpKmjo41M69MZlbi8d+Ge
+c8897z4BoYcwREdj67fJsHqunkp728cjvToR/UoYs66I9og6OvjEA0o41FzeXWOfkB+6CZQI
+qajhGz/MRWQRh+dg3USCMNyvvbG3xVDQ5JFRJkXFNZZ8JNyZw1qbfTrUZuhwk1mihktbGRNx
+d45QqxvtroqMBip4pZcYHB4Rkhr44oh2H9bzJ/srHBLEYkoE1RZF5X8PLZ4qnmm3SqsOlQSp
+C1X6KhU+ssacwxlvW0ccSWnObOCdkK7ygUcSmijQ5BNsKeH1FMnOkK2wWOCtII9LDlCxBeuW
+CJh3tTynKVRJItG1meUOyqTMaTMT3KTTdwUNUYa+i3uCMvcSgR+2VTFAwo5xcz/EV6dps06V
+KLu/EMDUyeRw/7NcRoffqcXp+4I2X+DB9K/VbTH9/6Yey6MLfrtkV62d2cz8hmVcDPbqfy6N
+lFRFHkA7AAAAAElFTkSuQmCC'

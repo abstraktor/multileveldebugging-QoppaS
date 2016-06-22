@@ -3,6 +3,7 @@ children: activation
 	| children selector primitiveSimulationMethod |
 	activation basicHasChildren ifTrue: [^activation basicChildren ].
 	children := OrderedCollection new.
+	Interpreter initializePrimitiveTable.
 	selector := Interpreter primitiveTable at: ((activation at: #primitive:) at: 1)+1.
 	primitiveSimulationMethod := InterpreterPrimitives methodDict at: selector.
 	

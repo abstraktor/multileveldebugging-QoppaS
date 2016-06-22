@@ -1,0 +1,19 @@
+contents
+sport8ballIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAF8SURBVBgZBcFNiIwBAAbgN5et
+vQiJOPiuyk/YwqLk52v9NbTtarDGNpbhoCknHKgtOXxDIU60mVI4OOxVbtuchaTkoByUMpoc
+/NTjeSIi0irPd5q9U/2J/uHe7s7mUkQkImeLi1VrcM+cZ56oXLJusKZaVohEThcz3fve+Oaz
+1+bdctdNNUPdFBKZqu54658v2q54pKvlsmt2SCWpleODl75aMKvtu3MWNJ02oymDlCk7N7zw
+R9tHc9pm/TDtpHFNa6WT0d4d930y54E583inoe6YmhHpZX3/oVnP/fTKvF/+emzKpJo9tkk/
+Rf+2q9qe+uC39x5rqBt30E4bpJ+lvUuuaLmg5ZymhhMm1OwzarX0sqiz33UN06Y1TKmbcNSY
+7UYMSycpM5hxxnF1dZPG1YzZaZOVMkgZSbXOpGMOOeKIA/baaqNVhqSSSIp01xhV2mWrLTZZ
+a7Eh6aaQiKRIlcESK6y23LAhGaRKIRIRkZTppJd++umlk1JE5D9AhzZjNC9N+QAAAABJRU5E
+rkJggg=='
