@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"for:" : "bak 5/12/2016 23:00" },
+		"for:" : "bak 5/12/2016 23:00",
+		"for:atIndex:" : "bak 6/25/2016 03:03" },
 	"instance" : {
 		"contextPart" : "jr 1/6/2016 15:44",
 		"contextPart:" : "bak 5/12/2016 18:28",
@@ -13,5 +14,7 @@
 		"nearestSmalltalkContext" : "jr 1/21/2016 22:21",
 		"properties" : "jr 1/6/2016 15:44",
 		"properties:" : "jr 1/6/2016 15:44",
-		"rangeForPC" : "bak 5/12/2016 09:19",
+		"rangeForPC:" : "bak 6/25/2016 17:06",
+		"stackIndex" : "bak 6/25/2016 03:04",
+		"stackIndex:" : "bak 6/25/2016 03:04",
 		"viewerClass" : "bak 6/22/2016 22:34" } }

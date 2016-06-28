@@ -1,3 +1,4 @@
 as yet unclassified
 testParseHashSymbol
-	self assert: (self parse: '(cons #+ ''())') succeeded.
+	"should not raise"
+	self parse: '(cons #+ ''())'.

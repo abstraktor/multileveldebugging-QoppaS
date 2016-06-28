@@ -1,3 +1,4 @@
 as yet unclassified
 testParseQuotedString
-	self assert: (self parse: '(cons ''hello ''())') succeeded
+	"should not raise"
+	self parse: '(cons ''hello ''())'.

@@ -1,3 +1,4 @@
 as yet unclassified
 testParseQuotedList
-	self assert: (self parse: '(cons 1 ''(a b c))') succeeded
+	"should not raise"
+	self parse: '(cons 1 ''(a b c))'

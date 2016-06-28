@@ -1,6 +1,6 @@
 as yet unclassified
 testParseDefineDefinition
-self assert: (self parseFile: '((vau (name-of-define null) env
+self assert: ((self parseFile: '((vau (name-of-define null) env
     (set-car! env (cons
         (cons name-of-define
             (cons (vau (name exp) defn-env
@@ -9,4 +9,4 @@ self assert: (self parseFile: '((vau (name-of-define null) env
                         (car defn-env))))
                 null))
         (car env))))
-    define ())') succeeded 
+    define ())') isKindOf: OhmNode) 

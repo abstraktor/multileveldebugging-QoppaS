@@ -1,3 +1,3 @@
 as yet unclassified
-rangeForPC: range
-	^self at: #rangeForPC put: range
+rangeForPC: isActive
+	^self at: #rangeForPC ifAbsent: [(0 to: 0)]

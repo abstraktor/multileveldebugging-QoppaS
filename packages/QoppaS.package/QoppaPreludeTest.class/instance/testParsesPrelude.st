@@ -1,3 +1,4 @@
 as yet unclassified
 testParsesPrelude
-	self assert: (self parseFile: QoppaPrelude prelude) succeeded
+	"should not raise"
+	self parseFile: QoppaPrelude prelude.

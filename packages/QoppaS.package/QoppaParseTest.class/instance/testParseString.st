@@ -1,3 +1,4 @@
 as yet unclassified
 testParseString
-	self assert: (self parse: '"hallo\nzeile und \\ backslash"') succeeded.
+	"should not raise"
+	self parse: '"hallo\nzeile und \\ backslash"'.

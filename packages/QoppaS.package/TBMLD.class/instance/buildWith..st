@@ -1,6 +1,6 @@
 user interface
 buildWith: builder
-| windowSpec levelListSpec frameListSpec editorSpec stepButtonSpec proceedButtonSpec window |
+| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec window intoButtonSpec overButtonSpec restartButtonSpec |
 
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -44,21 +44,37 @@ buildWith: builder
 		frame: (0@0.5 corner: 1@1).
 	windowSpec children add: editorSpec.
 	
-	stepButtonSpec := builder pluggableButtonSpec new.
-	stepButtonSpec
-		model: self;
-		label: 'Step';
-		action: #doSend;
-		frame: (0.25@0.4 corner: 0.5@0.5).
-	windowSpec children add: stepButtonSpec.
-	
 	proceedButtonSpec := builder pluggableButtonSpec new.
 	proceedButtonSpec
 		model: self;
 		label: 'Proceed';
 		action: #doProceed;
-		frame: (0@0.4 corner: 0.25@0.5).
+		frame: (0@0.4 corner: 0.125@0.5).
 	windowSpec children add: proceedButtonSpec.
+	
+	restartButtonSpec := builder pluggableButtonSpec new.
+	restartButtonSpec
+		model: self;
+		label: 'Restart';
+		action: #doRestart;
+		frame: (0.125@0.4 corner: 0.25@0.5).
+	windowSpec children add: restartButtonSpec.
+	
+	intoButtonSpec := builder pluggableButtonSpec new.
+	intoButtonSpec
+		model: self;
+		label: 'Into';
+		action: #doInto;
+		frame: (0.25@0.4 corner: 0.375@0.5).
+	windowSpec children add: intoButtonSpec.
+	
+	overButtonSpec := builder pluggableButtonSpec new.
+	overButtonSpec
+		model: self;
+		label: 'Over';
+		action: #doOver;
+		frame: (0.375@0.4 corner: 0.5@0.5).
+	windowSpec children add: overButtonSpec.
 	
 	window := builder build: windowSpec.
 	

@@ -2,6 +2,6 @@ convenience
 parseFile: someCode
 	"Return OhmMatchResult for parsing someCode"
 	| result |
-	result := QoppaGrammar match: someCode startingFrom: 'File'.
-	result failed ifTrue: [ result failure signal].
+	result := QoppaGrammar matchContents: someCode startingFrom: 'File'.
+	"(result isKindOf: OhmNode) ifTrue: [ result failure signal]."
 	^ result

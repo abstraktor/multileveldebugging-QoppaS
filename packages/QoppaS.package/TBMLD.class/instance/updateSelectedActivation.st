@@ -7,6 +7,7 @@ updateSelectedActivation
 		ifTrue: [selectedActivation := self selectedActivations first].
 		
 	self changed: #selectedActivation.
+	self changed: #activationSelection.
 	self changed: #activationDefinition.
 	
 	^selectedActivation

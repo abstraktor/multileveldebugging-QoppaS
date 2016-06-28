@@ -1,8 +1,8 @@
 activations
 updateActivations
 	activations := self debugger interruptedContext contextStack
-		collect: [:context| |activation|
-			activation := ContextNodePrototype for: context.
+		collectWithIndex: [:context :i| |activation|
+			activation := ContextNodePrototype for: context atIndex: i.
 			activation group: (self levelRepo levelOf: activation).
 			activation].
 	
