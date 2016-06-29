@@ -9,5 +9,6 @@ updateSelectedActivation
 	self changed: #selectedActivation.
 	self changed: #activationSelection.
 	self changed: #activationDefinition.
+	self changed: #leftActivationDefinition.
 	
 	^selectedActivation

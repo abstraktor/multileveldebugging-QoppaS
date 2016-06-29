@@ -1,6 +1,6 @@
 user interface
 buildWith: builder
-| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec window intoButtonSpec overButtonSpec restartButtonSpec |
+| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec intoButtonSpec overButtonSpec restartButtonSpec |
 
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -76,8 +76,12 @@ buildWith: builder
 		frame: (0.375@0.4 corner: 0.5@0.5).
 	windowSpec children add: overButtonSpec.
 	
+	self buildLeftRightEditorsWith: builder in: windowSpec.
+	
 	window := builder build: windowSpec.
 	
+	leftEditorMorph := window submorphNamed: #leftEditor.
+	rightEditorMorph := window submorphNamed: #rightEditor.
 	editorMorph := window submorphNamed: #editor.
 	styler := editorMorph styler.
 	self changed: #activationDefinition.

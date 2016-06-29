@@ -28,7 +28,7 @@ runDebugged: aBlock
 							process: process
 							controller: nil
 							context: debuggedContext;
-							expandStack;
+							fullyExpandStack;
 							errorWasInUIProcess: errorWasInUIProcess.
 				self openForError: e debugger: debugger.
 				"add fakeView as dependent so it can become the

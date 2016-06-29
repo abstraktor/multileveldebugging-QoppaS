@@ -14,7 +14,10 @@
 		"activations",
 		"styler",
 		"selectedActivations",
-		"editorMorph" ],
+		"editorMorph",
+		"window",
+		"leftEditorMorph",
+		"rightEditorMorph" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],
