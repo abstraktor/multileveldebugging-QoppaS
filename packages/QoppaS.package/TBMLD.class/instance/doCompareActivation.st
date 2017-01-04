@@ -1,0 +1,3 @@
+user interface
+doCompareActivation
+	self shouldBeImplemented.
