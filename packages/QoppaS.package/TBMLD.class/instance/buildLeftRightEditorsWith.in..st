@@ -6,6 +6,7 @@ buildLeftRightEditorsWith: builder in: windowSpec
 		model: self;
 		name: 'leftEditor';
 		getText: #leftActivationDefinition;
+		selection: #leftActivationDefinitionSelection;
 		frame: (0@0.5 corner: 0.5@1).
 	windowSpec children add: byteCodeEditorSpec.
 	

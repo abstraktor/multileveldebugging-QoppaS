@@ -1,10 +1,16 @@
 as yet unclassified
 children: activation
-	| children |
+	| children leftDefinitionContent leftDefinitionSelection leftDefinitionSelectionStart |
 	activation basicHasChildren ifTrue: [^activation basicChildren ].
 	children := OrderedCollection new.
 	
 	activation isSmalltalkContext ifFalse: [^children].
+	
+	leftDefinitionContent := activation contextPart method symbolic asText.
+	
+	leftDefinitionSelectionStart := 1+ (leftDefinitionContent asString findString: (String cr, activation contextPart pc)).
+	leftDefinitionSelection := (leftDefinitionSelectionStart to: (
+		leftDefinitionContent asString findString: (String cr) startingAt: (leftDefinitionSelectionStart))).
 
 	children add: (VirtualContextNode new
 		definitionContent: ([:methodOrDoitString :optionsDictionaryOrArray|| tuple stream |
@@ -28,7 +34,8 @@ children: activation
 		group: self;
 		root: activation;
 		at: #viewer put: #cogit;
-		at: #leftDefinitionContent put: (activation contextPart method symbolic asText);
+		at: #leftDefinitionContent put: leftDefinitionContent;
+		at: #leftDefinitionSelection put: leftDefinitionSelection;
 		summary: (activation contextPart selector),'.bytes.cogit';
 		yourself).
 		
