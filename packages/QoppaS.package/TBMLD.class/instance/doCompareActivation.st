@@ -1,8 +1,9 @@
 user interface
 doCompareActivation
 	| part primitive arguments |
-	part := self selectedActivation contextPart.
+	part := self selectedActivation contextPart step.
 	primitive := part method primitive.
+	self assert: primitive ~= 0.
 	arguments := part arguments.
 	
 	self inform: (

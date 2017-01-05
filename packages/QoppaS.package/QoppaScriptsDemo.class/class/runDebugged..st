@@ -24,6 +24,7 @@ runDebugged: aBlock
 			errorWasInUIProcess := Project current spawnNewProcessIfThisIsUI: process.
 			fakeView := FakeViewWindow new. "need to prevent fakeView from being garbage collected until the Debugger has been closed"
 			WorldState addDeferredUIMessage: [
+				(e isKindOf: Halt) ifTrue: [ debuggedContext := debuggedContext sender step].
 				debugger := Debugger new
 							process: process
 							controller: nil
