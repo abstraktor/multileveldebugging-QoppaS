@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Toolbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"simulator" ],
+	"name" : "MLDComparingVerifier",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

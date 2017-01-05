@@ -20,7 +20,7 @@
 		"cogitViewer" : "bak 6/29/2016 15:18",
 		"debugger" : "bak 4/27/2016 14:01",
 		"debugger:" : "bak 4/27/2016 14:01",
-		"doCompareActivation" : "bak 1/5/2017 13:38",
+		"doCompareActivation" : "bak 1/5/2017 20:23",
 		"doDebugActivation" : "bak 1/4/2017 14:33",
 		"doInto" : "bak 6/29/2016 10:33",
 		"doOver" : "bak 6/25/2016 15:09",
@@ -55,4 +55,5 @@
 		"updateActivations" : "bak 1/5/2017 15:09",
 		"updateSelectedActivation" : "bak 1/5/2017 15:08",
 		"updateSelectedActivations" : "bak 5/12/2016 15:07",
-		"variables" : "bak 1/5/2017 14:54" } }
+		"variables" : "bak 1/5/2017 14:54",
+		"verifier" : "bak 1/5/2017 20:22" } }
