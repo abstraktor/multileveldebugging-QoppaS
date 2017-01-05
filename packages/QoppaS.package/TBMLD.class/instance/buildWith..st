@@ -18,7 +18,7 @@ buildWith: builder
 		getSelected: #selectedLevel;
 		setSelected: #selectedLevel:;
 		menu: #levelMenu:;
-		frame: (0@0 corner: 0.5@0.4).
+		frame: (0@0 corner: 0.3@0.4).
 	windowSpec children add: levelListSpec.
 	
 	frameListSpec := builder pluggableTreeSpec new.
@@ -32,7 +32,7 @@ buildWith: builder
 		getChildren: #activationChildren:;
 		hasChildren: #activationHasChildren:;
 		menu: #activationMenu:;
-		frame: (0.5@0 corner: 1@0.5).
+		frame: (0.3@0 corner: 1@0.4).
 	windowSpec children add: frameListSpec.
 	
 	editorSpec := builder pluggableCodePaneSpec new.
@@ -41,7 +41,7 @@ buildWith: builder
 		name: 'editor';
 		getText: #activationDefinition;
 		selection: #activationSelection;
-		frame: (0@0.5 corner: 1@1).
+		frame: (0@0.47 corner: 0.75@1).
 	windowSpec children add: editorSpec.
 	
 	proceedButtonSpec := builder pluggableButtonSpec new.
@@ -49,7 +49,7 @@ buildWith: builder
 		model: self;
 		label: 'Proceed';
 		action: #doProceed;
-		frame: (0@0.4 corner: 0.1@0.5).
+		frame: (0@0.4 corner: 0.1@0.47).
 	windowSpec children add: proceedButtonSpec.
 	
 	restartButtonSpec := builder pluggableButtonSpec new.
@@ -57,7 +57,7 @@ buildWith: builder
 		model: self;
 		label: 'Restart';
 		action: #doRestart;
-		frame: (0.1@0.4 corner: 0.2@0.5).
+		frame: (0.1@0.4 corner: 0.2@0.47).
 	windowSpec children add: restartButtonSpec.
 	
 	intoButtonSpec := builder pluggableButtonSpec new.
@@ -65,7 +65,7 @@ buildWith: builder
 		model: self;
 		label: 'Into';
 		action: #doInto;
-		frame: (0.2@0.4 corner: 0.3@0.5).
+		frame: (0.2@0.4 corner: 0.3@0.47).
 	windowSpec children add: intoButtonSpec.
 	
 	overButtonSpec := builder pluggableButtonSpec new.
@@ -73,7 +73,7 @@ buildWith: builder
 		model: self;
 		label: 'Over';
 		action: #doOver;
-		frame: (0.3@0.4 corner: 0.4@0.5).
+		frame: (0.3@0.4 corner: 0.4@0.47).
 	windowSpec children add: overButtonSpec.
 	
 	compareButtonSpec := builder pluggableButtonSpec new.
@@ -81,10 +81,11 @@ buildWith: builder
 		model: self;
 		label: 'Compare';
 		action: #doCompareActivation;
-		frame: (0.4@0.4 corner: 0.5@0.5).
+		frame: (0.4@0.4 corner: 0.5@0.47).
 	windowSpec children add: compareButtonSpec.
 	
 	self buildLeftRightEditorsWith: builder in: windowSpec.
+	self buildDataInspectorWith: builder in: windowSpec.
 	
 	window := builder build: windowSpec.
 	

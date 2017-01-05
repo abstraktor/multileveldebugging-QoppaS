@@ -36,6 +36,7 @@ children: activation
 		at: #viewer put: #cogit;
 		at: #leftDefinitionContent put: leftDefinitionContent;
 		at: #leftDefinitionSelection put: leftDefinitionSelection;
+		variables: ((activation variables copyWith: (#stackp -> activation contextPart stackPtr)) copyWith: (#pc -> activation contextPart pc));
 		summary: (activation contextPart selector),'.bytes.cogit';
 		yourself).
 		

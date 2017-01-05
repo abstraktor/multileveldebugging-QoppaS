@@ -7,7 +7,7 @@ buildLeftRightEditorsWith: builder in: windowSpec
 		name: 'leftEditor';
 		getText: #leftActivationDefinition;
 		selection: #leftActivationDefinitionSelection;
-		frame: (0@0.5 corner: 0.5@1).
+		frame: (0@0.47 corner: 0.4@1).
 	windowSpec children add: byteCodeEditorSpec.
 	
 	cogitEditorSpec := builder pluggableCodePaneSpec new.
@@ -16,5 +16,5 @@ buildLeftRightEditorsWith: builder in: windowSpec
 		name: 'rightEditor';
 		getText: #activationDefinition;
 		selection: #activationSelection;
-		frame: (0.5@0.5 corner: 1@1).
+		frame: (0.4@0.47 corner: 0.75@1).
 	windowSpec children add: cogitEditorSpec.
