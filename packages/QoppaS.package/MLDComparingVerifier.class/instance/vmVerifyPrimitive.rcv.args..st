@@ -1,4 +1,4 @@
-as yet unclassified
+verifiers
 vmVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 	| method |
 	method := AssemblerMethod new
@@ -11,4 +11,4 @@ vmVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 		assemble.
 		
 	"tbd: evaluate the temporary to know the error code of the primitive"
-	^CompiledMethod receiver: receiver withArguments: arguments executeMethod: method
+	^{CompiledMethod receiver: receiver withArguments: arguments executeMethod: method}.

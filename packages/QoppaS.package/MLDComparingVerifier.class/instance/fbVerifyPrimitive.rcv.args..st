@@ -1,4 +1,4 @@
-as yet unclassified
+verifiers
 fbVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 	| methods |
 	"selector := Interpreter primitiveTable at: primitiveIndex+1.

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"leetFallback:" : "bak 1/6/2017 11:10",
+		"testFallback" : "bak 1/6/2017 12:47",
+		"testValid" : "bak 1/6/2017 12:38",
+		"testVerifyNextBytecodeOf" : "bak 1/6/2017 12:47",
+		"verifier" : "bak 1/6/2017 12:46" } }

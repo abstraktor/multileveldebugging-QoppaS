@@ -1,15 +1,14 @@
 {
-	"category" : "QoppaS-Toolbuilder",
+	"category" : "QoppaS-MLD-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"simulator",
-		"results" ],
-	"name" : "MLDComparingVerifier",
+		"verifier" ],
+	"name" : "MLDComparingVerifierTest",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TestCase",
 	"type" : "normal" }
