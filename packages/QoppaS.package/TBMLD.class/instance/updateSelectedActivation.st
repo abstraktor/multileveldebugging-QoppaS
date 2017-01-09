@@ -11,5 +11,6 @@ updateSelectedActivation
 	self changed: #activationDefinition.
 	self changed: #leftActivationDefinition.
 	self changed: #variables.
+	self changed: #windowLabel.
 	
 	^selectedActivation

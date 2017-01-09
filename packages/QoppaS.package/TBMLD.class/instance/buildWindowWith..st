@@ -4,7 +4,7 @@ buildWindowWith: builder
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
 		model: self;
-		label: 'MLD: ', self signaledError asString;
+		label: #windowLabel;
 		extent: 700@400;
 		children: OrderedCollection new.
 	^windowSpec
