@@ -22,5 +22,5 @@
 	"name" : "TBMLD",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "StringHolder",
 	"type" : "normal" }

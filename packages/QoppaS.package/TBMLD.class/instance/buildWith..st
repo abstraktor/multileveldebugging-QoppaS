@@ -1,83 +1,35 @@
-user interface
+toolbuilder
 buildWith: builder
-| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec intoButtonSpec overButtonSpec restartButtonSpec |
+| windowSpec |
 
-	windowSpec := builder pluggableWindowSpec new.
-	windowSpec
-		model: self;
-		label: 'MLD: ', self signaledError asString;
-		extent: 700@400;
-		children: OrderedCollection new.
-	
-	levelListSpec := builder pluggableTreeSpec new.
-	levelListSpec
-		model: self;
-		roots: #levels;
-		icon: #levelIcon:;
-		label: #label:;
-		getSelected: #selectedLevel;
-		setSelected: #selectedLevel:;
-		menu: #levelMenu:;
-		frame: (0@0 corner: 0.3@0.4).
-	windowSpec children add: levelListSpec.
-	
-	frameListSpec := builder pluggableTreeSpec new.
-	frameListSpec
-		model: self;
-		roots: #selectedActivations;
-		icon: #activationIcon:;
-		label: #activationLabel:;
-		getSelected: #selectedActivation;
-		setSelected: #selectedActivation:;
-		getChildren: #activationChildren:;
-		hasChildren: #activationHasChildren:;
-		menu: #activationMenu:;
-		frame: (0.3@0 corner: 1@0.4).
-	windowSpec children add: frameListSpec.
-	
-	editorSpec := builder pluggableCodePaneSpec new.
-	editorSpec
-		model: self;
-		name: 'editor';
-		getText: #activationDefinition;
-		selection: #activationSelection;
-		frame: (0@0.47 corner: 0.75@1).
-	windowSpec children add: editorSpec.
-	
-	proceedButtonSpec := builder pluggableButtonSpec new.
-	proceedButtonSpec
+	windowSpec := self buildWindowWith: builder specs: {
+	(0@0 corner: 0.3@0.4) -> [self buildLevelListWith: builder].
+	(0.3@0 corner: 1@0.4) -> [self buildActivationListWith: builder].
+	(0@0.47 corner: 0.75@1) -> [self buildSingleEditorWith: builder].
+	(0.3@0.4 corner: 0.475@0.47) -> [builder pluggableButtonSpec new
 		model: self;
 		label: 'Proceed';
 		action: #doProceedComparing;
-		frame: (0.3@0.4 corner: 0.475@0.47).
-	windowSpec children add: proceedButtonSpec.
-	
-	restartButtonSpec := builder pluggableButtonSpec new.
-	restartButtonSpec
+		yourself].
+	(0.475@0.4 corner: 0.65@0.47) -> [builder pluggableButtonSpec new
 		model: self;
 		label: 'Restart';
 		action: #doRestart;
-		frame: (0.475@0.4 corner: 0.65@0.47).
-	windowSpec children add: restartButtonSpec.
-	
-	intoButtonSpec := builder pluggableButtonSpec new.
-	intoButtonSpec
+		yourself].
+	(0.65@0.4 corner: 0.825@0.47) -> [builder pluggableButtonSpec new
 		model: self;
 		label: 'Into';
 		action: #doInto;
-		frame: (0.65@0.4 corner: 0.825@0.47).
-	windowSpec children add: intoButtonSpec.
-	
-	overButtonSpec := builder pluggableButtonSpec new.
-	overButtonSpec
+		yourself].
+	(0.825@0.4 corner: 1@0.47) -> [ builder pluggableButtonSpec new
 		model: self;
 		label: 'Over';
 		action: #doOver;
-		frame: (0.825@0.4 corner: 1@0.47).
-	windowSpec children add: overButtonSpec.
-	
-	self buildLeftRightEditorsWith: builder in: windowSpec.
-	self buildDataInspectorWith: builder in: windowSpec.
+		yourself].
+	(0@0.47 corner: 0.4@1) -> [self buildLeftEditorWith: builder].
+	(0.4@0.47 corner: 0.75@1) -> [self buildRightEditorWith: builder].
+	(0.75@0.47 corner: 1@1) -> [self buildDataInspectorWith: builder].
+	}.
 	
 	window := builder build: windowSpec.
 	
