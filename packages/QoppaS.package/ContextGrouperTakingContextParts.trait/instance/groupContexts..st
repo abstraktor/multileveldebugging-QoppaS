@@ -1,5 +1,5 @@
 as yet unclassified
 groupContexts: aStackOfContexts
 	| contextsAsNodes |
-	contextsAsNodes := aStackOfContexts collectWithIndex: [:each :i | ContextNodePrototype for: each atIndex: i].
+	contextsAsNodes := aStackOfContexts collectWithIndex: [:each :i | ActualContextNode for: each atIndex: i].
 	^ self groupNodes: contextsAsNodes  

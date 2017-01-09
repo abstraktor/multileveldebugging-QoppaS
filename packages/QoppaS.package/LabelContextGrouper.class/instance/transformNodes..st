@@ -6,8 +6,8 @@ transformNodes: outputNodes
 
 	self flushCollectedNodes.
 	inputNodes consListDo: [:each |
-		self assert: each car isSmalltalkContext
-			description: self class name, ' can only group Smalltalk contexts'.
+		"self assert: each car isSmalltalkContext
+			description: self class name, ' can only group Smalltalk contexts'."
 		((each car at: #labelGrouper ifAbsent: [nil]) == #start)
 			ifTrue: [self finishLastQoppaNodeBefore: each.
 				outputNodes nextPut: (lastQoppaNode :=

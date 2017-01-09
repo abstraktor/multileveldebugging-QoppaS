@@ -1,4 +1,6 @@
 user interface
 doOver
-	debugger doStep.
+	self verifyBeforeStepping.
+	self verifier resultsAreValid ifTrue: [
+		debugger doStep].
 	self updateActivations.

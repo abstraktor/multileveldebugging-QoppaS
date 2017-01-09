@@ -1,3 +1,3 @@
 variables
 variables
-	^self selectedActivation variables
+	^self selectedActivation variables associations asSortedArray

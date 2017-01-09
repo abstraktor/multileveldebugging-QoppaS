@@ -1,6 +1,7 @@
 verifiers
 slangVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 	simulator initPrimCall.
+	self assert: receiver isNumber.
 	simulator pushInteger: receiver. 
 	arguments collect: [:arg |
 		arg isNumber

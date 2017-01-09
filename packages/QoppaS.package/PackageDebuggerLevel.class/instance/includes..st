@@ -1,3 +1,4 @@
 as yet unclassified
 includes: anActivation
-	^self package includesMethodReference: anActivation methodReference
+	^anActivation isActualContextNode and: [
+		self package includesMethodReference: anActivation methodReference].

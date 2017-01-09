@@ -1,4 +1,4 @@
-editor
+viewer
 smalltalkViewer
 	editorMorph styler: styler.
 	styler ifNotNilDo: [:styler|

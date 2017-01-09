@@ -1,6 +1,6 @@
 user interface
 buildWith: builder
-| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec intoButtonSpec overButtonSpec restartButtonSpec compareButtonSpec |
+| windowSpec levelListSpec frameListSpec editorSpec proceedButtonSpec intoButtonSpec overButtonSpec restartButtonSpec |
 
 	windowSpec := builder pluggableWindowSpec new.
 	windowSpec
@@ -48,8 +48,8 @@ buildWith: builder
 	proceedButtonSpec
 		model: self;
 		label: 'Proceed';
-		action: #doProceed;
-		frame: (0@0.4 corner: 0.1@0.47).
+		action: #doProceedComparing;
+		frame: (0.3@0.4 corner: 0.475@0.47).
 	windowSpec children add: proceedButtonSpec.
 	
 	restartButtonSpec := builder pluggableButtonSpec new.
@@ -57,7 +57,7 @@ buildWith: builder
 		model: self;
 		label: 'Restart';
 		action: #doRestart;
-		frame: (0.1@0.4 corner: 0.2@0.47).
+		frame: (0.475@0.4 corner: 0.65@0.47).
 	windowSpec children add: restartButtonSpec.
 	
 	intoButtonSpec := builder pluggableButtonSpec new.
@@ -65,7 +65,7 @@ buildWith: builder
 		model: self;
 		label: 'Into';
 		action: #doInto;
-		frame: (0.2@0.4 corner: 0.3@0.47).
+		frame: (0.65@0.4 corner: 0.825@0.47).
 	windowSpec children add: intoButtonSpec.
 	
 	overButtonSpec := builder pluggableButtonSpec new.
@@ -73,16 +73,8 @@ buildWith: builder
 		model: self;
 		label: 'Over';
 		action: #doOver;
-		frame: (0.3@0.4 corner: 0.4@0.47).
+		frame: (0.825@0.4 corner: 1@0.47).
 	windowSpec children add: overButtonSpec.
-	
-	compareButtonSpec := builder pluggableButtonSpec new.
-	compareButtonSpec
-		model: self;
-		label: 'Compare';
-		action: #doCompareActivation;
-		frame: (0.4@0.4 corner: 0.5@0.47).
-	windowSpec children add: compareButtonSpec.
 	
 	self buildLeftRightEditorsWith: builder in: windowSpec.
 	self buildDataInspectorWith: builder in: windowSpec.

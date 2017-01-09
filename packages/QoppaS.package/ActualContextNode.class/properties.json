@@ -7,8 +7,8 @@
 	"commentStamp" : "jr 1/21/2016 19:19",
 	"instvars" : [
 		"contextPart" ],
-	"name" : "ContextNodePrototype",
+	"name" : "ActualContextNode",
 	"pools" : [
 		 ],
-	"super" : "DebuggerContextNode",
+	"super" : "ContextNode",
 	"type" : "normal" }

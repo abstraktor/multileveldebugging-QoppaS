@@ -4,11 +4,12 @@
 		"for:atIndex:" : "bak 6/25/2016 03:03" },
 	"instance" : {
 		"contextPart" : "jr 1/6/2016 15:44",
-		"contextPart:" : "bak 1/5/2017 15:01",
+		"contextPart:" : "bak 1/9/2017 17:01",
 		"dataHolders" : "jr 1/27/2016 16:32",
 		"definitionContent" : "jr 1/6/2016 16:18",
 		"definitionPresentation" : "jr 1/6/2016 15:40",
 		"executionProgress" : "jr 1/6/2016 16:36",
+		"isActualContextNode" : "bak 1/9/2017 10:36",
 		"isSmalltalkContext" : "jr 1/21/2016 19:22",
 		"methodReference" : "bak 5/12/2016 22:56",
 		"nearestSmalltalkContext" : "jr 1/21/2016 22:21",

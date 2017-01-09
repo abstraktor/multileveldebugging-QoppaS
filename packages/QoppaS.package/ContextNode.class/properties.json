@@ -9,7 +9,7 @@
 		"children",
 		"properties",
 		"root" ],
-	"name" : "DebuggerContextNode",
+	"name" : "ContextNode",
 	"pools" : [
 		 ],
 	"super" : "Object",

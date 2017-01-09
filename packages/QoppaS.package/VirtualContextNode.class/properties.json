@@ -10,5 +10,5 @@
 	"name" : "VirtualContextNode",
 	"pools" : [
 		 ],
-	"super" : "DebuggerContextNode",
+	"super" : "ContextNode",
 	"type" : "normal" }

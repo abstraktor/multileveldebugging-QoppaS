@@ -5,3 +5,5 @@ initialize
 	Interpreter initializePrimitiveTable.
 	
 	self initializeSimulator.
+	
+	self reset.

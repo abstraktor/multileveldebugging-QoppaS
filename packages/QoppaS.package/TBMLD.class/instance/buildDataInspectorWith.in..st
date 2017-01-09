@@ -4,7 +4,7 @@ buildDataInspectorWith: builder in: windowSpec
 	treeSpec := builder pluggableTreeSpec new.
 	treeSpec
 		model: self;
-		nodeClass: ObjectExplorerWrapper;
+		nodeClass: MLDObjectExplorerWrapper;
 		roots: #variables;
 		autoDeselect: false;
 		columns: {95. nil};

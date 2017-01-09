@@ -1,4 +1,4 @@
-editor
+viewer
 singleEditorViewer
 	window ifNotNilDo: [:x|
 		window addMorph: editorMorph.

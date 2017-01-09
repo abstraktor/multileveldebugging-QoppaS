@@ -1,4 +1,4 @@
-editor
+viewer
 setViewer: aViewerName
 	self assert: (#(c smalltalk cogit) includes: aViewerName).
 	editorMorph ifNotNil: [:editorMorph |

@@ -1,6 +1,6 @@
 as yet unclassified
-inform
-	self inform: (
+confirm
+	^self confirm: (
 		(self resultsAreValid ifTrue: ['Ok'] ifFalse: ['Outlier Results:']), Character cr,
 		'Running VM: ',
 		Character tab,
@@ -14,5 +14,8 @@ inform
 		 
 		'Slang: ',
 		Character tab,
-		(results at: #slang) asCommaStringAnd
+		(results at: #slang) asCommaStringAnd,
+		
+		Character cr,
+		'Debug that?'
 	).

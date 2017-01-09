@@ -1,4 +1,4 @@
-editor
+viewer
 doubleEditorViewer
 	window ifNotNilDo: [:x|
 		window removeMorph: editorMorph.

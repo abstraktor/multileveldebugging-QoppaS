@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"simulator",
-		"results",
-		"resultsPrimitiveIndex",
-		"resultsReceiver",
-		"resultsArguments" ],
-	"name" : "MLDComparingVerifier",
+		 ],
+	"name" : "MLDObjectExplorerWrapper",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "ObjectExplorerWrapper",
 	"type" : "normal" }
