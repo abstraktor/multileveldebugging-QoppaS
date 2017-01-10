@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"ofVerifier:withErrorCode:" : "bak 1/9/2017 21:03",
+		"ofVerifier:withResult:" : "bak 1/9/2017 21:04" },
+	"instance" : {
+		"asExplorerString" : "bak 1/10/2017 10:50",
+		"asString" : "bak 1/9/2017 22:06",
+		"errorCode" : "bak 1/9/2017 21:03",
+		"errorCode:" : "bak 1/9/2017 21:03",
+		"failed" : "bak 1/9/2017 21:04",
+		"openDebugger" : "bak 1/9/2017 21:05",
+		"result" : "bak 1/9/2017 21:04",
+		"result:" : "bak 1/9/2017 21:04",
+		"sameResultAs:" : "bak 1/9/2017 22:00",
+		"verifier" : "bak 1/10/2017 10:58",
+		"verifier:" : "bak 1/9/2017 21:07" } }

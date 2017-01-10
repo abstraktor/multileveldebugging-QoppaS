@@ -1,5 +1,5 @@
-verifiers
-vmVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
+as yet unclassified
+verifyPrimitive: primitiveIndex rcv: receiver args: arguments
 	| method |
 	method := AssemblerMethod new
 		methodClass: MLDComparingVerifier;
@@ -11,4 +11,4 @@ vmVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 		assemble.
 		
 	"tbd: evaluate the temporary to know the error code of the primitive"
-	^{CompiledMethod receiver: receiver withArguments: arguments executeMethod: method}.
+	^self returnResult: (CompiledMethod receiver: receiver withArguments: arguments executeMethod: method)

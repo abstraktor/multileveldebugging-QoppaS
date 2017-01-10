@@ -18,7 +18,8 @@
 		"window",
 		"leftEditorMorph",
 		"rightEditorMorph",
-		"verifier" ],
+		"verifier",
+		"verifierMorph" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],

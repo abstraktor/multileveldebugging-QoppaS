@@ -5,8 +5,11 @@ buildWith: builder
 	resultList
 		model: self;
 		nodeClass: MLDObjectExplorerWrapper;
-		roots: #results;
-		setSelected: #debugResult:.
+		roots: #resultsArray;
+		setSelected: #debugResult:;
+		columns: {[:listMorph | (listMorph filteredItems collect: [:item |
+					item preferredWidthOfColumn: 1]) max].
+				nil "take all the space"}.
 		
 	^resultList
 		

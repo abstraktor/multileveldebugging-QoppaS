@@ -1,5 +1,5 @@
 as yet unclassified
-initializeSimulator
+initialize
 	simulator := CogVMSimulator newWithOptions: #(Cogit StackToRegisterMappingCogit "SimpleStackBasedCogit"
 										ObjectMemory Spur32BitCoMemoryManager
 										"ISA ARMv5" "ISA IA32").

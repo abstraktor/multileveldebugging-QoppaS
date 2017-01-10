@@ -6,6 +6,7 @@ buildWith: builder
 	(0@0 corner: 0.3@0.4) -> [self buildLevelListWith: builder].
 	(0.3@0 corner: 1@0.4) -> [self buildActivationListWith: builder].
 	(0@0.47 corner: 0.75@1) -> [self buildSingleEditorWith: builder].
+	(0@0.47 corner: 0.75@1) -> [(self verifier buildWith: builder) name: #verifier].
 	(0.3@0.4 corner: 0.475@0.47) -> [builder pluggableButtonSpec new
 		model: self;
 		label: 'Proceed';
@@ -36,6 +37,7 @@ buildWith: builder
 	leftEditorMorph := window submorphNamed: #leftEditor.
 	rightEditorMorph := window submorphNamed: #rightEditor.
 	editorMorph := window submorphNamed: #editor.
+	verifierMorph := window submorphNamed: #verifier.
 	styler := editorMorph styler.
 	self changed: #activationDefinition.
 	

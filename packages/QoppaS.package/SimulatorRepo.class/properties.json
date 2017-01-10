@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"simulator" ],
+	"name" : "SimulatorRepo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

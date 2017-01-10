@@ -3,7 +3,7 @@ initialize
 	
 	"build primitive table to fetch the fallback from"
 	Interpreter initializePrimitiveTable.
-	
-	self initializeSimulator.
+
+	verifiers := MLDVerifier verifiers.
 	
 	self reset.

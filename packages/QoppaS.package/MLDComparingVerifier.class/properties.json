@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"simulator",
 		"results",
 		"resultsPrimitiveIndex",
 		"resultsReceiver",
-		"resultsArguments" ],
+		"resultsArguments",
+		"verifiers" ],
 	"name" : "MLDComparingVerifier",
 	"pools" : [
 		 ],

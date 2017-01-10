@@ -4,3 +4,5 @@ reset
 	resultsPrimitiveIndex := 0.
 	resultsReceiver := nil.
 	resultsArguments := #().
+	
+	self updateResults.

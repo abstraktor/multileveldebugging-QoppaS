@@ -3,4 +3,4 @@ resultsAreValid
 	| first |
 	results ifEmpty: [^true].
 	first := results values first.
-	^results values allSatisfy: [:result | result hasEqualElements: first ].
+	^results values allSatisfy: [:result | result sameResultAs: first ].

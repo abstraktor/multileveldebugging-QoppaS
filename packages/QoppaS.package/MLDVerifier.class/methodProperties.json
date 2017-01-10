@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"verifiers" : "bak 1/10/2017 10:52" },
+	"instance" : {
+		"name" : "bak 1/9/2017 21:22",
+		"returnFailure:" : "bak 1/9/2017 21:39",
+		"returnResult:" : "bak 1/9/2017 21:39",
+		"verifyPrimitive:rcv:args:" : "bak 1/9/2017 21:11" } }

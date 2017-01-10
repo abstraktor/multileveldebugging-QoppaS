@@ -1,3 +1,3 @@
 toolbuilder
-debugResult: a
-	a halt.
+debugResult: assoc
+	(self results at: assoc key) openDebugger

@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MLDVerifier",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

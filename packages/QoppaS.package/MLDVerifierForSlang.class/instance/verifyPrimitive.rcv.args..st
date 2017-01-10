@@ -1,5 +1,5 @@
-verifiers
-slangVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
+as yet unclassified
+verifyPrimitive: primitiveIndex rcv: receiver args: arguments
 	simulator initPrimCall.
 	self assert: receiver isNumber.
 	simulator pushInteger: receiver. 
@@ -9,6 +9,6 @@ slangVerifyPrimitive: primitiveIndex rcv: receiver args: arguments
 			ifFalse: [Error signal]].
 	simulator dispatchOn: primitiveIndex in: (simulator class primitiveTable).
 	
-	^{simulator successful
-		ifFalse: [ 'failed with code ', simulator primitiveFailureCode]
-		ifTrue: [	simulator objectMemory integerValueOf: simulator stackTop]}.
+	^simulator successful
+		ifFalse: [self returnFailure: simulator primitiveFailureCode]
+		ifTrue: [	self returnResult: (simulator objectMemory integerValueOf: simulator stackTop)]
