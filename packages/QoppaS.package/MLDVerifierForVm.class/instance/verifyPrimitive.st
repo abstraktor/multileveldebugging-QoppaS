@@ -7,8 +7,7 @@ verifyPrimitive
 		'
 	<primitive: ', primitiveIndex, '>'
 		notifying: nil
-		trailer: MLDComparingVerifier
-		defaultMethodTrailer
+		trailer: MLDComparingVerifier defaultMethodTrailer
 		ifFail: [self halt]) method.
 	"method := AssemblerMethod new
 		methodClass: MLDComparingVerifier;
@@ -16,6 +15,7 @@ verifyPrimitive
 		numArgs: arguments size;
 		primitive: primitiveIndex;
 		callPrimitive: primitiveIndex;
+		methodReturnReceiver;
 		assemble."
 		
 	"tbd: evaluate the temporary to know the error code of the primitive"

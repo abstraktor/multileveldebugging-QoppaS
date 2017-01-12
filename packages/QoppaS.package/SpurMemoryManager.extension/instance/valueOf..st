@@ -10,12 +10,14 @@ valueOf: anOop
 	(self nilObject = anOop)    ifTrue: [^nil].
 	
 	"inspired by InterpreterSimulator>>#shortPrint:"
-	className := self nameOfClass: (self fetchClassOf: anOop).
+	className := self coInterpreter nameOfClass: (self fetchClassOf: anOop).
+	
+	(className endsWith: ' class') ifTrue: [^Smalltalk classNamed: (className truncateTo: className size - (' class' size))].
 	
 	('String' = className) ifTrue: [^self stringOf: anOop].
 	('ByteString' = className) ifTrue: [^(self stringOf: anOop) asByteString].
 	
-	(#('Symbol' 'ByteSymbol') = className) ifTrue: [^(self stringOf: anOop) asSymbol].
+	(#('Symbol' 'ByteSymbol') includes: className) ifTrue: [^(self stringOf: anOop) asSymbol].
 	
 	('Association' = className) ifTrue: [^ Association
 		key: (self valueOf: (self longAt: anOop + self baseHeaderSize))
