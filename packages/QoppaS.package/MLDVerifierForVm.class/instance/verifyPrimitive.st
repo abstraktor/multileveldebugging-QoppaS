@@ -6,7 +6,10 @@ verifyPrimitive
 		(((1 to: arguments size) collect: [:i| 'arg: arg', i]) joinSeparatedBy: ' '),
 		'
 	<primitive: ', primitiveIndex, '>'
-		notifying: nil trailer: MLDComparingVerifier defaultMethodTrailer ifFail: []) method.
+		notifying: nil
+		trailer: MLDComparingVerifier
+		defaultMethodTrailer
+		ifFail: [self halt]) method.
 	"method := AssemblerMethod new
 		methodClass: MLDComparingVerifier;
 		selector: #temporaryVmMethod;

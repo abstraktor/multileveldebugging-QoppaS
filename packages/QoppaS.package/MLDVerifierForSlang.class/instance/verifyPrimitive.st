@@ -11,4 +11,4 @@ verifyPrimitive
 	
 	^simulator successful
 		ifFalse: [self returnFailure: simulator primitiveFailureCode]
-		ifTrue: [	self returnResult: (simulator objectMemory integerValueOf: simulator stackTop)]
+		ifTrue: [	self returnResult: (simulator objectMemory valueOf: simulator stackTop)]

@@ -4,5 +4,6 @@ buildSingleEditorWith: builder
 		model: self;
 		name: 'editor';
 		getText: #activationDefinition;
+		setText: #setActivationDefinition:notifying:;
 		selection: #activationSelection;
 		yourself

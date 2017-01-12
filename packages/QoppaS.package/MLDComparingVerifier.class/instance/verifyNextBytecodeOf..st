@@ -1,7 +1,7 @@
 as yet unclassified
 verifyNextBytecodeOf: contextPart
 	| byte method offset type |
-	"inspired by InstructionStream>>#interpretNextV3ClosureInstructionFor:"
+	"inspired by InstructionStream>>#interpretNextV3ClosuresInstructionFor:"
 	self reset.
 	self assert: contextPart isDead not.
 
@@ -23,7 +23,7 @@ verifyNextBytecodeOf: contextPart
 		self assert: argCount+1 <= contextPart size.
 		receiver := (contextPart at: (contextPart stackPtr - argCount)).
 		primitiveIndex := (receiver class lookupSelector: selector) primitive.
-		self assert: primitiveIndex ~= 0.
+		(primitiveIndex = 0) ifTrue: ["send bytecode receiver is not a primitive" ^nil].
 		^self
 			verifyPrimitive: primitiveIndex
 			rcv: receiver
