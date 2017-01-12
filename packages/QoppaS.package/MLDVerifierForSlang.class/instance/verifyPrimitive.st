@@ -1,5 +1,5 @@
 as yet unclassified
-verifyPrimitive: primitiveIndex rcv: receiver args: arguments
+verifyPrimitive
 	simulator initPrimCall.
 	self assert: receiver isNumber.
 	simulator pushInteger: receiver. 

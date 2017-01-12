@@ -1,5 +1,5 @@
 as yet unclassified
-verifyPrimitive: primitiveIndex rcv: receiver args: arguments
+verifyPrimitive
 	| method |
 	method := AssemblerMethod new
 		methodClass: MLDComparingVerifier;

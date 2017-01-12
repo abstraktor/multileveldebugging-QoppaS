@@ -1,5 +1,7 @@
 as yet unclassified
 asString
-	^self failed
-		ifTrue: ['failed with error code: ', self errorCode asString]
-		ifFalse: [self result asString]
+	self failedWithException ifTrue: [^'failed with exception: ', self exception messageText].
+	
+	self failed ifTrue: [^'failed with error code: ', self errorCode asString].
+	
+	^self result asString.

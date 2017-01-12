@@ -1,3 +1,6 @@
 as yet unclassified
 openDebugger
-	^verifier openDebuggerForResult: self
+
+	self failedWithException ifTrue: [^TBMLD openForError: self exception].
+  
+	^TBMLD step: (verifier resultGeneratingBlockFor: self)

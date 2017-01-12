@@ -1,8 +1,11 @@
 {
 	"class" : {
 		"open" : "bak 4/27/2016 13:52",
+		"openForDebugger:" : "bak 1/10/2017 12:05",
+		"openForError:" : "bak 1/11/2017 18:11",
 		"openForError:debugger:" : "bak 4/27/2016 14:02",
-		"runDebugged:" : "bak 6/29/2016 15:43" },
+		"runDebugged:" : "bak 1/10/2017 12:29",
+		"step:" : "bak 1/11/2017 18:22" },
 	"instance" : {
 		"activationChildren:" : "bak 5/12/2016 18:10",
 		"activationDefinition" : "bak 1/9/2017 10:48",

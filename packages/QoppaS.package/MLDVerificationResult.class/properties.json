@@ -8,7 +8,12 @@
 	"instvars" : [
 		"errorCode",
 		"result",
-		"verifier" ],
+		"verifier",
+		"failedWithException",
+		"primitiveIndex",
+		"arguments",
+		"receiver",
+		"moreProps" ],
 	"name" : "MLDVerificationResult",
 	"pools" : [
 		 ],

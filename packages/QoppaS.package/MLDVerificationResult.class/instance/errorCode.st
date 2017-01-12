@@ -1,3 +1,3 @@
-as yet unclassified
+result
 errorCode
 	^errorCode

@@ -1,3 +1,3 @@
-as yet unclassified
+result
 failed
-	^errorCode isNil not
+	^errorCode isNil not or: [self failedWithException]

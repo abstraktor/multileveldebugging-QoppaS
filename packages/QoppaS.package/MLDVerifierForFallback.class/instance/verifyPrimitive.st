@@ -1,5 +1,5 @@
 as yet unclassified
-verifyPrimitive: primitiveIndex rcv: receiver args: arguments
+verifyPrimitive
 	| methods |
 	"selector := Interpreter primitiveTable at: primitiveIndex+1.
 	method := InterpreterPrimitives methodDict at: selector."
@@ -19,4 +19,4 @@ verifyPrimitive: primitiveIndex rcv: receiver args: arguments
 			(((e isKindOf: MessageNotUnderstood) not)
 			and: [{Object>>#primitiveFailed:} includes: e signalerContext sender method])
 				ifTrue: ["primitive failure" self returnFailure: (e signalerContext sender sender sender namedTempAt: 1) ofFallback: method]
-				ifFalse: [e signal]]].
+				ifFalse: [self returnFailureWithException: e]]].

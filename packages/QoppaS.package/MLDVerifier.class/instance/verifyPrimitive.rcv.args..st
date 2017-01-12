@@ -1,3 +1,6 @@
 as yet unclassified
-verifyPrimitive: primitiveIndex rcv: receiver args: arguments
-	self shouldBeImplemented.
+verifyPrimitive: givenPrimitiveIndex rcv: givenReceiver args: givenArguments
+	primitiveIndex := givenPrimitiveIndex.
+	receiver := givenReceiver.
+	arguments := givenArguments.
+	^self verifyPrimitive.

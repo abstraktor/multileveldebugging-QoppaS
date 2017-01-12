@@ -2,7 +2,12 @@
 	"class" : {
 		"verifiers" : "bak 1/10/2017 10:52" },
 	"instance" : {
+		"arguments" : "bak 1/10/2017 11:45",
 		"name" : "bak 1/9/2017 21:22",
+		"primitiveIndex" : "bak 1/10/2017 11:45",
+		"receiver" : "bak 1/10/2017 11:45",
 		"returnFailure:" : "bak 1/9/2017 21:39",
+		"returnFailureWithException:" : "bak 1/11/2017 18:12",
 		"returnResult:" : "bak 1/9/2017 21:39",
-		"verifyPrimitive:rcv:args:" : "bak 1/9/2017 21:11" } }
+		"verifyPrimitive" : "bak 1/10/2017 11:42",
+		"verifyPrimitive:rcv:args:" : "bak 1/10/2017 11:47" } }

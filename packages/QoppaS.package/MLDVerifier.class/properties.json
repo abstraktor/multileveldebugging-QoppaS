@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"primitiveIndex",
+		"receiver",
+		"arguments" ],
 	"name" : "MLDVerifier",
 	"pools" : [
 		 ],

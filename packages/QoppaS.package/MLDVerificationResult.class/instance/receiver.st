@@ -1,2 +1,3 @@
 as yet unclassified
-runComparing: aBlock
+receiver
+	^receiver
