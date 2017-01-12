@@ -2,7 +2,7 @@
 valueOf: anOop
 
 	| className |
-	(self isIntegerValue: anOop) ifTrue: [^self integerValueOf: anOop].
+	(self isIntegerObject: anOop) ifTrue: [^self integerValueOf: anOop].
 	(self isFloatInstance: anOop) ifTrue: [^self floatValueOf: anOop].
 
 	(self trueObject = anOop) ifTrue: [^true].
