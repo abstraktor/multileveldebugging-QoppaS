@@ -12,7 +12,10 @@ valueOf: anOop
 	"inspired by InterpreterSimulator>>#shortPrint:"
 	className := self coInterpreter nameOfClass: (self fetchClassOf: anOop).
 	
-	(className endsWith: ' class') ifTrue: [^Smalltalk classNamed: (className truncateTo: className size - (' class' size))].
+	(className endsWith: ' class') ifTrue: [|class|
+		class := Smalltalk classNamed: (className truncateTo: className size - (' class' size)).
+		self assert: class isNil not.
+		^class].
 	
 	('String' = className) ifTrue: [^self stringOf: anOop].
 	('ByteString' = className) ifTrue: [^(self stringOf: anOop) asByteString].
