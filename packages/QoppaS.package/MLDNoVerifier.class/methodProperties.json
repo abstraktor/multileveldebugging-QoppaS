@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"initialize" : "bak 1/16/2017 12:29",
+		"verifyNextBytecodeOf:" : "bak 1/16/2017 12:30",
+		"verifyPrimitive:rcv:args:" : "bak 1/16/2017 12:30" } }

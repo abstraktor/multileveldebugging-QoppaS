@@ -10,7 +10,7 @@ buildWith: builder
 	(0.3@0.4 corner: 0.475@0.47) -> [builder pluggableButtonSpec new
 		model: self;
 		label: 'Proceed';
-		action: #doProceedComparing;
+		action: #doProceed;
 		yourself].
 	(0.475@0.4 corner: 0.65@0.47) -> [builder pluggableButtonSpec new
 		model: self;

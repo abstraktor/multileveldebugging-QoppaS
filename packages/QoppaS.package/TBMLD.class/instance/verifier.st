@@ -1,3 +1,3 @@
 verifier
 verifier
-	^verifier ifNil: [verifier := MLDComparingVerifier new].
+	^verifier ifNil: [self enableVerifier].

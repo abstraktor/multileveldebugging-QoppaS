@@ -1,4 +1,7 @@
 user interface
 doProceed
-	self topView delete.
-	^debugger proceed
+	self isVerifierEnabled
+		ifTrue: [self doProceedComparing]
+		ifFalse: [
+			self topView delete.
+			^debugger proceed]
