@@ -1,11 +1,8 @@
 language: smalltalk
 sudo: false
 smalltalk:
+  - Squeak-trunk
   - Squeak-5.0
   - Squeak-4.6
   # - Squeak-4.4                        # requires `sudo: true` and `BUILDERCI=true`
   # - Squeak-4.3                        # requires `sudo: true` and `BUILDERCI=true`
-env:
-  global:
-    - BASELINE="QoppaS"
-    - PACKAGES="/packages"
