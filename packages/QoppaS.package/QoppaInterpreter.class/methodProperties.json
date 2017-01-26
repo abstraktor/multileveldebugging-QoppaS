@@ -4,7 +4,7 @@
 	"instance" : {
 		"bind:to:" : "jr 2/1/2016 17:03",
 		"boolPrim" : "jr 2/1/2016 15:33",
-		"buildGlobalEnv" : "bak 3/1/2016 17:07",
+		"buildGlobalEnv" : "bak 1/26/2017 15:22",
 		"cons:with:" : "jr 2/1/2016 14:58",
 		"eval:in:" : "jr 2/2/2016 01:15",
 		"falseValue" : "jr 2/1/2016 14:27",

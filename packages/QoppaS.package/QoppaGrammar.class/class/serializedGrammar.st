@@ -33,7 +33,7 @@ number  -- number
     = ''-''? digit+ (''.'' digit+)?
 
 space
-  += '';'' (~lineTerminator _)* -- single-line-comment
+  += '';'' (~lineTerminator any)* -- single-line-comment
 
 standard_char
   = letter | digit | '':'' | ''+'' | ''?'' | ''!''
