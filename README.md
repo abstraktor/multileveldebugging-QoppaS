@@ -25,8 +25,12 @@ Metacello new
   repository: 'github://abstraktor/multileveldebugging-QoppaS/packages';
   load.
 
-```-->
+```
 
 # Contributing
 
-see [Installing QoppaS](https://github.com/abstraktor/multileveldebugging-QoppaS/wiki/Installing-QoppaS)
+1. Checkout this git repository
+2. [Install QoppaS with Filetree](https://github.com/abstraktor/multileveldebugging-QoppaS/wiki/Installing-QoppaS)
+3. Commit your changes to the filetree repository
+4. Copy over your commit message to create a git commit with it
+5. [Push it](https://open.spotify.com/track/2ipW48mvWEkQoZZMpLL9TX)
