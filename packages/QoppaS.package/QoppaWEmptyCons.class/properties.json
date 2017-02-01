@@ -1,0 +1,16 @@
+{
+	"category" : "QoppaS",
+	"classinstvars" : [
+		"instance" ],
+	"classtraitcomposition" : "QoppaPrintable classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "QoppaWEmptyCons",
+	"pools" : [
+		 ],
+	"super" : "Collection",
+	"traitcomposition" : "QoppaPrintable",
+	"type" : "normal" }

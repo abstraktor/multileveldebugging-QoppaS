@@ -4,7 +4,15 @@ readAndEvaluate: anExpressionString
 	item := QoppaReplHistoryItem new.
 	item evaluatedExpression: anExpressionString.
 	item parsedExpression: (QoppaGrammar OhmInstance match: anExpressionString startingFrom: #File).
-	item result: (TBMLD
-		runDebugged: [interpreter readAndEvaluate: anExpressionString]).
 	item environment: (interpreter globalEnv shallowCopy).
-	history add: item
+	
+	item result: (TBMLD
+		runDebugged: [
+			interpreter readAndEvaluate: anExpressionString asString
+			]).
+	
+	history add: item.
+	
+	input := ''.
+	self changed: #input.
+	self changed: #history.

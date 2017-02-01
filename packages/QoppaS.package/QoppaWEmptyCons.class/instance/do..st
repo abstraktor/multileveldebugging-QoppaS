@@ -1,0 +1,3 @@
+printing
+do: a
+	^self

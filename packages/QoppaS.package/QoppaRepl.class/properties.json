@@ -7,9 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"history",
-		"interpreter" ],
+		"interpreter",
+		"inputText",
+		"input" ],
 	"name" : "QoppaRepl",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "StringHolder",
 	"type" : "normal" }

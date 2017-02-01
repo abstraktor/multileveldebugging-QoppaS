@@ -1,10 +1,18 @@
 {
 	"class" : {
-		 },
+		"open" : "bak 1/26/2017 22:28" },
 	"instance" : {
-		"history" : "jr 11/12/2015 18:21",
+		"buildWindowWith:" : "bak 2/1/2017 13:01",
+		"buildWith:" : "bak 2/1/2017 13:01",
+		"history" : "bak 1/31/2017 17:28",
 		"history:" : "jr 2/1/2016 14:42",
+		"historyMenu:" : "bak 2/1/2017 12:21",
 		"initialize" : "jr 2/1/2016 14:40",
+		"input" : "bak 1/31/2017 17:47",
+		"input:" : "bak 2/1/2017 12:27",
 		"interpreter" : "jr 2/1/2016 14:42",
 		"interpreter:" : "jr 2/1/2016 14:42",
-		"readAndEvaluate:" : "bak 1/26/2017 15:20" } }
+		"readAndEvaluate:" : "bak 1/31/2017 17:48",
+		"readAndEvaluateInput" : "bak 2/1/2017 13:00",
+		"shouldInputBeEvaluated:" : "bak 2/1/2017 13:38",
+		"windowLabel" : "bak 1/26/2017 22:20" } }
