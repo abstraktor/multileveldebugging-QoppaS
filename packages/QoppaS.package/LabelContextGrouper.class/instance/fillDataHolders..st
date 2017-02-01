@@ -5,9 +5,9 @@ fillDataHolders: aQoppaContextNode
 	interpreter := operateContextPart receiver.
 	operative := operateContextPart arguments first.
 	arguments := operateContextPart arguments second.
-	(operative isBehavior)
-		ifTrue: [
-	aQoppaContextNode dataHolders: (operative parameters
+	"(operative isBehavior)
+		ifTrue: ["
+	aQoppaContextNode variables: (operative parameters
 		ifNotNil: [:parameters | (self permissiveBind: parameters to: arguments asQoppaList)
 			collect: [:eachAssoc | eachAssoc car -> eachAssoc cadr]]
-		ifNil: [arguments ifNotNil: [arguments collectWithIndex: [:each :index | 'argument', index -> each]]])].
+		ifNil: [arguments ifNotNil: [arguments collectWithIndex: [:each :index | 'argument', index -> each]] ifNil: [{}]])"]".

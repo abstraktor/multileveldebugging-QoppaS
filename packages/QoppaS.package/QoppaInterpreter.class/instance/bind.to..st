@@ -8,7 +8,7 @@ bind: names to: values
 	(names = #'_')
 		ifTrue: [^nil].
 
-	names isSymbol
+	names isQoppaWSymbol
 		ifTrue: [^QoppaWCons newAssociationListFrom: {names -> values}].
 
 	frame := QoppaWCons newAssociationListFrom: {}.

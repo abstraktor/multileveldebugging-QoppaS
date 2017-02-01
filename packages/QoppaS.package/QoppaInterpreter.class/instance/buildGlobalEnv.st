@@ -18,7 +18,7 @@ buildGlobalEnv
 		
 		#bool -> self boolPrim.
 		#'null?' -> (self wrapPrim: [:arg| self toQoppaBoolean: arg isNil] countingArgs: true).
-		#'symbol?' -> (self wrapPrim: [:arg| self toQoppaBoolean: ((arg isString) or: [arg isSymbol])] countingArgs: true).
+		#'symbol?' -> (self wrapPrim: [:arg| self toQoppaBoolean: ((arg isString) or: [arg isQoppaWSymbol])] countingArgs: true).
 		#'pair?' -> (self wrapPrim: [:arg| self toQoppaBoolean: arg isCons] countingArgs: true).
 
 		#eval -> (self wrapPrim: [:env :exp| self eval: exp in: env] countingArgs: true).

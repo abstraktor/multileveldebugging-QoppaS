@@ -6,5 +6,5 @@ finishLastQoppaNodeWithEval: aSmalltalkContextNode
 	lastQoppaNode at: #evalSmalltalkContext put: evalContextPart.
 	lastQoppaNode setRangeForPC: (self rangeForPC: evalContextPart).
 	expression := evalContextPart arguments first.
-	lastQoppaNode summary: 'Qoppa: ', expression qoppaPrintString.
+	lastQoppaNode summary: expression qoppaPrintString.
 	lastQoppaNode := nil

@@ -2,14 +2,15 @@
 	"class" : {
 		"for:" : "bak 11/10/2015 10:55" },
 	"instance" : {
+		"<" : "bak 2/1/2017 14:16",
 		"=" : "bak 11/10/2015 17:05",
 		"asSymbol" : "bak 11/10/2015 11:01",
 		"content" : "bak 11/10/2015 10:55",
 		"content:" : "bak 11/10/2015 10:55",
 		"hash" : "jr 1/30/2016 23:45",
 		"initialize" : "bak 11/10/2015 10:55",
+		"isQoppaWSymbol" : "bak 2/1/2017 14:14",
 		"isQuoted" : "bak 11/10/2015 10:55",
 		"isQuoted:" : "bak 11/10/2015 10:55",
-		"isSymbol" : "bak 11/10/2015 10:57",
 		"printAsQoppaOn:" : "jr 1/13/2016 17:28",
 		"printOn:" : "bak 11/10/2015 17:13" } }

@@ -1,8 +1,11 @@
 as yet unclassified
 frameTitleOf: activation
 	| aMethodContext |
-	aMethodContext := activation contextPart.
-	(aMethodContext selector = #eval:in:)
-		ifTrue: [^'eval: ', (aMethodContext at: 1) qoppaPrintString, ' in:' ].
+	activation isActualContextNode ifTrue: [
+		aMethodContext := activation contextPart.
+		(aMethodContext selector = #eval:in:)
+			ifTrue: [^'eval: ', (aMethodContext at: 1) qoppaPrintString, ' in:' ]].
 		
-	^super frameTitleOf: activation
+	^((activation at: #isQoppaOperative ifAbsent: false)
+		ifTrue: ['Qoppa: ']
+		ifFalse: ['']), (super frameTitleOf: activation)

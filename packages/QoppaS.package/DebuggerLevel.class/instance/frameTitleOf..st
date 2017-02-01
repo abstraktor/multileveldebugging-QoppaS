@@ -1,3 +1,5 @@
 as yet unclassified
-frameTitleOf: activation
-	^activation contextPart printString
+frameTitleOf: activation 
+	^activation at: #summary ifAbsent: [
+			activation isActualContextNode ifTrue: [
+				activation contextPart printString]]

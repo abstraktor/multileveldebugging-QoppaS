@@ -9,7 +9,7 @@
 		"step:configured:" : "bak 1/16/2017 12:34" },
 	"instance" : {
 		"activationChildren:" : "bak 5/12/2016 18:10",
-		"activationDefinition" : "bak 1/9/2017 10:48",
+		"activationDefinition" : "bak 2/1/2017 16:10",
 		"activationHasChildren:" : "bak 5/12/2016 18:10",
 		"activationIcon:" : "bak 4/28/2016 10:03",
 		"activationLabel:" : "bak 4/28/2016 10:04",
@@ -68,10 +68,10 @@
 		"stack" : "bak 4/29/2016 18:38",
 		"updateActivations" : "bak 1/9/2017 11:21",
 		"updateSelectedActivation" : "bak 1/9/2017 20:26",
-		"updateSelectedActivations" : "bak 1/13/2017 11:44",
+		"updateSelectedActivations" : "bak 2/1/2017 16:06",
 		"variableSelected:" : "bak 2/1/2017 13:35",
-		"variables" : "bak 1/9/2017 17:34",
+		"variables" : "bak 2/1/2017 14:31",
 		"verifier" : "bak 1/16/2017 12:36",
 		"verifierViewer" : "bak 1/9/2017 20:37",
 		"verifyBeforeStepping" : "bak 2/1/2017 12:50",
-		"windowLabel" : "bak 1/9/2017 20:28" } }
+		"windowLabel" : "bak 2/1/2017 13:49" } }

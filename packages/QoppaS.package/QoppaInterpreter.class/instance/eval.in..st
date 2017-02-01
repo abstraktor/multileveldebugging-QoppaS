@@ -8,7 +8,7 @@ eval: expression in: env
 		ifTrue: [^expression].
 	expression isQuoted
 		ifTrue: [^expression].
-	expression isSymbol
+	expression isQoppaWSymbol
 		ifTrue: [^(self lookup: expression in: env) cdr car].
 	expression isCons
 		ifTrue: [lastEvaluatedForm := expression.

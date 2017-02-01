@@ -1,0 +1,3 @@
+*QoppaS
+isQoppaWSymbol
+	^false

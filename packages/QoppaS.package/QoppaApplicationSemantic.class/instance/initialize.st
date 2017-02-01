@@ -23,7 +23,7 @@ initialize
 				yourself]).
 		
 		#'null?' -> (self countArgs: [:arg| arg isEmpty]).
-		#'symbol?' -> (self countArgs: [:arg| (arg isString) or: (arg isSymbol)]).
+		#'symbol?' -> (self countArgs: [:arg| (arg isString) or: (arg isQoppaWSymbol)]).
 		#'pair?' -> (self countArgs: [:arg| (arg isKindOf: Collection) and: (arg isEmpty not)]).
 
 		#eval -> (self countArgs: [:env :exp| "todo env" exp]).

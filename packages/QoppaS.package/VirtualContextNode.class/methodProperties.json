@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"dataHolders:" : "jr 1/6/2016 16:58",
 		"definitionContent:" : "jr 1/6/2016 16:59",
 		"definitionPresentation" : "jr 1/6/2016 16:56",
 		"definitionPresentation:" : "jr 1/6/2016 16:59",
@@ -12,5 +11,4 @@
 		"properties:" : "jr 1/6/2016 16:56",
 		"rangeForPC:" : "bak 6/25/2016 17:07",
 		"setRangeForPC:" : "bak 6/25/2016 17:06",
-		"summary" : "jr 2/2/2016 00:30",
 		"summary:" : "jr 1/6/2016 16:58" } }

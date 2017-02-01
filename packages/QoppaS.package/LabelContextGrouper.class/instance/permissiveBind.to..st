@@ -6,7 +6,7 @@ permissiveBind: names to: values
 		ifTrue: [^nil].
 	(names = #'_')
 		ifTrue: [^nil].
-	names isSymbol
+	names isQoppaWSymbol
 		ifTrue: [^QoppaWCons newAssociationListFrom: {names -> values}].
 	frame := QoppaWCons newAssociationListFrom: {}.
 	size := names size min: values size.
