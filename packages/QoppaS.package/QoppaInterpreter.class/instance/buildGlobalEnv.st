@@ -2,9 +2,9 @@ environments
 buildGlobalEnv
 	^QoppaWCons withCar: (QoppaWCons newAssociationListFrom: (self wrapKeysIn: {
 		#vau -> self vauPrim.
-		#+ -> (self wrapPrim: [:args| args reduce: [:a :b| a + b]] countingArgs: false).
+		#+ -> (self wrapPrim: [:args| args reduce: [:a :b| a + b] ifEmpty: [0]] countingArgs: false).
 		#-  -> (self wrapPrim: [:args| args reduce: [:a :b| a - b]] countingArgs: false).
-		#*  -> (self wrapPrim: [:args| args reduce: [:a :b| a * b]] countingArgs: false).
+		#*  -> (self wrapPrim: [:args| args reduce: [:a :b| a * b] ifEmpty: [1]] countingArgs: false).
 		#/   -> (self wrapPrim: [:args| args reduce: [:a :b| a / b]] countingArgs: false).
 		#<=  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a <= b])] countingArgs: false).
 		#<  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a < b])] countingArgs: false).

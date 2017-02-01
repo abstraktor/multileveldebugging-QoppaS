@@ -11,6 +11,8 @@ bind: names to: values
 	names isQoppaWSymbol
 		ifTrue: [^QoppaWCons newAssociationListFrom: {names -> values}].
 
+	names isSymbol ifTrue: [Error signal: 'you forgot to do QoppaWSymbol for: names'].
+	
 	frame := QoppaWCons newAssociationListFrom: {}.
 	self flag: #hacky. "append: for UndefinedObject?"
 	carBinding := self bind: names car to: values car.

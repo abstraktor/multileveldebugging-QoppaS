@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testBindMany" : "jr 2/1/2016 17:04",
-		"testBindManyNested" : "jr 2/1/2016 17:04",
+		"testBindMany" : "bak 2/1/2017 19:42",
+		"testBindManyNested" : "bak 2/1/2017 19:43",
 		"testBindNil" : "jr 2/1/2016 13:40",
 		"testBindPlaceholder" : "jr 2/1/2016 13:40",
-		"testBindSymbol" : "jr 2/1/2016 13:40" } }
+		"testBindSymbol" : "bak 2/1/2017 19:46" } }

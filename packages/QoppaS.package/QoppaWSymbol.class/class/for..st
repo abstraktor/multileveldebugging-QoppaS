@@ -1,4 +1,4 @@
 as yet unclassified
-for: content
+for: squeakSymbol
 	^self new
-		content: content
+		content: squeakSymbol
