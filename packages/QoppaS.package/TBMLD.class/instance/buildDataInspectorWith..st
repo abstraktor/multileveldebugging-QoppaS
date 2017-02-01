@@ -6,6 +6,7 @@ buildDataInspectorWith: builder
 		model: self;
 		nodeClass: MLDObjectExplorerWrapper;
 		roots: #variables;
+		setSelected: #variableSelected:;
 		autoDeselect: false;
-		columns: {95. nil}.
+		columns: {90. nil}.
 	^treeSpec.
