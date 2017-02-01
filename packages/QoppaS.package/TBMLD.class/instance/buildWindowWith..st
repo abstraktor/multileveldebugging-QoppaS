@@ -5,6 +5,6 @@ buildWindowWith: builder
 	windowSpec
 		model: self;
 		label: #windowLabel;
-		extent: 700@400;
+		extent: 600@700;
 		children: OrderedCollection new.
 	^windowSpec

@@ -5,9 +5,9 @@ children: activation
 	
 	children := super children: activation.
 
-	StackInterpreter initializePrimitiveTable.
-	selector := StackInterpreter primitiveTable at: ((activation at: #primitive:) at: 1)+1.
-	primitiveSimulationMethod := StackInterpreterPrimitives lookupSelector: selector.
+	Interpreter initializePrimitiveTable.
+	selector := Interpreter primitiveTable at: ((activation at: #primitive:) at: 1)+1.
+	primitiveSimulationMethod := InterpreterPrimitives lookupSelector: selector.
 	
 	children last addChild: (VirtualContextNode new
 		root: children last;
