@@ -2,13 +2,14 @@
 	"class" : {
 		"default" : "bak 4/27/2016 15:09",
 		"forGroup:" : "bak 4/27/2016 15:10",
-		"generateLevelsFor:" : "bak 4/27/2016 17:44",
+		"generateLevelsFor:" : "bak 2/1/2017 19:15",
 		"mldShowLevels" : "bak 3/8/2016 09:24",
 		"mldShowLevels:" : "bak 3/8/2016 09:24",
 		"named:" : "bak 4/27/2016 15:10" },
 	"instance" : {
 		"applyGroupLabels:" : "bak 4/29/2016 23:36",
 		"children:" : "bak 1/9/2017 17:36",
+		"debugger" : "bak 2/1/2017 19:13",
 		"detailsOf:" : "bak 2/1/2017 16:08",
 		"frameTitleOf:" : "bak 2/1/2017 15:53",
 		"hasChildren:" : "bak 6/29/2016 10:27",
@@ -21,4 +22,7 @@
 		"rangeForPCOf:" : "bak 2/1/2017 17:20",
 		"repo" : "bak 4/27/2016 14:58",
 		"repo:" : "bak 4/27/2016 14:58",
+		"restart" : "bak 2/1/2017 19:12",
+		"stepInto" : "bak 2/1/2017 19:12",
+		"stepOver" : "bak 2/1/2017 19:12",
 		"variablesOf:" : "bak 2/1/2017 17:23" } }

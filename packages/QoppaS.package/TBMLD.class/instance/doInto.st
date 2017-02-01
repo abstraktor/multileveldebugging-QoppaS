@@ -2,7 +2,7 @@ actions
 doInto
 	| originContext |
 	originContext := debugger contextStackTop.
-	[self verifyBeforeStepping. debugger send] 
+	[self verifyBeforeStepping. self selectedLevel stepInto] 
 		doWhileFalse: [
 			(self selectedLevel includes: (ActualContextNode for: debugger contextStackTop))
 			or: [originContext isDead]

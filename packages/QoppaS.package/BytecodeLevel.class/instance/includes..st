@@ -1,3 +1,3 @@
 as yet unclassified
-includes: anActualContextNode 
-	^true
+includes: aContextNode 
+	^aContextNode isActualContextNode

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levels" ],
+		"levels",
+		"residentialStack",
+		"debugger" ],
 	"name" : "DebuggerLevelRepository",
 	"pools" : [
 		 ],

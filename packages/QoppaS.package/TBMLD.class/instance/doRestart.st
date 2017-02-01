@@ -1,5 +1,5 @@
 actions
 doRestart
-	debugger restart.
+	self selectedLevel restart.
 	self verifier reset.
 	self updateActivations.

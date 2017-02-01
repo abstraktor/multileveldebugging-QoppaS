@@ -1,3 +1,3 @@
 as yet unclassified
-generateLevelsFor: aContextStack
-	^{self new} asOrderedCollection
+generateLevelsFor: repo
+	^{self new repo: repo; yourself} asOrderedCollection

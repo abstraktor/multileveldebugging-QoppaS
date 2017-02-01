@@ -1,10 +1,13 @@
 {
 	"class" : {
-		"generateLevelsFor:" : "bak 4/28/2016 15:53",
-		"newFor:" : "bak 4/27/2016 14:56" },
+		"newFor:" : "bak 2/1/2017 19:05" },
 	"instance" : {
+		"debugger" : "bak 2/1/2017 19:05",
+		"debugger:" : "bak 2/1/2017 19:06",
 		"default" : "bak 6/25/2016 17:16",
+		"generateLevels" : "bak 2/1/2017 19:03",
 		"levelOf:" : "bak 2/1/2017 16:01",
 		"levelOf:priorizing:" : "bak 2/1/2017 17:21",
 		"levels" : "bak 4/27/2016 14:57",
-		"levels:" : "bak 4/27/2016 15:25" } }
+		"levels:" : "bak 4/27/2016 15:25",
+		"residentialStack" : "bak 2/1/2017 19:05" } }

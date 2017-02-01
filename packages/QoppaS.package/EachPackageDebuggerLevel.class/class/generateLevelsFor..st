@@ -1,5 +1,5 @@
 as yet unclassified
-generateLevelsFor: aContextStack
+generateLevelsFor: repo
 	|levels keys|
 	"add explicit package levels to our index so that they don't get another level created"
 	keys := ((PackageDebuggerLevel allSubclasses
@@ -9,12 +9,12 @@ generateLevelsFor: aContextStack
 	
 	"finally add the missing package levels"
 	"make sure this part is not inherited"
-	aContextStack
+	repo residentialStack
 		do: [:aContext| |package|
 			package := PackageOrganizer default packageOfMethod: aContext method methodReference.
 			(keys includes: package name)
 				ifFalse: [
 					keys add: package name.
-					levels addLast: (PackageDebuggerLevel forPackage: package)]].
+					levels addLast: (PackageDebuggerLevel forRepo: repo package: package)]].
 		
 	^levels

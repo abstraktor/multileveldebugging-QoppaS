@@ -1,5 +1,6 @@
 as yet unclassified
-forPackage: aPackageInfo
+forRepo: repo package: aPackageInfo
 	^self new
+		repo: repo;
 		package: aPackageInfo;
 		yourself

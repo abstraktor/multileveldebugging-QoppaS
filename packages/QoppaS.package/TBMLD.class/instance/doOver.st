@@ -2,5 +2,5 @@ actions
 doOver
 	self verifyBeforeStepping.
 	self verifier resultsAreValid ifTrue: [
-		debugger doStep].
+		self selectedLevel stepOver].
 	self updateActivations.

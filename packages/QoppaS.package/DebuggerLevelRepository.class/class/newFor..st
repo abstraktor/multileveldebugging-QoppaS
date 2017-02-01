@@ -1,5 +1,6 @@
 as yet unclassified
-newFor: aContextStack
+newFor: aDebugger
 	^self new
-		levels: (self generateLevelsFor: aContextStack);
+		debugger: aDebugger;
+		generateLevels;
 		yourself
