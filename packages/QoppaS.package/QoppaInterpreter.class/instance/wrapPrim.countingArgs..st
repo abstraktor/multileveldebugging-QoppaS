@@ -5,11 +5,12 @@ wrapPrim: aBlock countingArgs: countArgs
 	^QoppaOperative new
 		isPrimitive: true;
 		block: [:env :args | |evaluatedArgs|
+			args := args ifNil: [QoppaWCons empty].
 			evaluatedArgs := (args collect: [:arg| self eval: arg in: env]).
 			countArgs
 				ifFalse: [aBlock value: evaluatedArgs]
 				ifTrue: [		
 					aBlock numArgs = args size
 					ifTrue: [ aBlock valueWithArguments: evaluatedArgs]
-					ifFalse: [ Error signal: 'ArityMismatch for', aBlock]]];
+					ifFalse: [ QoppaArityMismatchError signal: 'ArityMismatch for', aBlock]]];
 		yourself

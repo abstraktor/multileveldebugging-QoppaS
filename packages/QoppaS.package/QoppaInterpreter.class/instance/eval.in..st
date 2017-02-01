@@ -13,6 +13,7 @@ eval: expression in: env
 	expression isCons
 		ifTrue: [lastEvaluatedForm := expression.
 			^self operate: (self eval: expression car in: env)
-					on: expression cdr in: env ].
+					on: expression cdr
+					in: env ].
 	^expression
 	
