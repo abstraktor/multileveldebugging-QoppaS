@@ -1,3 +1,3 @@
 activations
 selectedActivation
-	^selectedActivation
+	^selectedActivation ifNil: self activations first

@@ -1,4 +1,4 @@
-user interface
+actions
 doRestart
 	debugger restart.
 	self verifier reset.

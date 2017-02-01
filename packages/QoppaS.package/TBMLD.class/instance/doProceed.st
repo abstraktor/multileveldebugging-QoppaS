@@ -1,4 +1,4 @@
-user interface
+actions
 doProceed
 	self isVerifierEnabled
 		ifTrue: [self doProceedComparing]

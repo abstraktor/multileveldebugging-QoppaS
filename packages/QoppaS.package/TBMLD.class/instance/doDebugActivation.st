@@ -1,4 +1,4 @@
-user interface
+actions
 doDebugActivation
 	ToolSet default
 		debugContext: self selectedActivation contextPart

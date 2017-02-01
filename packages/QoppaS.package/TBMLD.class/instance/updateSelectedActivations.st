@@ -7,7 +7,7 @@ updateSelectedActivations
 			(LabelContextGrouper
 				withLevelRepo: self levelRepo
 				groupNodes: self activations)
-			do: [:activation| activation group: (self levelRepo levelOf: activation)];
+			do: [:activation| activation group: (self levelRepo levelOf: activation priorizing: self selectedLevel)];
 			select: [:activation | self selectedLevel includes: activation]].
 		
 	self updateSelectedActivation.

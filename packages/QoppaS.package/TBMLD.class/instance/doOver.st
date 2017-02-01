@@ -1,4 +1,4 @@
-user interface
+actions
 doOver
 	self verifyBeforeStepping.
 	self verifier resultsAreValid ifTrue: [

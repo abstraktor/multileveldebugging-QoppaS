@@ -1,4 +1,4 @@
-user interface
+actions
 doInto
 	| originContext |
 	originContext := debugger contextStackTop.

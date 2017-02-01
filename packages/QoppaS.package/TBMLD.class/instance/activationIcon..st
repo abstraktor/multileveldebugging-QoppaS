@@ -1,3 +1,3 @@
 activations
 activationIcon: activation
-	^activation icon
+	^self selectedLevel iconOf: activation

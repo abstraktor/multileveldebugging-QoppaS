@@ -8,6 +8,7 @@ selectedActivation: newSelectedActivation
 	
 	(newSelectedActivation isNil not
 		and: [newSelectedActivation isSmalltalkContext]
+		and: [oldActivation isNil not]
 		and: [oldActivation isSmalltalkContext])
 		ifTrue: [
 			"expand stack if we didn't load this frame yet"

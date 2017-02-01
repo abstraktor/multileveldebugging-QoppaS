@@ -1,3 +1,3 @@
-user interface
+actions
 doOverAndInspectActivation
 	self selectedActivation contextPart step inspect

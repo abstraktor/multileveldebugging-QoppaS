@@ -1,4 +1,4 @@
-user interface
+actions
 doCompareActivation
 	| part primitive arguments |
 	part := self selectedActivation contextPart.

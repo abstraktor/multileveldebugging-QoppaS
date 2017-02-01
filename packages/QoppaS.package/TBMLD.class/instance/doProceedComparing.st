@@ -1,4 +1,4 @@
-user interface
+actions
 doProceedComparing
 	| originContext |
 	originContext := debugger contextStackTop.

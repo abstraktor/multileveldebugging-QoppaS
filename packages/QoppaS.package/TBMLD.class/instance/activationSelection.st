@@ -1,5 +1,5 @@
 activations
 activationSelection
 	^self selectedActivation
-		ifNotNil: [:frame | frame rangeForPC: true]
+		ifNotNil: [:frame | self selectedLevel rangeForPCOf: frame]
 		ifNil: [0 to: 0]

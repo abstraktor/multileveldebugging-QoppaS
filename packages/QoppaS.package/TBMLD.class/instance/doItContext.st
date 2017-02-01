@@ -1,3 +1,3 @@
-activations
+actions
 doItContext
 	^self selectedActivation doItContext
