@@ -1,4 +1,4 @@
-activations
+selection
 selectedActivation: newSelectedActivation
 	| oldActivation |
 	oldActivation := self selectedActivation.

@@ -1,3 +1,3 @@
-activations
+selection
 selectedActivations
 	^selectedActivations ifNil: [self updateSelectedActivations]

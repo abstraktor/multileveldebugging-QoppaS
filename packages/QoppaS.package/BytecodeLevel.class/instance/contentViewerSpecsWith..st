@@ -6,6 +6,7 @@ contentViewerSpecsWith: builder
 				model: self;
 				list: #contentLines;
 				getIndex: #selectedContentLineIndex;
+				menu: #contentLineMenu:;
 				yourself]
 			}
 	}

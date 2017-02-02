@@ -1,4 +1,4 @@
-activations
+selection
 updateSelectedActivation
 	(self maySelectActivation: selectedActivation)
 		ifFalse: [selectedActivation := nil ].
@@ -7,6 +7,7 @@ updateSelectedActivation
 		ifTrue: [selectedActivation := self selectedActivations first].
 		
 	self levelRepo selectedActivation: selectedActivation.
+	self setViewer: (self selectedLevel viewerOf: selectedActivation).
 	self changed: #selectedActivation.
 	self changed: #activationSelection.
 	self changed: #activationDefinition.

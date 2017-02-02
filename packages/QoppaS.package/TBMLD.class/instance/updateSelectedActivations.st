@@ -1,4 +1,4 @@
-activations
+selection
 updateSelectedActivations
 	selectedActivations := self selectedLevel
 		ifNil: [self activations]

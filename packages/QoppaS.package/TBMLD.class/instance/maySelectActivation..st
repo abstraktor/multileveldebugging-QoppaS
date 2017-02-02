@@ -1,4 +1,4 @@
-activations
+selection
 maySelectActivation: activation
 	activation ifNil: [^false].
 	
