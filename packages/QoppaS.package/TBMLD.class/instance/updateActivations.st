@@ -1,6 +1,6 @@
 activations
 updateActivations
-	activations := self debugger interruptedContext contextStack
+	activations := self debugger contextStack
 		collectWithIndex: [:context :i| |activation|
 			activation := ActualContextNode for: context atIndex: i.
 			activation].

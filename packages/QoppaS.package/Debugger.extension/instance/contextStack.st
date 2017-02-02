@@ -1,0 +1,3 @@
+*QoppaS
+contextStack
+	^contextStack

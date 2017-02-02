@@ -1,6 +1,7 @@
 toolbuilder
 contentLineMenu: aMenu
 	^aMenu addList: #(
-		('debug generation of this line' doDebugGenerationOfThisLine));
+		('debug assembly of this bytecode' doDebugAssemblerOfThisBytecode)
+		('debug generation of this line' doDebugDisassemblerOfThisLine));
 		yourself
 	

@@ -1,0 +1,3 @@
+toolbuilder
+doDebugAssemblerOfThisBytecode
+	lastClickedContentLineIndex halt

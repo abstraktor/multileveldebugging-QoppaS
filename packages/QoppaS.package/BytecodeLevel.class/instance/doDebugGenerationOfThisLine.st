@@ -1,3 +1,0 @@
-toolbuilder
-doDebugGenerationOfThisLine
-	self shouldBeImplemented

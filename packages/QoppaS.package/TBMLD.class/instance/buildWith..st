@@ -8,21 +8,25 @@ buildWith: builder
 			model: self;
 			label: 'Proceed';
 			action: #doProceed;
+			enabled: #isSelectedActivationAlive;
 			yourself].
 		(0.475@0.3 corner: 0.65@0.33) -> [builder pluggableButtonSpec new
 			model: self;
 			label: 'Restart';
 			action: #doRestart;
+			enabled: #isSelectedActivationAlive;
 			yourself].
 		(0.65@0.3 corner: 0.825@0.33) -> [builder pluggableButtonSpec new
 			model: self;
 			label: 'Into';
 			action: #doInto;
+			enabled: #isSelectedActivationAlive;
 			yourself].
 		(0.825@0.3 corner: 1@0.33) -> [ builder pluggableButtonSpec new
 			model: self;
 			label: 'Over';
 			action: #doOver;
+			enabled: #isSelectedActivationAlive;
 			yourself].
 	}.
 	
@@ -49,6 +53,8 @@ buildWith: builder
 	editorMorph := window submorphNamed: #smalltalk_1.
 	verifierMorph := window submorphNamed: #verifier_1.
 	styler := editorMorph styler.
+	
+	self setViewer: #smalltalk.
 
 	self changed: #activationDefinition.
 	

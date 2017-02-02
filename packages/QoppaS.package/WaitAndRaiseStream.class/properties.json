@@ -1,14 +1,14 @@
 {
-	"category" : "QoppaS-ExtensionApi",
+	"category" : "QoppaS-Verifier",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastClickedContentLineIndex" ],
-	"name" : "BytecodeLevel",
+		"needle" ],
+	"name" : "WaitAndRaiseStream",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "WriteStream",
 	"type" : "normal" }

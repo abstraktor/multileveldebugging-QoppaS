@@ -8,6 +8,7 @@ updateSelectedActivation
 		
 	self levelRepo selectedActivation: selectedActivation.
 	self setViewer: (self selectedLevel viewerOf: selectedActivation).
+	self changed: #isSelectedActivationAlive.
 	self changed: #selectedActivation.
 	self changed: #activationSelection.
 	self changed: #activationDefinition.

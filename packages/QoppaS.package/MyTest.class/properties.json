@@ -1,14 +1,14 @@
 {
-	"category" : "QoppaS-ExtensionApi",
+	"category" : "QoppaS-Verifier",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastClickedContentLineIndex" ],
-	"name" : "BytecodeLevel",
+		 ],
+	"name" : "MyTest",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "Object",
 	"type" : "normal" }

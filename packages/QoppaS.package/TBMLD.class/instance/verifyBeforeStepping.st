@@ -1,6 +1,6 @@
 verifier
 verifyBeforeStepping
-	(self verifier verifyNextBytecodeOf: self contextPart copyStack)
+	(self verifier verifyNextBytecodeOf: self debugger contextStackTop copyStack)
 		ifNotNil: [:result|
 			result ifFalse: [self verifier confirm
 				caseOf: {

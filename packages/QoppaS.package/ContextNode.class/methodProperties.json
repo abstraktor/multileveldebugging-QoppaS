@@ -23,6 +23,7 @@
 		"icon" : "bak 5/13/2016 07:01",
 		"initialize" : "jr 1/21/2016 19:16",
 		"isActualContextNode" : "bak 1/9/2017 10:36",
+		"isAlive" : "bak 2/2/2017 13:48",
 		"isContextNode" : "jr 1/21/2016 19:16",
 		"isSmalltalkContext" : "jr 1/21/2016 19:23",
 		"nearestSmalltalkContext" : "jr 1/21/2016 22:22",
