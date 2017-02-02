@@ -2,6 +2,7 @@
 	"class" : {
 		"newFor:" : "bak 2/1/2017 19:05" },
 	"instance" : {
+		"contentViewerSpecsWith:" : "bak 2/1/2017 21:14",
 		"debugger" : "bak 2/1/2017 19:05",
 		"debugger:" : "bak 2/1/2017 19:06",
 		"default" : "bak 6/25/2016 17:16",
@@ -10,4 +11,6 @@
 		"levelOf:priorizing:" : "bak 2/1/2017 17:21",
 		"levels" : "bak 4/27/2016 14:57",
 		"levels:" : "bak 4/27/2016 15:25",
-		"residentialStack" : "bak 2/1/2017 19:05" } }
+		"residentialStack" : "bak 2/1/2017 19:05",
+		"selectedActivation" : "bak 2/1/2017 21:46",
+		"selectedActivation:" : "bak 2/1/2017 22:57" } }

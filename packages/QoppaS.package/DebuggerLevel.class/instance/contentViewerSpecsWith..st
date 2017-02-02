@@ -1,0 +1,3 @@
+toolbuilder
+contentViewerSpecsWith: builder
+	^{}

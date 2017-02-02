@@ -9,6 +9,7 @@
 	"instance" : {
 		"applyGroupLabels:" : "bak 4/29/2016 23:36",
 		"children:" : "bak 1/9/2017 17:36",
+		"contentViewerSpecsWith:" : "bak 2/1/2017 21:06",
 		"debugger" : "bak 2/1/2017 19:13",
 		"detailsOf:" : "bak 2/1/2017 16:08",
 		"frameTitleOf:" : "bak 2/1/2017 15:53",
@@ -23,6 +24,7 @@
 		"repo" : "bak 4/27/2016 14:58",
 		"repo:" : "bak 4/27/2016 14:58",
 		"restart" : "bak 2/1/2017 19:12",
+		"selectedActivationChanged" : "bak 2/1/2017 22:59",
 		"stepInto" : "bak 2/1/2017 19:12",
 		"stepOver" : "bak 2/1/2017 19:12",
 		"variablesOf:" : "bak 2/1/2017 17:23" } }

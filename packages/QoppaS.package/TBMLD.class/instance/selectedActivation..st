@@ -4,7 +4,6 @@ selectedActivation: newSelectedActivation
 	oldActivation := self selectedActivation.
 	(self maySelectActivation: newSelectedActivation)
 		ifTrue: [selectedActivation := newSelectedActivation].
-		
 	
 	(newSelectedActivation isNil not
 		and: [newSelectedActivation isSmalltalkContext]

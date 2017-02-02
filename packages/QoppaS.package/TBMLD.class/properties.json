@@ -19,7 +19,8 @@
 		"leftEditorMorph",
 		"rightEditorMorph",
 		"verifier",
-		"verifierMorph" ],
+		"verifierMorph",
+		"viewerMorphs" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],
