@@ -1,3 +1,5 @@
 as yet unclassified
 dings
-	^1+2
+	| a |
+	a := 1+2.
+	^ a - 3.
