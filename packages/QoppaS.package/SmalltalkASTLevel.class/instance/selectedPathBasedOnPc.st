@@ -1,19 +1,18 @@
 toolbuilder
 selectedPathBasedOnPc
-	| curIndex nodes path pc |
-	pc := self repo selectedActivation contextPart pc.
-	nodes := self statementsOfSelectedActivation.
-	path := OrderedCollection new.
-	curIndex := 1.
-	[0 < nodes size] whileTrue: [
-		[(nodes at: curIndex) pc < pc] whileTrue: 
-			[curIndex := curIndex +1].
+	"we leave out the block node"
+	| currentNode path |
+	currentNode := self getSelected.
 	
-		path add: curIndex.
-			((nodes at: curIndex) pc = pc)
-			ifTrue: [^path]
-			ifFalse: ["it must be in my kids"
-				nodes := self contentChildrenOf: (nodes at: curIndex).
-				curIndex := 1]].
-		
-	^{}
+	path := OrderedCollection new.
+	[currentNode ~= nil] whileTrue: [
+		path add: currentNode.
+		currentNode := currentNode root].
+
+	"remember to skip the root methodNode and its blockNode"
+	^path reversed allButFirst: 2
+	
+	"^(ParserNodeSelectionPathFinder
+		forMethod: self repo selectedActivation contextPart method
+		findPathToPc: self repo selectedActivation contextPart pc)
+		allButFirst"

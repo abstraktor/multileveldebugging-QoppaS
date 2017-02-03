@@ -3,14 +3,14 @@
 		 },
 	"instance" : {
 		"applyGroupLabels:" : "bak 2/2/2017 15:44",
-		"contentChildrenOf:" : "bak 2/2/2017 16:35",
-		"contentHasChildren:" : "bak 2/2/2017 16:00",
-		"contentNodeLabelOf:" : "bak 2/2/2017 16:18",
-		"contentViewerSpecsWith:" : "bak 2/2/2017 16:20",
+		"contentChildrenOf:" : "bak 2/2/2017 23:48",
+		"contentHasChildren:" : "bak 2/2/2017 23:48",
+		"contentNodeLabelOf:" : "bak 2/2/2017 23:58",
+		"contentViewerSpecsWith:" : "bak 2/3/2017 00:51",
+		"getSelected" : "bak 2/3/2017 01:06",
 		"includes:" : "bak 2/2/2017 15:45",
 		"levelName" : "bak 2/2/2017 15:17",
-		"methodNode" : "bak 2/2/2017 16:39",
-		"selectedActivationChanged" : "bak 2/2/2017 15:47",
-		"selectedPathBasedOnPC2" : "bak 2/2/2017 16:54",
-		"selectedPathBasedOnPc" : "bak 2/2/2017 16:35",
-		"statementsOfSelectedActivation" : "bak 2/2/2017 16:39" } }
+		"roots" : "bak 2/3/2017 00:22",
+		"selectedActivationChanged" : "bak 2/3/2017 01:06",
+		"selectedPathBasedOnPc" : "bak 2/3/2017 00:54",
+		"setSelected:" : "bak 2/3/2017 00:52" } }

@@ -1,14 +1,16 @@
 {
-	"category" : "QoppaS-ExtensionApi",
+	"category" : "QoppaS-Toolbuilder",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rootNode" ],
-	"name" : "SmalltalkASTLevel",
+		"root",
+		"children",
+		"content" ],
+	"name" : "MLDTreeNode",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "Object",
 	"type" : "normal" }

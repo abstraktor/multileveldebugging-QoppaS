@@ -1,14 +1,14 @@
 {
-	"category" : "QoppaS-ExtensionApi",
+	"category" : "QoppaS-Verifier",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rootNode" ],
-	"name" : "SmalltalkASTLevel",
+		 ],
+	"name" : "ParserNodeToTreeNodeConverter",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "ParseNodeVisitor",
 	"type" : "normal" }

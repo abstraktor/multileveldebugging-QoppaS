@@ -1,7 +1,9 @@
 toolbuilder
-contentNodeLabelOf: aParserNode
-	| stream |
+contentNodeLabelOf: aTreeNode
+	| stream aParserNode |
+	aParserNode := aTreeNode content.
 	stream := WriteStream on: (String new: 1000).
+	
 	(aParserNode pc ~= 0) ifTrue: [
 		stream nextPutAll: aParserNode pc asString; nextPutAll: ' '].
 	

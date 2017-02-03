@@ -1,3 +1,0 @@
-toolbuilder
-statementsOfSelectedActivation
-	^self methodNode block statements

@@ -1,5 +1,4 @@
 SystemOrganization addCategory: #'QoppaS-Tests'!
-SystemOrganization addCategory: #'QoppaS-Verifier-Tests'!
 SystemOrganization addCategory: #'QoppaS-Verifier'!
 SystemOrganization addCategory: #'QoppaS-Repl'!
 SystemOrganization addCategory: #QoppaS!
