@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-ExtensionApi",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "EachPackageDebuggerLevel",
+	"pools" : [
+		 ],
+	"super" : "PackageDebuggerLevel",
+	"type" : "normal" }

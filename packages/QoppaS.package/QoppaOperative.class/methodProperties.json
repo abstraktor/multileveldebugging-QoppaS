@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"block" : "jr 1/30/2016 23:16",
+		"block:" : "jr 1/30/2016 23:16",
+		"expDict" : "jr 2/2/2016 02:26",
+		"in:operateOn:" : "jr 2/1/2016 15:35",
+		"initialize" : "jr 2/2/2016 02:31",
+		"isPrimitive" : "jr 1/30/2016 23:16",
+		"isPrimitive:" : "jr 1/30/2016 23:16",
+		"parameters" : "jr 1/30/2016 23:30",
+		"parameters:" : "jr 1/30/2016 23:30",
+		"printAsQoppaOn:" : "jr 2/2/2016 23:42",
+		"source" : "jr 1/31/2016 01:33",
+		"source:" : "jr 1/31/2016 01:33",
+		"topLevelForm:" : "jr 2/2/2016 02:26",
+		"vauForm:" : "jr 2/2/2016 02:26" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Toolbuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MLDObjectExplorerWrapper",
+	"pools" : [
+		 ],
+	"super" : "ObjectExplorerWrapper",
+	"type" : "normal" }

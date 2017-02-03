@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bind:to:" : "bak 2/1/2017 19:46",
+		"boolPrim" : "jr 2/1/2016 15:33",
+		"buildGlobalEnv" : "bak 2/1/2017 19:56",
+		"cons:with:" : "jr 2/1/2016 14:58",
+		"eval:in:" : "bak 2/1/2017 14:34",
+		"falseValue" : "jr 2/1/2016 14:27",
+		"globalEnv" : "jr 2/1/2016 13:54",
+		"globalEnv:" : "jr 2/1/2016 13:54",
+		"haltPrimitive" : "jr 2/1/2016 15:34",
+		"initialize" : "jr 2/2/2016 00:15",
+		"loadPrimitive" : "bak 3/1/2016 17:25",
+		"lookup:in:" : "jr 2/1/2016 17:43",
+		"nilValue" : "jr 2/1/2016 15:56",
+		"operate:on:in:" : "jr 2/1/2016 15:29",
+		"readAndEvaluate:" : "jr 2/2/2016 02:28",
+		"reader" : "jr 2/1/2016 13:54",
+		"reader:" : "jr 2/1/2016 13:54",
+		"signalUnboundVariable:" : "jr 2/1/2016 14:37",
+		"toQoppaBoolean:" : "jr 2/1/2016 14:38",
+		"trueValue" : "jr 2/1/2016 14:38",
+		"vau:withParameters:withEnvironmentParameter:in:" : "jr 2/2/2016 02:31",
+		"vauPrim" : "jr 2/1/2016 15:34",
+		"wrapKeysIn:" : "jr 2/2/2016 01:39",
+		"wrapPrim:countingArgs:" : "bak 2/1/2017 13:32" } }

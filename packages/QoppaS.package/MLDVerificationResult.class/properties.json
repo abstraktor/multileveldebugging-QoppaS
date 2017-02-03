@@ -1,0 +1,21 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"errorCode",
+		"result",
+		"verifier",
+		"failedWithException",
+		"primitiveIndex",
+		"arguments",
+		"receiver",
+		"moreProps" ],
+	"name" : "MLDVerificationResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

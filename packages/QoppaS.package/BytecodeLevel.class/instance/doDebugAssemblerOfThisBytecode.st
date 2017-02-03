@@ -1,13 +1,23 @@
 toolbuilder
 doDebugAssemblerOfThisBytecode
 	"debugs the code that translates the smalltalk human-friendly code into smalltalk bytecode"
-	| aClass context method methodNode |
-	
-	"aStream := WaitAndRaiseStream on: (String new: 1000) searchingFor: stopBeforeGeneratingThisContent."
+	| aClass context methodNode found |
+
+	"install hook to replace the next created WriteStream with our waiting and raising stream"
+	WriteStream setStubMethodForNextCreation: [:aCollection|
+		WaitAndRaiseStream with: aCollection raiseWhenWriting: self lastClickedPc].
 
 	context := self repo selectedActivation contextPart.
 	aClass := context receiver class.
-	1 halt.
-	methodNode := context method methodNode.
+	methodNode := context methodNode.
 
-	method := self methodNode generateWithTempNames.
+	found := false.
+	[methodNode generateWithTempNames]
+	on: WaitAndRaiseStreamFoundIt do: [:e|
+		found := true.
+		TBMLD step: e needleWritingContext].
+	
+	found ifFalse: [
+		self notify: 'Sorry, I can''find it:', String cr, String cr,
+			'I was waiting for pc ', self lastClickedPc, String cr,
+			'But it was never written'].

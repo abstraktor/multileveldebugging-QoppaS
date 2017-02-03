@@ -3,6 +3,6 @@ nextPut: anObject
 	| result |
 	result := super nextPut: anObject.
 	
-	self raiseIfEndingWithNeedle.
+	self checkAfterWritingFrom: position -1 to: position.
 	
 	^result

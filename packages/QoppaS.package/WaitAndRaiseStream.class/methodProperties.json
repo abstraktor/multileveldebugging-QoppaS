@@ -1,10 +1,11 @@
 {
 	"class" : {
-		"on:searchingFor:" : "bak 2/2/2017 10:55" },
+		"on:searchingFor:" : "bak 2/3/2017 15:36",
+		"with:raiseAtSize:" : "bak 2/3/2017 15:36",
+		"with:raiseWhenWriting:" : "bak 2/3/2017 15:36" },
 	"instance" : {
-		"isEndingWithNeedle" : "bak 2/3/2017 14:34",
-		"needle" : "bak 2/2/2017 10:54",
-		"needle:" : "bak 2/2/2017 10:54",
-		"nextPut:" : "bak 2/2/2017 10:53",
-		"nextPutAll:" : "bak 2/2/2017 11:20",
-		"raiseIfEndingWithNeedle" : "bak 2/2/2017 11:22" } }
+		"checkAfterWritingFrom:to:" : "bak 2/3/2017 15:35",
+		"isEndingWithNeedle:" : "bak 2/3/2017 15:09",
+		"nextPut:" : "bak 2/3/2017 15:34",
+		"nextPutAll:" : "bak 2/3/2017 15:40",
+		"raiseIf:" : "bak 2/3/2017 15:12" } }

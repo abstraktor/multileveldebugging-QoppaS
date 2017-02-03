@@ -1,0 +1,4 @@
+accessing
+globalEnv
+
+	^ globalEnv

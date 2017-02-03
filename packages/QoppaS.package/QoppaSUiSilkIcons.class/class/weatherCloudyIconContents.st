@@ -1,0 +1,22 @@
+contents
+weatherCloudyIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJISURBVDjLpZPfa1JhGMftuqvC
+41l1Hf0JrTtvuyropp8QOdCFWYJgoNC0yOwiiTFtYGCIhBXTs61yc7ZdzAhHiLpTFi21+fP4
+Y66ZLld9e1/rCIdVBLt4eJ/n8H6+3+9zDkcGQLaTkgzt+YEDYt+KsI/Efj3M7v4vgdaLgeME
+bG/Msfs+h1nQZ83ZX+c/BQh0aCPCCrSn4Pos++NL8gzWZtj3jZCiJ1B7pghXnyp2/TUBiVmj
+bhTcKo+ju3ob3cJdEEgQphWoTCkm/5iAgCoKErexzoer+Jq7ic7bi+jwF7D5Tofup1toLp1A
+iWNUxSBzuBBg9mxLQGKyjchB4jhK4GF0ls+jkzqHdvIUmYfQyV5HPsB8W52Qn96WgOx2jMRs
+tJaHifuN3/BZAp9E5fUV8C/HsBDh8Jx7sDX15F7Q5/MpJQJkv71kP2V5klnr5u9g880Q2gkK
+X8arhYfIZDKo1WqoVqtIp9Pw3HfxLpdLKVmhyDHXCkEGwpIKmZQPsUUO85Fp5HI5NBoNCIKA
+SqWCer2OZDIJh8MxLhHITzCj9EzNXMLKykrPkV6mZ7lcRqlU6hXtqaDNZvtusVg8JpNpsL9L
+9rH86OKctx+XOoogrWKx2CtRJBaLwWAwePoCH/3yI6FQiKewKECj06KQWGISaqTT6ZqST8Jx
+3AjdkV6gbqlUColEou8ej8d7MzWIRqPQaDQeiYDf79/v9XpH3G4373Q6efKyPHa73Wu1WrNm
+szlrNBoDer0+pNVqm2q12qNSqQZlO/2dfwL4RvrQAqV2MgAAAABJRU5ErkJggg=='

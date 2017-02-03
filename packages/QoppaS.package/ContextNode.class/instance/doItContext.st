@@ -1,0 +1,3 @@
+inspection
+doItContext
+	^nil

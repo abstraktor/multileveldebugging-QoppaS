@@ -4,7 +4,9 @@ doDebugDisassemblerOfThisLine
 	| stopBeforeGeneratingThisContent aStream found |
 	stopBeforeGeneratingThisContent := (self contentLines at: lastClickedContentLineIndex) asString.
 	
-	aStream := WaitAndRaiseStream on: (String new: 1000) searchingFor: stopBeforeGeneratingThisContent.
+	aStream := WaitAndRaiseStream
+		on: (String new: 1000)
+		searchingFor: stopBeforeGeneratingThisContent.
 
 	found := false.
 	[self repo selectedActivation contextPart method
