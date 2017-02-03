@@ -1,2 +1,0 @@
-*qoppas-converting
-consListDo: aBlockClosure

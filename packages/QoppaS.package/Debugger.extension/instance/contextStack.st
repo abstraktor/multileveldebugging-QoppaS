@@ -1,3 +1,0 @@
-*QoppaS
-contextStack
-	^contextStack

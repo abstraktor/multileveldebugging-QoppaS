@@ -1,3 +1,0 @@
-*QoppaS
-qoppaPrintString
-	^self asString

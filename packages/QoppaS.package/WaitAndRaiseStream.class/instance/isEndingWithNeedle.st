@@ -1,7 +1,7 @@
 as yet unclassified
 isEndingWithNeedle
 	"fail early if needle doesn't even fit"
-	(position <= needle size) ifTrue: [^false].
+	(position < needle size) ifTrue: [^false].
 	
 	"compare the last couple of elements"
 	position - needle size + 1 to: position do: [:index |

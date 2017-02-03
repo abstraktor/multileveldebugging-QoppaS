@@ -1,3 +1,0 @@
-inspection
-isActualContextNode
-	self shouldBeImplemented

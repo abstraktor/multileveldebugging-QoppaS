@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"testBool" : "jr 2/1/2016 13:50",
-		"testBoolEvaluatesOnlyTrueBranch" : "jr 2/1/2016 13:51",
-		"testNullTest" : "jr 2/1/2016 16:16",
-		"testPairTest" : "jr 2/1/2016 16:16",
-		"testSymbolTest" : "jr 2/1/2016 16:17" } }
