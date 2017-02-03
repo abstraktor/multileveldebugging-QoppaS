@@ -11,6 +11,7 @@ contentViewerSpecsWith: builder
 				getSelected: #getSelected;
 				setSelected: #setSelected:;
 				getSelectedPath: #selectedPathBasedOnPc;
+				menu: #astMenu:;
 				yourself]
 			}
 	}

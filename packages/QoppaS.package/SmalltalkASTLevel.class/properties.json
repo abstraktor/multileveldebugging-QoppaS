@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"rootNode" ],
+		"rootNode",
+		"lastClickedItem" ],
 	"name" : "SmalltalkASTLevel",
 	"pools" : [
 		 ],
