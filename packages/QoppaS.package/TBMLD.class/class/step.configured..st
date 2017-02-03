@@ -1,9 +1,13 @@
 as yet unclassified
-step: aContext configured: configurationBlock
-
-	| debuggedContext process debugger fakeView |
+step: aContextOrBlock configured: configurationBlock
+	| debuggedContext process debugger fakeView aContext |
 	CommandHistory resetAllHistory.
 	Smalltalk garbageCollect.
+	
+	"convenience in case you forgot to do call asContext"
+	aContext := (aContextOrBlock isKindOf: BlockClosure)
+		ifTrue: [aContextOrBlock asContext]
+		ifFalse: [aContextOrBlock].
 	
 	debuggedContext := aContext copyStack.
 	process := Process forContext: debuggedContext priority: Processor activePriority.
