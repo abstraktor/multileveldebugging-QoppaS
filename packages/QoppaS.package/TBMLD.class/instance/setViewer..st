@@ -1,9 +1,9 @@
-selection
+viewer
 setViewer: aViewerName
 	| morphsOfViewer |
 	self viewerMorphs ifNil: ["still during setup" ^self].
 	morphsOfViewer := self viewerMorphs associationsSelect: [:assoc|
-		assoc key beginsWith: aViewerName].
+		assoc key beginsWith: aViewerName, '_'].
 	self assert: morphsOfViewer isEmpty not.
 	self viewerMorphs do: [:morph| window removeMorph: morph].
 	morphsOfViewer do: [:morph| window addMorph: morph].
