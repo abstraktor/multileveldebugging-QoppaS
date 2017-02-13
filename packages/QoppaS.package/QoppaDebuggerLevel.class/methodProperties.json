@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"generateLevelsFor:" : "bak 2/13/2017 15:18" },
 	"instance" : {
 		"applyGroupLabels:" : "bak 2/13/2017 11:10",
 		"detailsOf:" : "bak 2/1/2017 16:27",
@@ -10,4 +10,4 @@
 		"includesVirtualContextNode:" : "bak 2/13/2017 11:56",
 		"levelName" : "bak 2/1/2017 14:28",
 		"operatorOf:" : "bak 2/1/2017 16:14",
-		"priority" : "bak 2/1/2017 16:46" } }
+		"priority" : "bak 2/13/2017 15:09" } }

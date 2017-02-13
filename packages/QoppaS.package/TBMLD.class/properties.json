@@ -20,7 +20,8 @@
 		"rightEditorMorph",
 		"verifier",
 		"verifierMorph",
-		"viewerMorphs" ],
+		"viewerMorphs",
+		"dataInspectorMorph" ],
 	"name" : "TBMLD",
 	"pools" : [
 		 ],

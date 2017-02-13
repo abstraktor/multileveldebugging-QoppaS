@@ -12,7 +12,8 @@ updateActivations
 	self verifier resultsAreValid
 		ifFalse: [activations := activations copyWithFirst: self verifier contextNode].
 		
-	activations do: [:activation|	activation group: (self levelRepo levelOf: activation priorizing: self selectedLevel)].
+	activations do: [:activation|
+		activation group: (self levelRepo levelOf: activation priorizing: self selectedLevel)].
 	
 	self updateSelectedActivations.
 	

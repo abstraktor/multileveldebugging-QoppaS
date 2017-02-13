@@ -51,6 +51,7 @@ buildWith: builder
 	leftEditorMorph := window submorphNamed: #double_1.
 	rightEditorMorph := window submorphNamed: #double_2.
 	editorMorph := window submorphNamed: #smalltalk_1.
+	dataInspectorMorph := window submorphNamed: #smalltalk_2.
 	verifierMorph := window submorphNamed: #verifier_1.
 	styler := editorMorph styler.
 	
