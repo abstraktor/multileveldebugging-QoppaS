@@ -1,3 +1,0 @@
-toolbuilder
-input
-	^input

@@ -1,1 +1,0 @@
-I will help you opening qoppa vivide scripts

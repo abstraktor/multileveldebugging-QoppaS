@@ -1,3 +1,0 @@
-inspection
-doItContext
-	^nil

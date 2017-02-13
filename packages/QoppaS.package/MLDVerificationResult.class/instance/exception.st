@@ -1,3 +1,0 @@
-result
-exception
-	^failedWithException
