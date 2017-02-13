@@ -4,6 +4,10 @@ updateActivations
 		collectWithIndex: [:context :i| |activation|
 			activation := ActualContextNode for: context atIndex: i.
 			activation].
+		
+	activations last contextPart sender ~~ nil ifTrue: [activations addLast: (MLDInteractionNode new
+		summary: 'more...';
+		whenSelected: [self doFullyExpand])].
 
 	self verifier resultsAreValid
 		ifFalse: [activations := activations copyWithFirst: self verifier contextNode].

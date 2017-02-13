@@ -1,0 +1,15 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"whenSelectedBlock",
+		"summary" ],
+	"name" : "MLDInteractionNode",
+	"pools" : [
+		 ],
+	"super" : "ContextNode",
+	"type" : "normal" }
