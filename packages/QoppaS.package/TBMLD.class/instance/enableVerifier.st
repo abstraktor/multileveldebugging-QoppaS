@@ -1,5 +1,6 @@
 verifier
 enableVerifier
-	verifier := MLDComparingVerifier new.
+	verifier := self levelRepo verifier.
+	verifier addDependent: self.
 	self updateActivations.
 	^verifier

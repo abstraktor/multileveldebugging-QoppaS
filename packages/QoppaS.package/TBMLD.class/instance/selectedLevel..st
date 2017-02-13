@@ -1,4 +1,4 @@
-selection
+levels
 selectedLevel: newSelectedLevel
 	selectedLevel := newSelectedLevel.
 	

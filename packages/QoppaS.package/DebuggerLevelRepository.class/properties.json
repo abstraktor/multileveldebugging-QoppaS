@@ -9,7 +9,8 @@
 		"levels",
 		"residentialStack",
 		"debugger",
-		"selectedActivation" ],
+		"selectedActivation",
+		"verifier" ],
 	"name" : "DebuggerLevelRepository",
 	"pools" : [
 		 ],

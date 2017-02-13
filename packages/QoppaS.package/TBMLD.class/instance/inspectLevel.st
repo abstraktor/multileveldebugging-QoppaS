@@ -1,3 +1,3 @@
-actions
+levels
 inspectLevel
 	self selectedLevel inspect

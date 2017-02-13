@@ -1,7 +1,7 @@
 viewer
 verifierViewer
-	window ifNotNilDo: [:x|
+	"window ifNotNilDo: [:x|
 		window addMorph: verifierMorph.
 		window removeMorph: editorMorph.
 		window removeMorph: leftEditorMorph.
-		window removeMorph: rightEditorMorph].
+		window removeMorph: rightEditorMorph]."

@@ -1,3 +1,5 @@
 as yet unclassified
 viewerOf: anActivation
-	^#smalltalk
+	anActivation isActualContextNode ifTrue: [^#smalltalk].
+	
+	^anActivation viewer
