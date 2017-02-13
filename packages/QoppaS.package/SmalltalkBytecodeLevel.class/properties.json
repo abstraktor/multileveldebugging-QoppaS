@@ -8,7 +8,7 @@
 	"instvars" : [
 		"lastClickedContentLineIndex",
 		"selectedLine" ],
-	"name" : "BytecodeLevel",
+	"name" : "SmalltalkBytecodeLevel",
 	"pools" : [
 		 ],
 	"super" : "DebuggerLevel",
