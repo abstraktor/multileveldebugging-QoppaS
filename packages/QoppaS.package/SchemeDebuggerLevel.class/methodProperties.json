@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"detailsOf:" : "bak 2/1/2017 16:41",
+		"detailsOf:" : "bak 2/13/2017 14:59",
 		"frameTitleOf:" : "bak 2/1/2017 16:41",
-		"includesActualContextNode:" : "bak 2/13/2017 11:57",
-		"includesVirtualContextNode:" : "bak 2/13/2017 11:57",
-		"levelName" : "bak 2/1/2017 16:40" } }
+		"includesVirtualContextNode:" : "bak 2/13/2017 13:44",
+		"isPrimitiveOperative:inEnv:" : "bak 2/13/2017 13:39",
+		"levelName" : "bak 2/1/2017 16:40",
+		"variablesOf:" : "bak 2/13/2017 14:09" } }

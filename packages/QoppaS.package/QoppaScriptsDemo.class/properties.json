@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Vivide",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UseMultilevelDebugger" ],
+	"commentStamp" : "bak 12/9/2015 16:31",
+	"instvars" : [
+		 ],
+	"name" : "QoppaScriptsDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

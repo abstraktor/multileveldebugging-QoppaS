@@ -10,5 +10,5 @@
 	"name" : "SchemeDebuggerLevel",
 	"pools" : [
 		 ],
-	"super" : "DebuggerLevel",
+	"super" : "QoppaDebuggerLevel",
 	"type" : "normal" }

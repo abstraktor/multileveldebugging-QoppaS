@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asString" : "bak 2/1/2017 12:27",
+		"environment" : "bak 11/24/2015 15:47",
+		"environment:" : "bak 11/24/2015 15:47",
+		"evaluatedExpression" : "jr 11/12/2015 18:25",
+		"evaluatedExpression:" : "jr 11/12/2015 18:25",
+		"parsedExpression" : "bak 11/24/2015 15:47",
+		"parsedExpression:" : "bak 11/24/2015 15:47",
+		"result" : "jr 11/12/2015 18:28",
+		"result:" : "jr 11/12/2015 18:28" } }

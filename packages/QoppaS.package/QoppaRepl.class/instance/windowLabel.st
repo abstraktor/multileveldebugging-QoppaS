@@ -1,0 +1,3 @@
+toolbuilder
+windowLabel
+	^'QoppaS REPL'

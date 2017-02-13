@@ -1,0 +1,26 @@
+contents
+sportFootballIconContents
+	"Auto-generated.
+
+	Silk Icons
+	© 2005-2006 Mark James
+	Website: http://www.famfamfam.com
+	License: http://creativecommons.org/licenses/by/2.5"
+	
+	^ 'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0
+RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAL9SURBVDjLddN9MNNxHAfw31/V
+f6LoLq4HRVdxpaurDnEdESepUxTCJVe5U52eyFNFp9iMeS5n19ZankZu2q3IUOZh2WweaiOn
+yeSI8tBF775bl0vmj++fr+/78/l8vx8KALXUUTDpyzqYtF1dLHr0YJOoWvNWKFVw0lr5Ab4c
+lqtjJG3bRguDsDObvkKZw/BXZjNaZEzabBc7B70CNsZ6lRj7IENXaR4Ytpt/3TE3bl+Mc+im
+nbkZdIJnx9VKaFtEGGx4jh4eDd3P0qGVv8Gw/C0UHBri1xp/W4CVzDQPZRa9U80rwJBEAG2z
+EFPDn6CuzEdbeiQaEwJRF3sKfTWl0DSLwD9tNzOPO+j3PDsyUlV9/EJM9CuhEZdhUtuPbpI8
+M6pFK+MKqs85oOSYNarDXdBfVwlpfvxPPZalJK6UpSaVq0vy8LmxAgMiDqZHNOhkJaHuqifk
+BQlQV7P1mOdtBe4RK4iiTqLxfsRPqi3++nLp3diMtqS4uXG1XI+/D/ZCxc8lA2vHu+xoVPht
+n8dPvDaB7WmF4kBHJFqYTlKSG5d9JDFRfR946fqyp79ooChMwKsIZ9Tf8oeqqmgBfnzYEmUh
+zuD62eP8mpUjVENk+IN2Rize81Ix/K5WPzBdsjTrBvgnti7CLHdLkn5Ah+fC1hg1UuLLwbWy
+zBjIc66hJSUMr6M8ybQDDCaz3DaiJMgJT/wdQPBkqJnRBUolYA8pHt2GJDkE4ptHIQx3NJxM
+cKHrBjwNcNThOYKbg8yMllOqF5yv2vYG1Mf5QRC8G+W+Wwxjl/XgkdKz3e1A8ATBoboXpJro
+UaNaqRgfa8ogOGtvEBe5b9bjzEM7dHiAYN+//4fKXLda+b7iITQSEdRCLirO7AfX2xpcHxvw
+/Pb86fmUA9IP2uqwhmCPf38vlWphUld8fB96ygv0l/S9LEbVRS+wffch120nkvda6XqeIriM
+YKf/d4dKNjd2JltVmWhu8ll4yWuqlRn9QxwfNBltvqqbPFU5wdcJtllq5X8DFM+Gyf3nvIYA
+AAAASUVORK5CYII='

@@ -6,6 +6,7 @@ updateSelectedActivation
 	(selectedActivation isNil and: (self selectedActivations isEmpty not)" and: (self selectedLevel isAllContainingLevel)")
 		ifTrue: [selectedActivation := self selectedActivations first].
 		
+	self assert: (self selectedActivations isEmpty not).
 	self levelRepo selectedActivation: selectedActivation.
 	self setViewer: (self selectedLevel viewerOf: selectedActivation).
 	self changed: #isSelectedActivationAlive.

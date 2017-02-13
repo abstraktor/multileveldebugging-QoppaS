@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Grouper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector" ],
+	"name" : "ComparisonContextNode",
+	"pools" : [
+		 ],
+	"super" : "VirtualContextNode",
+	"type" : "normal" }

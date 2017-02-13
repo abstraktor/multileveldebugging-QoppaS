@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WaitAndRaiseStreamFoundIt",
+	"pools" : [
+		 ],
+	"super" : "Exception",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-MLD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"verifier" ],
+	"name" : "MLDComparingVerifierTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
