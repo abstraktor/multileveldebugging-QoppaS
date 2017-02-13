@@ -1,3 +1,3 @@
 inspection
 isActualContextNode
-	self shouldBeImplemented
+	^false

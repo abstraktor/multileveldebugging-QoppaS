@@ -9,12 +9,13 @@
 		"detailsOf:" : "bak 2/2/2017 09:29",
 		"doDebugAssemblerOfThisBytecode" : "bak 2/3/2017 15:39",
 		"doDebugDisassemblerOfThisLine" : "bak 2/3/2017 15:38",
-		"includes:" : "bak 2/1/2017 19:25",
+		"includesActualContextNode:" : "bak 2/13/2017 11:54",
+		"includesVirtualContextNode:" : "bak 2/13/2017 11:55",
 		"lastClickedPc" : "bak 2/3/2017 13:51",
 		"levelName" : "bak 2/1/2017 16:54",
-		"rangeForPCOf:" : "bak 2/1/2017 17:15",
+		"rangeForPCOf:" : "bak 2/13/2017 12:44",
 		"selectedActivationChanged" : "bak 2/2/2017 09:20",
 		"selectedContentLineIndex" : "bak 2/1/2017 22:56",
 		"selectedContentLineIndex:" : "bak 2/2/2017 10:24",
 		"stepOver" : "bak 2/1/2017 19:36",
-		"variablesOf:" : "bak 2/1/2017 16:57" } }
+		"variablesOf:" : "bak 2/13/2017 12:44" } }

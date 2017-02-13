@@ -1,3 +1,3 @@
-as yet unclassified
+includes
 includes: anActivation
-	self subclassResponsibility
+	^anActivation isIncludedIn: self

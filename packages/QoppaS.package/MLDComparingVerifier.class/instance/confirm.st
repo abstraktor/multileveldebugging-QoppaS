@@ -1,13 +1,14 @@
 as yet unclassified
 confirm
-	"returns true to debug, false to not debug and nil to disable comparison"
-	^(UserDialogBoxMorph new
+	"returns one of #debug #noAction or #disableChecking"
+	((UserDialogBoxMorph new
 		title: 'Inconsistent Primitive Results';
 		message: self confirmText;
-		createButton: 'Yes' translated value: #debug;
-		createButton: 'No' translated  value: #noAction;
-		createButton: 'Disable checking' translated value: #disableChecking;
+		createButton: 'Yes' translated value: #verifierConfirmDebug;
+		createButton: 'No' translated  value: #verifierConfirmNoAction;
+		createButton: 'Disable checking' translated value: #verifierConfirmDisableChecking;
 		selectedButtonIndex: 1; "YES"
 		registerKeyboardShortcuts;
 		yourself) in: [:dialog |
-			^dialog getUserResponseAtHand]
+			^self changed: dialog getUserResponseAtHand])
+		

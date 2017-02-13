@@ -1,8 +1,6 @@
 as yet unclassified
 contextNode
-	^VirtualContextNode new
+	^ComparisonContextNode new
 		at: #variables put: results;
-		definitionContent: '';
-		summary: 'Comparison Failed: ', (Interpreter primitiveTable at: resultsPrimitiveIndex+1);
-		at: #viewer put: #verifier;
+		selector: (Interpreter primitiveTable at: resultsPrimitiveIndex+1);
 		yourself.

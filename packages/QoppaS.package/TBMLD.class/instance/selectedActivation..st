@@ -1,6 +1,9 @@
 selection
 selectedActivation: newSelectedActivation
 	| oldActivation |
+	(newSelectedActivation isNil not and: 
+	[newSelectedActivation isInteractionNode]) ifTrue: [newSelectedActivation selected].
+	
 	oldActivation := self selectedActivation.
 	(self maySelectActivation: newSelectedActivation)
 		ifTrue: [selectedActivation := newSelectedActivation].

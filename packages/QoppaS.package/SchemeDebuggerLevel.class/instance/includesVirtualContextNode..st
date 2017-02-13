@@ -1,3 +1,3 @@
 as yet unclassified
-includes: anActivation 
+includesVirtualContextNode: anActivation 
 	^(anActivation at: #isQoppaContext ifAbsent: [false])
