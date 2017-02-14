@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyGroupLabels:" : "bak 2/1/2017 22:24",
 		"contentLineMenu:" : "bak 2/6/2017 14:31",
 		"contentLines" : "bak 2/1/2017 22:33",
 		"contentViewerSpecsWith:" : "bak 2/6/2017 14:32",
@@ -20,4 +19,5 @@
 		"selectedContentLineIndex" : "bak 2/1/2017 22:56",
 		"selectedContentLineIndex:" : "bak 2/2/2017 10:24",
 		"stepOver" : "bak 2/1/2017 19:36",
-		"variablesOf:" : "bak 2/13/2017 12:44" } }
+		"variablesOf:" : "bak 2/13/2017 12:44",
+		"viewerOf:" : "bak 2/14/2017 17:02" } }
