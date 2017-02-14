@@ -1,3 +1,3 @@
 toolbuilder
 priority
-	^80
+	^60

@@ -1,3 +1,3 @@
 as yet unclassified
 levelName
-	^'Squeak Primitive'
+	^#Smalltalk
