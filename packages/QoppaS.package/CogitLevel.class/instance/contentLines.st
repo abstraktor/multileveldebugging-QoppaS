@@ -3,9 +3,11 @@ contentLines
 	| lines |
 	lines := (((self detailsOf: self repo selectedActivation)
 			copyReplaceAll: '	' with: '    ')
-		splitBy: String cr)
-		allButLast
-		allButFirst.
+		splitBy: String cr) allButLast.
+		
+	lines ifEmpty: [^lines].
+	
+	lines := lines allButFirst.
 	
 	"make headings bold"
 	lines := lines collect: [:line|

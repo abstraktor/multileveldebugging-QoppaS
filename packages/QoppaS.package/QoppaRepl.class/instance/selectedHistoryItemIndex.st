@@ -1,0 +1,3 @@
+toolbuilder
+selectedHistoryItemIndex
+	^0

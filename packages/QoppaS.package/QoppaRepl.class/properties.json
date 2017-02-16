@@ -9,7 +9,9 @@
 		"history",
 		"interpreter",
 		"inputText",
-		"input" ],
+		"input",
+		"lastClickedHistoryItemIndex",
+		"lastClickedHistoryItem" ],
 	"name" : "QoppaRepl",
 	"pools" : [
 		 ],

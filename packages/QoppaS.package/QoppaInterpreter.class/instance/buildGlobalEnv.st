@@ -6,6 +6,7 @@ buildGlobalEnv
 		#-  -> (self wrapPrim: [:args| args reduce: [:a :b| a - b]] countingArgs: false).
 		#*  -> (self wrapPrim: [:args| args reduce: [:a :b| a * b] ifEmpty: [1]] countingArgs: false).
 		#/   -> (self wrapPrim: [:args| args reduce: [:a :b| a / b]] countingArgs: false).
+		#quo   -> (self wrapPrim: [:a :b| a \\ b] countingArgs: true).
 		#<=  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a <= b])] countingArgs: false).
 		#<  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a < b])] countingArgs: false).
 		#=  -> (self wrapPrim: [:args| self toQoppaBoolean: (args reduce: [:a :b| a = b])] countingArgs: false).

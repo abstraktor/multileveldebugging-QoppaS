@@ -1,0 +1,3 @@
+actions
+doRedoHistoryItem
+	self readAndEvaluate: lastClickedHistoryItem evaluatedExpression

@@ -7,6 +7,8 @@ buildWith: builder
 			model: self;
 			name: 'historylist';
 			list: #history;
+			getSelected: #selectedHistoryItemIndex;
+			setSelected: #lastClickedHistoryItem:;
 			menu: #historyMenu:;
 			yourself].
 		(0@0.9 corner: 0.9@1.0) -> [builder pluggableTextSpec new
