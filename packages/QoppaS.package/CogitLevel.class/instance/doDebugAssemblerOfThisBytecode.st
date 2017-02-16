@@ -4,8 +4,7 @@ doDebugAssemblerOfThisBytecode
 	| found needle address methodOrDoitString |
 	self selectedActivation isActualContextNode ifFalse: [^''].
 
-	needle :=  '0000101E: andl $0x00000001, %eax : 83 E0 01 '.
-	"self contentLines at: lastClickedContentLineIndex."
+	needle := self contentLines at: lastClickedContentLineIndex.
 	address := (Integer readFrom: needle asString radix: 16). "this is the absolute address"
 
 	"inject WaitAndRaise guard"
