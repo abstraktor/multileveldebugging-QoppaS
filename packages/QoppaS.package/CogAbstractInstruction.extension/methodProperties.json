@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"nextHilPc" : "",
+		"resetHilPc" : "" },
+	"instance" : {
+		"concretizeAt:" : "bak 2/16/2017 18:39",
+		"hilPc" : "",
+		"initialize" : "",
+		"opcode:" : "bak 2/16/2017 17:46",
+		"outputMachineCodeAt:" : "bak 2/16/2017 17:08" } }
