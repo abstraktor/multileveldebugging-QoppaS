@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"new:raiseWhenWriting:" : "bak 2/16/2017 14:21" },
+	"instance" : {
+		"at:put:" : "bak 2/16/2017 13:17",
+		"basicAt:put:" : "bak 2/16/2017 11:52",
+		"checkAfterAt:put:" : "bak 2/16/2017 11:52",
+		"raiseIf:" : "bak 2/16/2017 11:53" } }

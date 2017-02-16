@@ -1,4 +1,4 @@
-toolbuilder
+actions
 doDebugDisassemblerOfThisLine
 	"debugs the code that translates the smalltalk bytecode into linewise readable representation"
 	| stopBeforeGeneratingThisContent aStream found |
@@ -11,7 +11,7 @@ doDebugDisassemblerOfThisLine
 	found := false.
 	[self repo selectedActivation contextPart method
 		longPrintOn: aStream]
-	on: WaitAndRaiseStreamFoundIt do: [:e|
+	on: WaitAndRaiseFoundIt do: [:e|
 		found := true.
 		TBMLD step: e needleWritingContext].
 

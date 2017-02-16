@@ -1,0 +1,16 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		"stateMap" ],
+	"classtraitcomposition" : "WaitAndRaiseTrait classTrait + WaitAndRaiseVariableWordTrait classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "WaitAndRaiseBitmap",
+	"pools" : [
+		 ],
+	"super" : "Bitmap",
+	"traitcomposition" : "WaitAndRaiseTrait + WaitAndRaiseVariableWordTrait",
+	"type" : "words" }

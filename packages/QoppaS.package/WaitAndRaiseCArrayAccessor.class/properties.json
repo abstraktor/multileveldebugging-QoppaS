@@ -1,0 +1,14 @@
+{
+	"category" : "QoppaS-Verifier",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"checkCallback" ],
+	"name" : "WaitAndRaiseCArrayAccessor",
+	"pools" : [
+		 ],
+	"super" : "CArrayAccessor",
+	"type" : "normal" }

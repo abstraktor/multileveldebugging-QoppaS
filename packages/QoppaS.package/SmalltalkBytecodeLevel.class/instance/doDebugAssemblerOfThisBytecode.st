@@ -1,4 +1,4 @@
-toolbuilder
+actions
 doDebugAssemblerOfThisBytecode
 	"debugs the code that translates the smalltalk human-friendly code into smalltalk bytecode"
 	| aClass context methodNode found |
@@ -13,7 +13,7 @@ doDebugAssemblerOfThisBytecode
 
 	found := false.
 	[methodNode generateWithTempNames]
-	on: WaitAndRaiseStreamFoundIt do: [:e|
+	on: WaitAndRaiseFoundIt do: [:e|
 		found := true.
 		TBMLD step: e needleWritingContext].
 	
