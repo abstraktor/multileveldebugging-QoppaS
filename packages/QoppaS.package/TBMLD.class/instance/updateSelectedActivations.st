@@ -1,5 +1,7 @@
 selection
 updateSelectedActivations
+	activations ifNotNil: [
+		activations do: [:a| a root: nil]].
 	selectedActivations := self selectedLevel
 		ifNil: [self activations]
 		ifNotNil: [
