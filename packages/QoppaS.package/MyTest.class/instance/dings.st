@@ -1,6 +1,5 @@
 as yet unclassified
 dings
-	| a |
-	-1073741824 // -1.
-	a := 1+2.
-	^ a - 3.
+	| result |
+	result := -1073741824 // -1.
+	self assert: result = 1073741824.

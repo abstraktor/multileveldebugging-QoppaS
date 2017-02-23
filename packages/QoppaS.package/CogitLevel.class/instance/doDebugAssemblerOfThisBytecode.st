@@ -40,6 +40,17 @@ doDebugAssemblerOfThisBytecode
 		self notify: 'Sorry, I can''find it:', String cr, String cr,
 			'I was waiting for hilPc ', hilPc, String cr,
 			'But it was never concretized']
-		on: WaitAndRaiseFoundIt do: [:e2|
+		on: WaitAndRaiseFoundIt do: [:e2| 
 			"Processor activeProcess debug: e2 needleWritingContext title: 'ho'."
-			TBMLD step: e2 needleWritingContext]].
+			
+			"when restarting that, we need to decrement the opcode index again"
+			"opcodeIndexIndex := self class superclass instVarNames indexOf: 'opcodeIndex'.
+			self instVarAt: opcodeIndexIndex put: ((self instVarAt: opcodeIndexIndex) - 1)."
+			"dispatchedContext := e2 needleWritingContext copyStack sender sender.
+			dispatchedContext receiver opcodeIndex: dispatchedContext receiver getOpcodeIndex - 1."
+			
+			TBMLD step: e2 needleWritingContext.
+				"configured: [:tbmld|
+				tbmld initiallySelectedActivation: [:activation|
+					activation isActualContextNode and: [
+						activation contextPart selector beginsWith: 'compile']]]"]].

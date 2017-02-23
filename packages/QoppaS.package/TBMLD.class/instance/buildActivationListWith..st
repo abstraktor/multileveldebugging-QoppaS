@@ -3,6 +3,7 @@ buildActivationListWith: builder
 	| activationList |
 	activationList := builder pluggableTreeSpec new
 		model: self;
+		name: #activationList;
 		roots: #selectedActivations;
 		icon: #activationIcon:;
 		label: #activationLabel:;
