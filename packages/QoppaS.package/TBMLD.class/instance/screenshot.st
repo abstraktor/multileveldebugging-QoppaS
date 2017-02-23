@@ -1,5 +1,5 @@
 paperwork
 screenshot
-(FileStream newFileNamed: Time dateAndTimeNow first yyyymmdd,'-debugger.eps' asFileName)
-	nextPutAll: self asEPS;
+(FileStream newFileNamed: '/Users/reflektor/swa/masterthesis/walkthrough/',Time dateAndTimeNow first yyyymmdd,'-',TBMLD nextScreenshotId,'-debugger.eps' asFileName)
+	nextPutAll: window asEPS;
 	close

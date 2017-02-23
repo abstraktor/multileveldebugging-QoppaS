@@ -1,7 +1,7 @@
 {
 	"category" : "QoppaS-Toolbuilder",
 	"classinstvars" : [
-		 ],
+		"lastScreenshotId" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
