@@ -1,7 +1,7 @@
 activations
 cNodeForActivation: activation
 	| primitiveSimulationMethod selector |
-	selector := Interpreter primitiveTable at: ((activation at: #primitive:) at: 1)+1.
+	selector := Interpreter primitiveTable at: ((activation root at: #primitive:) at: 1)+1.
 	primitiveSimulationMethod := InterpreterPrimitives lookupSelector: selector.
 
 	^(VirtualContextNode new
