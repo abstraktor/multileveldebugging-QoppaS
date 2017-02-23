@@ -1,5 +1,6 @@
 actions
 levelMenu: aMenu
 	^ aMenu addList: #(
-			('inspect' 				inspectLevel));
+			('inspect' 				inspectLevel)
+			('enable all levels'          doEnableAllLevels));
 		yourself

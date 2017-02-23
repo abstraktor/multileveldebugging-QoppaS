@@ -1,4 +1,4 @@
-setup
+levels
 generateLevels
 	levels := OrderedCollection new.
 		

@@ -6,13 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"levels",
-		"residentialStack",
-		"debugger",
-		"selectedActivation",
-		"verifier",
-		"levelAnnotationMap" ],
-	"name" : "DebuggerLevelRepository",
+		"levelProps" ],
+	"name" : "LevelAnnotationMap",
 	"pools" : [
 		 ],
 	"super" : "Object",

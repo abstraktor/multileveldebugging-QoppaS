@@ -1,3 +1,3 @@
 levels
 levels
-	^self levelRepo levels
+	^self levelRepo enabledLevels
