@@ -3,4 +3,7 @@ openDebugger
 
 	self failedWithException ifTrue: [^TBMLD openForError: self exception].
   
-	^TBMLD step: (verifier resultGeneratingBlockFor: self) configured: [:tbmld| tbmld disableVerifier]
+	^TBMLD step: (verifier resultGeneratingBlockFor: self)
+		configured: [:tbmld|
+			tbmld disableVerifier.
+			verifier resultGeneratingBlockConfigureTbmld: tbmld]

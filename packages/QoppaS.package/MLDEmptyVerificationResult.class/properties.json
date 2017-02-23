@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"results",
-		"resultsPrimitiveIndex",
-		"resultsReceiver",
-		"resultsArguments",
-		"verifiers" ],
-	"name" : "MLDComparingVerifier",
+		 ],
+	"name" : "MLDEmptyVerificationResult",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "MLDVerificationResult",
 	"type" : "normal" }

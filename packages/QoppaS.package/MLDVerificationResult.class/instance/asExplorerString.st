@@ -1,3 +1,4 @@
 as yet unclassified
 asExplorerString
-	^self asString
+	^self asString asText
+		

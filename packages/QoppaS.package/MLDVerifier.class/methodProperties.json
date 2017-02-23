@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"verifiers" : "bak 1/10/2017 10:52" },
+		"verifiers" : "bak 2/23/2017 00:14" },
 	"instance" : {
 		"arguments" : "bak 1/10/2017 11:45",
+		"disabled" : "bak 2/22/2017 18:56",
 		"name" : "bak 1/14/2017 15:32",
 		"primitiveIndex" : "bak 1/10/2017 11:45",
 		"receiver" : "bak 1/10/2017 11:45",
+		"resultGeneratingBlockConfigureTbmld:" : "bak 2/23/2017 08:47",
 		"returnFailure:" : "bak 1/9/2017 21:39",
 		"returnFailureWithException:" : "bak 1/11/2017 18:12",
+		"returnNoResult" : "bak 2/22/2017 23:57",
 		"returnResult:" : "bak 1/9/2017 21:39",
-		"verifyPrimitive" : "bak 1/10/2017 11:42",
+		"verifyPrimitive" : "bak 2/22/2017 19:01",
 		"verifyPrimitive:rcv:args:" : "bak 1/10/2017 11:47" } }

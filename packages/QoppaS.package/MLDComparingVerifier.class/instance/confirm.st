@@ -6,7 +6,7 @@ confirm
 		message: self confirmText;
 		createButton: 'Yes' translated value: #verifierConfirmDebug;
 		createButton: 'No' translated  value: #verifierConfirmNoAction;
-		createButton: 'Disable checking' translated value: #verifierConfirmDisableChecking;
+		createButton: 'Disable automatic checking' translated value: #verifierConfirmDisableChecking;
 		selectedButtonIndex: 1; "YES"
 		registerKeyboardShortcuts;
 		yourself) in: [:dialog |

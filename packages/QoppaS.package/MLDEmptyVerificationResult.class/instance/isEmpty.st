@@ -1,2 +1,3 @@
 as yet unclassified
-verifyPrimitive
+isEmpty
+	^true
