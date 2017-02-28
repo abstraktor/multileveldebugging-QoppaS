@@ -1,3 +1,3 @@
 children
 viewerClass
-	^ self at: #viewerClass ifAbsent: nil class
+	^self doItReceiver class

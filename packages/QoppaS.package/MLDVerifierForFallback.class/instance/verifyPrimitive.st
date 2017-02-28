@@ -8,7 +8,6 @@ verifyPrimitive
 		m primitive = primitiveIndex
 		and: [m selector numArgs = arguments size]
 		"and: [m class name endsWith: 'Test']"].
-	
 	^methods collect: [:method|
 		[self returnResult: (CompiledMethod
 				receiver: receiver
