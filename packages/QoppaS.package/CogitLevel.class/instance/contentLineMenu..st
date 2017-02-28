@@ -1,6 +1,5 @@
 as yet unclassified
 contentLineMenu: aMenu
-	aMenu stayUp: true.
 	^aMenu addList: #(
 		('debug assembly of this bytecode (Bytecode to HIL)' doDebugAssemblerOfThisBytecode)
 		('debug concretization of this bytecode (HIL to machine code)' doDebugConcretizationOfThisBytecode)
