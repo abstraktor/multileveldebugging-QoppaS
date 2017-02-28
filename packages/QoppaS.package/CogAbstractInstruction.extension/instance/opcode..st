@@ -2,6 +2,7 @@
 opcode: value
 	opcode := value.
 	
-	(Cogit debugHilPc = self hilPc) ifTrue: [WaitAndRaiseFoundIt signal].
+	(Cogit debugHilPc = self hilPc and: [Cogit initializing not])
+		ifTrue: [WaitAndRaiseFoundIt signal].
 	
 	^opcode
