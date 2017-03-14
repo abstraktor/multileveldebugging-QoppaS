@@ -1,17 +1,17 @@
 actions
-compileActivation: activation toStream: stream stoppingAt: debugOpcodeIndices
+compileActivation: activation toStream: stream clearCache: dontUseCache
 	
 	| methodOrDoitString optionsDictionaryOrArray tuple |
 	activation isActualContextNode ifFalse: [^''].
 	
 	"this caching always fails because the activations are rebuild too often"
-	^activation at: #cogitAssembly
-		ifPresent: [:assembly| stream write: assembly]
-		ifAbsentPut: [
+	^((activation includesKey: #cogitAssembly) and: [dontUseCache not])
+		ifTrue: [stream write: (activation at: #cogitAssembly)]
+		ifFalse: [
 	methodOrDoitString := activation contextPart method.
 	optionsDictionaryOrArray := {
 		#ObjectMemory. #Spur32BitCoMemoryManager.
-		#debugOpcodeIndices. debugOpcodeIndices}.
+		"#debugOpcodeIndices. debugOpcodeIndices"}.
 	
 			"methodOrDoitString isCompiledMethod ifFalse:
 		[^StackToRegisterMappingCogit

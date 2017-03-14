@@ -1,10 +1,7 @@
 toolbuilder
 selectedActivationChanged
-	| methodNode |
 	self repo selectedActivation isActualContextNode ifFalse: [^self].
-	methodNode := self repo selectedActivation contextPart method methodNode.
-	methodNode generateWithTempNames.
-	rootNode := ParserNodeToTreeNodeConverter convert: methodNode.
+	rootNode := ParserNodeToTreeNodeConverter convert: self generateMethodNode.
 
 	self changed: #roots.
 	self changed: #contentChildrenOf:.

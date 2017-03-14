@@ -9,7 +9,9 @@ doDebugDisassemblerOfThisLine
 		searchingFor: needle.
 
 	found := false.
-	[self compileActivation: self repo selectedActivation toStream: waitAndRaiseStream]
+	[self compileActivation: self repo selectedActivation
+		toStream: waitAndRaiseStream
+		clearCache: true]
 	on: WaitAndRaiseFoundIt do: [:e|
 		found := true.
 		TBMLD step: e needleWritingContext].

@@ -1,6 +1,6 @@
 actions
 doDebugConcretizationOfThisBytecode
-	"debugs the code that translates the smalltalk bytecode into native machinecode"
+	"debugs the code that translates the intermediate jit-nodes into native machinecode"
 	| found needle address methodOrDoitString |
 	self selectedActivation isActualContextNode ifFalse: [^''].
 

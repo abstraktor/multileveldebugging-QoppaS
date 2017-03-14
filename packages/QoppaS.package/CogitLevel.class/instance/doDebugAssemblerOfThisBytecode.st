@@ -1,6 +1,6 @@
 actions
 doDebugAssemblerOfThisBytecode
-	"debugs the code that translates the smalltalk bytecode into native machinecode"
+	"debugs the code that translates the smalltalk bytecode into intermediate jit nodes"
 	| needle address methodOrDoitString |
 	self selectedActivation isActualContextNode ifFalse: [^''].
 
