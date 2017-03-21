@@ -2,7 +2,7 @@ toolbuilder
 lastClickedPc
 	| lineIndex |
 	"if clicking on the selected item, toolbuilder won't notify us again"
-	lineIndex := (lastClickedContentLineIndex = 0) 
+	lineIndex := (lastClickedContentLineIndex = 0 or: lastClickedContentLineIndex isNil)
 		ifTrue: [self selectedContentLineIndex]
 		ifFalse: [lastClickedContentLineIndex].
 	

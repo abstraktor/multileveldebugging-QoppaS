@@ -4,5 +4,5 @@ doVerify
 	(self verifier verifyNextBytecodeOf: self selectedActivation contextPart)
 		ifNil: [self notify: 'I don''t know how to simulate this one'. ]
 		ifNotNil: [:res|
-			res ifTrue: [self notify: 'All good: they all return ', self verifier results first]
+			res ifTrue: [self inform: 'All good: they all return ', self verifier results values first]
 				ifFalse: [self verifier confirm]]

@@ -1,3 +1,5 @@
 verifier
 verifier
-	^verifier ifNil: [self enableVerifier].
+	^verifier ifNil: [
+		self levelRepo verifier addDependent: self.
+		self disableVerifier].

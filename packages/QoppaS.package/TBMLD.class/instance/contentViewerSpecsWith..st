@@ -6,7 +6,7 @@ contentViewerSpecsWith: builder
 			(0@0 corner: 1@0.8) -> [self buildSingleEditorWith: builder].
 			(0@0.8 corner: 1@1) -> [self buildDataInspectorWith: builder]}.
 		#verifier -> {
-			(0@0 corner: 1@0.8) -> [(self verifier buildWith: builder) name: #verifier]}.
+			(0@0 corner: 1@0.8) -> [(self levelRepo verifier buildWith: builder) name: #verifier]}.
 		#double -> {
 			(0@0 corner: 0.5@0.8) -> [self buildLeftEditorWith: builder].
 			(0.5@0 corner: 1@0.8) -> [self buildRightEditorWith: builder]}.
