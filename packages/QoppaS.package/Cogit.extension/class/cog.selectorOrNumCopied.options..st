@@ -8,7 +8,7 @@ cog: aCompiledMethod selectorOrNumCopied: selectorOrNumCopied options: optionsDi
 	coInterpreter := CurrentImageCoInterpreterFacade forCogit: cogit.
 	
 	tmpDebugConcretizationOf := Cogit debugConcretizationOf.
-	initializing := true.
+	Initializing := true.
 	[cogit
 		setInterpreter: coInterpreter;
 		singleStep: true;
@@ -19,7 +19,7 @@ cog: aCompiledMethod selectorOrNumCopied: selectorOrNumCopied options: optionsDi
 			(ex messageText beginsWith: 'cannot find receiver for') ifTrue:
 				[ex resume: coInterpreter].
 			ex pass].
-	initializing := false.
+	Initializing := false.
 	Cogit debugConcretizationOf: tmpDebugConcretizationOf.
 	^{ coInterpreter.
 		cogit.
