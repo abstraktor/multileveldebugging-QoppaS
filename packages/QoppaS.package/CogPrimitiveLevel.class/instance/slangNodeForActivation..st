@@ -11,5 +11,6 @@ slangNodeForActivation: activation
 		group: self;
 		at: #doItReceiver put: primitiveSimulationMethod methodClass new;
 		at: #viewer put: #smalltalk;
+		at: #selector put: selector;
 		summary: selector,'.slang';
 		yourself).
