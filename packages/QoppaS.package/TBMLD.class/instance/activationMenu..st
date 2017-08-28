@@ -6,6 +6,7 @@ activationMenu: aMenu
 			#('inspect' 				inspectActivation).
 			#('debug with default toolset' 				doDebugActivation).
 			#('compare' 				doCompareActivation).
+			#('browse' 				doBrowseActivation).
 			#- .
 			#('proceed' 				doProceed).
 			self isVerifierEnabled
