@@ -34,3 +34,8 @@ Metacello new
 3. Commit your changes to the filetree repository
 4. Copy over your commit message to create a git commit with it
 5. [Push it](https://open.spotify.com/track/2ipW48mvWEkQoZZMpLL9TX)
+
+# Publications
+
+  - [Multi-level debugging for interpreter developers (Working Paper on Modularity'16)](https://doi.org/10.1145/2892664.2892679)
+  - [Crossing Abstraction Barriers When Debugging in Dynamic Languages (OOPS'17 at SAC)](https://doi.org/10.1145/3019612.3019734)
