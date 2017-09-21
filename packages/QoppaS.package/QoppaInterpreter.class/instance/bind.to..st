@@ -1,9 +1,12 @@
 private-utilities
 bind: names to: values
+	"raises QoppaArityMismatchError if params are incompatible with operands"
 	| frame carBinding cdrBinding |
 
-	(names isNil and: [values isNil])
-		ifTrue: [^nil].
+	(names isNil)
+		ifTrue: [(values isNil)
+			ifTrue: [^nil]
+			ifFalse: [QoppaArityMismatchError signal: 'ArityMismatch']].
 
 	(names = #'_')
 		ifTrue: [^nil].

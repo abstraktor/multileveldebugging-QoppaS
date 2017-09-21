@@ -7,7 +7,7 @@ vau: body withParameters: params withEnvironmentParameter: envParam in: staticEn
 		vauForm: lastEvaluatedForm;
 		topLevelForm: topLevelForm;
 		block: [:dynamicEnvironment :operands| | newEnvironment newFrame |
-			"self assert: (operands size = params size)."
+			"raises QoppaArityMismatchError if params are incompatible with operands"
 			newFrame := self bind: (self cons: envParam with: params) to: (self cons: dynamicEnvironment with: operands).
 			newEnvironment := (QoppaWCons withCar: newFrame cdr: staticEnvironment).
 			"evaluate in static environment with newFrame on top"
