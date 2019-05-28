@@ -18,7 +18,9 @@ TBMLD runDebugged: [1/0]
 1. Get [Squeak 4.6 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
 2. If not already integrated, load [Metacello](https://github.com/Metacello/metacello). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
 
-```Installer ensureRecentMetacello.```
+```smalltalk
+Installer ensureRecentMetacello.
+```
 
 3. Install VMMaker
 4. Finally, install QoppaS:
