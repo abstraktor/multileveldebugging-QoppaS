@@ -10,14 +10,18 @@ in order to explore debugging on multiple levels.
 QoppaScriptsDemo openRepl
 
 "use our multilevel debugger to debug a block"
-QoppaScriptsDemo runDebugged: [1/0]
+TBMLD runDebugged: [1/0]
 ```
 
 # Installation
 
 1. Get [Squeak 4.6 or later](http://www.squeak.org) with a recent [CogVM](http://www.mirandabanda.org/files/Cog/VM/) for your operating system.
-2. If not already integrated, load [Metacello](https://github.com/dalehenrich/metacello-work). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
-3. Finally, install QoppaS:
+2. If not already integrated, load [Metacello](https://github.com/Metacello/metacello). Learn how it [works](https://github.com/dalehenrich/metacello-work/blob/master/docs/MetacelloUserGuide.md).
+
+```Installer ensureRecentMetacello.```
+
+3. Install VMMaker
+4. Finally, install QoppaS:
 
 ```smalltalk
 Metacello new
